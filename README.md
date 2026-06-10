@@ -31,6 +31,18 @@ systemd timer re-applies the translation automatically after DSM/package updates
 
 ---
 
+## 📸 Як це виглядає
+
+DSM повністю українською — інтерфейс, меню, майстри, довідка:
+
+| Диспетчер сховища | Панель керування |
+|:---:|:---:|
+| ![Диспетчер сховища](docs/screenshots/storage-manager.jpg) | ![Панель керування](docs/screenshots/control-panel.jpg) |
+
+![Довідка DSM / Active Insight](docs/screenshots/help-active-insight.jpg)
+
+---
+
 ## ✨ Можливості
 
 - **Українізація DSM і пакетів** — 99 компонентів: ядро DSM 7.2.2, Центр пакетів, File Station,
