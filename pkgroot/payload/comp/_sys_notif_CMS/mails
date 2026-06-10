@@ -1,0 +1,17 @@
+
+[CMSClientOffline]
+Category: CMS
+Level: NOTIFICATION_ERROR
+Title: Керований сервер перебуває в автономному режимі
+Desktop: Керований сервер (%CLIENT_HOST%) перебуває в автономному режимі. Для отримання додаткової інформації перейдіть до Central Management System
+Subject: Керований сервер (%CLIENT_HOST%) перебуває в автономному режимі
+
+Керований сервер (%CLIENT_HOST%) перебуває в автономному режимі. Увійдіть до %HOSTNAME% (якщо ще не ввійшли) і перейдіть до Central Management System для отримання детальної інформації.
+
+З %HOSTNAME%
+
+
+[cms_remove_fail_msg]
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося від'єднати сервер [%Server%] від хосту CMS. Щоб від'єднати хост, виберіть %Server% > "Панель керування" > "CMS"
+

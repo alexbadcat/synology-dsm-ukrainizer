@@ -1,0 +1,304 @@
+
+[calendar_share]
+Category: Calendar,Important
+Title: Спільний календар
+Desktop: Користувач %who% надав вам доступ до календаря [%calendar%].
+Subject: Користувач %who% надав вам доступ до календаря [%calendar%]
+
+Шановний користувачу!<br>
+<br>
+Користувач %who% надав вам доступ до календаря [%calendar%].<br>
+<br>
+З %COMPANY_NAME%
+
+
+[calendar_unshare]
+Category: Calendar,Important
+Title: Спільний календар видалено
+Desktop: У вас більше немає доступу до календаря %calendar%.
+Subject: У вас більше немає доступу до календаря %calendar%
+
+Шановний користувачу!<br>
+<br>
+У вас більше немає доступу до календаря %calendar%.<br>
+<br>
+З %COMPANY_NAME%
+
+
+[event_invitation]
+Category: Calendar,Important
+Title: Запрошення на подію
+Desktop: Користувач %who% запрошує вас приєднатися до події.
+Subject: Користувач %who% запрошує вас приєднатися до події
+
+Шановний користувачу!<br>
+<br>
+Користувач %who% запрошує вас приєднатися до події.<br>
+<br>
+З %COMPANY_NAME%
+
+
+[event_remove]
+Category: Calendar,Important
+Title: Подію видалено
+Desktop: Користувач %who% видалив подію.
+Subject: Користувач %who% видалив подію
+
+Шановний користувачу!<br>
+<br>
+Користувач %who% видалив подію.<br>
+<br>
+З %COMPANY_NAME%
+
+
+[event_response]
+Category: Calendar,Important
+Title: Отримано відповідь на запрошення
+Desktop: Користувач %who% відповів на запрошення: %indicate%.
+Subject: Користувач %who% відповів на запрошення: %indicate%
+
+Шановний користувачу!<br>
+<br>
+Користувач %who% відповів на запрошення: %indicate% <br>
+<br>
+З %COMPANY_NAME%
+
+
+[event_update]
+Category: Calendar,Important
+Title: Подію змінено
+Desktop: Користувач %who% змінив відомості про подію %event%.
+Subject: Користувач %who% змінив відомості про подію %event%
+ 
+Шановний користувачу!<br>
+<br>
+Користувач %who% змінив відомості про подію %event%.<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_alarm_msg_event]
+Category: Calendar,Important
+Title: Сповіщення
+Desktop: Подія [%event%] починається о %time%.
+Subject: Подія [%event%] починається о %time%
+
+Шановний користувачу!<br>
+<br>
+Подія [%event%] починається о %time%: <br>
+Місцезнаходження: %location% <br>
+Опис: %description% <br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_alarm_msg_todo]
+Category: Calendar,Important
+Desktop: Термін виконання завдання [%event%] настає о %time%.
+Subject: Термін виконання завдання [%event%] настає о %time%
+
+Шановний користувачу!<br>
+<br>
+Термін виконання завдання [%event%] настає о %time%: <br>
+Опис: %description% <br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_alarm_msg_todo_no_due]
+Category: Calendar,Important
+Desktop: Нагадування про завдання [%event%].
+Subject: Нагадування про завдання [%event%]
+
+Шановний користувачу!<br>
+<br>
+Нагадуємо про завдання [%event%]: <br>
+Опис: %description% <br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_evt_remove]
+Category: Calendar,Important
+Desktop: Користувач %who% видалив подію [%event%] з календаря [%calendar%].
+Subject: Користувач %who% видалив подію [%event%] з календаря [%calendar%]
+
+Шановний користувачу!<br>
+<br>
+Користувач %who% видалив подію [%event%] з календаря [%calendar%].<br>
+Час вихідної події: %time%<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_evt_update]
+Category: Calendar,Important
+Desktop: Користувач %who% змінив подію [%event%] у календарі [%calendar%].
+Subject: Користувач %who% змінив подію [%event%] у календарі [%calendar%]
+
+Шановний користувачу!<br>
+<br>
+Користувач %who% змінив подію [%event%] у календарі [%calendar%].<br>
+Час: %time%<br>
+Місцезнаходження: %location%<br>
+Опис: %description% <br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_import_complete_browser]
+Category: Calendar,Important
+Desktop: Імпорт календаря завершено. Успішно: %calendar_list_ok%. Збій: %calendar_list_fail%.
+Subject: Імпорт календаря завершено. Успішно: %calendar_list_ok%. Збій: %calendar_list_fail%
+
+
+[sas_import_complete_mail]
+Category: Calendar,Important
+Title: Імпорт календаря
+Subject@mail: Імпорт календаря завершено. Не вдалося імпортувати деякі календарі
+Desktop: Імпорт календаря завершено. Успішно: %calendar_list_ok%. Збій: %calendar_list_fail%.
+Subject: Імпорт календаря завершено. Успішно: %calendar_list_ok%. Збій: %calendar_list_fail%
+
+Шановний користувачу!<br>
+<br>
+Імпорт завершено. <br>
+Імпортовано такі календарі: %calendar_list_ok% <br> 
+Не вдалося імпортувати такі календарі: %calendar_list_fail%<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_import_fail_browser]
+Category: Calendar,Important
+Desktop: Не вдалося імпортувати жоден календар, включаючи наступні: %calendar_list%.
+Subject: Не вдалося імпортувати жоден календар, включаючи наступні: %calendar_list%
+
+
+[sas_import_fail_mail]
+Category: Calendar,Important
+Title: Імпорт календаря
+Subject@mail: Не вдалося імпортувати жодного календаря
+Desktop: Не вдалося імпортувати жоден календар, включаючи наступні: %calendar_list%.
+Subject: Не вдалося імпортувати жоден календар, включаючи наступні: %calendar_list%
+
+Шановний користувачу!<br>
+<br>
+Імпорт завершено. Не вдалося імпортувати жодного календаря, включно з такими: %calendar_list%<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_import_ok_browser]
+Category: Calendar,Important
+Desktop: Усі календарі імпортовано, включаючи наступні: %calendar_list%.
+Subject: Усі календарі імпортовано, включаючи наступні: %calendar_list%
+
+
+[sas_import_ok_mail]
+Category: Calendar,Important
+Title: Імпорт календаря
+Subject@mail: Усі календарі імпортовано
+Desktop: Усі календарі імпортовано, включаючи наступні: %calendar_list%.
+Subject: Усі календарі імпортовано, включаючи наступні: %calendar_list%
+
+Шановний користувачу!<br>
+<br>
+Імпорт завершено. Усі календарі імпортовано, включно з такими: %calendar_list%<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_invite_event_browser]
+Category: Calendar,Important
+Title: Запрошення на подію
+Desktop: Користувач %who% запрошує вас приєднатися до події [%event%] о [%time%], %location_info%.
+Subject: Користувач %who% запрошує вас приєднатися до події [%event%] о [%time%], %location_info%
+
+
+[sas_invite_event_chatbot]
+Category: Calendar
+Title: Чатбот для запрошень на події
+Desktop: Запрошення на подію.
+Subject: Запрошення на подію
+
+
+[sas_invite_event_mail]
+Category: Calendar,Important
+Title: Запрошення на подію
+Desktop: Користувач %who% запрошує вас приєднатися до події [%event%] о [%time%], %location_info%.
+Subject: Користувач %who% запрошує вас приєднатися до події [%event%] о [%time%], %location_info%
+ 
+Шановний користувачу!<br>
+<br>
+Користувач %who% запрошує вас приєднатися до події: [%event%].
+Час: %time%<br>
+Місцезнаходження: %location%<br>
+Опис: %description% <br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_invite_event_remove_browser]
+Category: Calendar,Important
+Title: Скасування запрошення на подію
+Desktop: Користувач %who% скасував запрошення на подію [%event%] о [%time%].
+Subject: Користувач %who% скасував запрошення на подію [%event%] о [%time%]
+
+
+[sas_invite_event_remove_mail]
+Category: Calendar,Important
+Title: Запрошення скасовано
+Desktop: Користувач %who% скасував запрошення на подію [%event%] о [%time%].
+Subject: Користувач %who% скасував запрошення на подію [%event%] о [%time%]
+ 
+Шановний користувачу!<br>
+<br>
+Користувач %who% скасував запрошення на подію [%event%].<br>
+Час події: %time%<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_invite_event_response_browser]
+Category: Calendar,Important
+Title: Відповідь на запрошення на подію
+Desktop: Користувач %who% відповів на запрошення на подію [%event%]: %indicate%.
+Subject: Користувач %who% відповів на запрошення на подію [%event%]: %indicate%
+
+
+[sas_invite_event_response_mail]
+Category: Calendar,Important
+Title: Отримано відповідь на запрошення на подію
+Desktop: Користувач %who% відповів на запрошення на подію [%event%]: %indicate%.
+Subject: Користувач %who% відповів на запрошення на подію [%event%]: %indicate%
+ 
+Шановний користувачу!<br>
+<br>
+Користувач %who% відповів на запрошення на подію [%event%]: %indicate%.<br>
+Час події: %time%<br>
+<br>
+З %COMPANY_NAME%
+
+
+[sas_invite_event_update_browser]
+Category: Calendar,Important
+Title: Оновлення запрошення на подію
+Desktop: Користувач %who% змінив запрошення на подію [%event%] о [%time%], %location_info%.
+Subject: Користувач %who% змінив запрошення на подію [%event%] о [%time%], %location_info%
+
+
+[sas_invite_event_update_mail]
+Category: Calendar,Important
+Title: Запрошення на подію оновлено
+Desktop: Користувач %who% змінив запрошення на подію: [%event%] о [%time%], %location_info%.
+Subject: Користувач %who% змінив запрошення на подію: [%event%] о [%time%], %location_info%
+ 
+Шановний користувачу!<br>
+<br>
+Користувач %who% змінив запрошення на подію [%event%]:<br>
+Час: %time%<br>
+Місцезнаходження: %location%<br>
+Опис: %description% <br>
+<br>
+З %COMPANY_NAME%
+

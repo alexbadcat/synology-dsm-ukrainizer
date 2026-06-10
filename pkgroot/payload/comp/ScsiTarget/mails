@@ -1,0 +1,142 @@
+
+[ScsiTarget_LUN_adjust_stripe_cache_size]
+Category: Сховище
+Level: NOTIFICATION_WARN
+Title: Виявлено високу затримку LUN
+Desktop: Система виявила високу затримку на LUN [%LUN_NAME%]
+Subject: Система виявила високу затримку на LUN [%LUN_NAME%]
+
+Висока затримка вводу-виводу LUN [%LUN_NAME%] на [%POOL% %POOL_ID%]. Перейдіть до "Диспетчера сховища" > "Пул ресурсів сховища" > "Налаштування" та виберіть "зменшене значення розміру кешу смуг" (stripe cache size), щоб усунути проблему.
+
+З %HOSTNAME%
+
+
+[ScsiTarget_LUN_migration_out_of_space]
+Category: Сховище
+Level: NOTIFICATION_ERROR
+Title: Збій під час міграції LUN
+Desktop: Міграцію LUN [%LUN_NAME%] не виконано
+Subject: Не вдається виконати міграцію LUN [%LUN_NAME%]
+
+Системі не вдається перенести LUN [%LUN_NAME%] до [%ROOT_PATH%], оскільки на томі недостатньо вільного простору.
+
+З %HOSTNAME%
+
+
+[ThinProvisionReachHardLimit]
+Category: SAN Manager
+Level: NOTIFICATION_WARN
+Title: Захист просторів сховища
+Desktop: Простори сховища SAN тому %VOLUME_ID% захищено через низьку ємність тому. Для отримання докладнішої інформації перейдіть до <b>SAN Manager</b>
+Subject: Простори сховища SAN тому %VOLUME_ID% на %HOSTNAME% захищено через низьку ємність тому
+
+На томі %VOLUME_ID% на %HOSTNAME% залишилося менше 1 ГБ доступної ємності. Тому його простори сховища SAN захищено для запобігання збоям файлової системи, і наразі запис даних до цих просторів неможливий. Збільшіть ємність тому %VOLUME_ID% у <b>Storage Manager</b> або видаліть невикористовувані дані, щоб звільнити місце.  <a  href="https://kb.synology.com/DSM/tutorial/What_should_I_do_when_my_Thin_Provisioned_iSCSI_LUN_is_read_only" target="_blank"> Дізнатися більше </a> 
+
+З %HOSTNAME%
+
+
+[ThinProvisionReachLowHardLimit]
+Category: SAN Manager
+Level: NOTIFICATION_WARN
+Title: Том вичерпав ємність
+Desktop: Том %VOLUME_ID% вичерпав ємність, і його простори сховища SAN захищено. Для отримання докладнішої інформації перейдіть до <b>SAN Manager</b>
+Subject: Том %VOLUME_ID% на %HOSTNAME% вичерпав ємність, і його простори сховища SAN захищено
+
+Том %VOLUME_ID% на %HOSTNAME% вичерпав ємність. Тому його простори сховища захищено для запобігання збоям файлової системи, і наразі запис даних до цих просторів неможливий. Збільшіть ємність тому %VOLUME_ID% у <b>Storage Manager</b> або видаліть невикористовувані дані, щоб звільнити місце.  <a  href="https://kb.synology.com/DSM/tutorial/What_should_I_do_when_my_Thin_Provisioned_iSCSI_LUN_is_read_only" target="_blank"> Дізнатися більше </a> 
+
+З %HOSTNAME%
+
+
+[ThinProvisionReachSoftLimit]
+Category: SAN Manager
+Level: NOTIFICATION_WARN
+Title: Недостатня ємність тому
+Desktop: Доступна ємність тому %VOLUME_ID% становить менше %PERCENT%%. Роботу SAN на томі %VOLUME_ID% буде перервано, якщо ємність тому закінчиться. Щоб налаштувати це сповіщення, перейдіть до <b>SAN Manager</b> > <b>Settings</b> > <b>Low Capacity Notification</b>
+Subject: Доступна ємність тому %VOLUME_ID% на %HOSTNAME% становить менше %PERCENT%%
+
+На томі %VOLUME_ID% на %HOSTNAME% залишилося менше %PERCENT%% його ємності. Якщо на томі залишиться менше 1 ГБ доступної ємності, всі його SAN-сховища буде захищено для запобігання збоям файлової системи. Збільшіть ємність тому %VOLUME_ID% у <b>Storage Manager</b> або видаліть невикористовувані дані, щоб звільнити місце.
+
+За потреби ви можете налаштувати поріг ємності для цього сповіщення у <b>SAN Manager</b> > <b>Settings</b> > <b>Low Capacity Notification</b>.
+
+З %HOSTNAME%
+
+
+[iSCSIDefragFinished]
+Category: Сховище
+Level: NOTIFICATION_INFO
+Title: Дефрагментацію LUN завершено
+Desktop: Дефрагментацію LUN %NAME% завершено
+Subject: Дефрагментацію LUN %NAME% завершено
+
+Дефрагментацію LUN %NAME% завершено.
+
+З %HOSTNAME%
+
+
+[iSCSIDefragVolumeFull]
+Category: Сховище
+Level: NOTIFICATION_WARN
+Title: Дефрагментацію LUN скасовано
+Desktop: Дефрагментацію LUN %NAME% скасовано
+Subject: Дефрагментацію LUN %NAME% скасовано
+
+Дефрагментацію LUN %NAME% скасовано системою через брак місця на томі. Рекомендується видалити кілька знімків або файлів на томі та повторити спробу пізніше.
+
+З %HOSTNAME%
+
+
+[iSCSIDisableSnapshotWormLock]
+Category: Сховище
+Level: NOTIFICATION_WARN
+Title: Не вдалося увімкнути незмінювані знімки
+Desktop: Не вдалося увімкнути незмінювані знімки для %TARGET_NAME%
+Subject: Не вдалося увімкнути незмінювані знімки для %TARGET_NAME%
+
+Системі не вдається увімкнути незмінювані знімки для %TARGET_NAME%, оскільки кількість незмінюваних знімків досягла системного обмеження. Перейдіть до <b>SAN Manager</b> > <b>Знімки</b> > <b>Налаштування</b> > <b>Розклад</b>, щоб зменшити частоту або термін захисту.
+
+З %HOSTNAME%
+
+
+[iSCSILunScheduleSnapshotFail]
+Category: Сховище
+Level: NOTIFICATION_ERROR
+Title: Не вдалося створити знімок для LUN
+Desktop: Не вдалося створити знімок для LUN %LUNNAME% на %HOSTNAME%
+Subject: Не вдалося створити знімок для LUN %LUNNAME% на %HOSTNAME%
+
+Не вдалося створити знімок LUN на %HOSTNAME%. Для отримання додаткової інформації перейдіть до SAN Manager.
+
+LUN: %LUNNAME%
+
+З %HOSTNAME%
+
+
+[iSCSILunScheduleSnapshotFailByMaxSnapshotCount]
+Category: Сховище
+Level: NOTIFICATION_ERROR
+Title: Збій під час створення знімка для LUN (досягнуто максимально допустиму кількість знімків)
+Desktop: Знімок для LUN (%LUNNAME%) не створено, оскільки досягнуто максимально допустиму кількість знімків
+Subject: Знімок для LUN (%LUNNAME%) на %HOSTNAME% не створено, оскільки досягнуто максимально допустиму кількість знімків
+
+Системі не вдається створити знімок для LUN %LUNNAME% на %HOSTNAME%, оскільки досягнуто максимально допустиму кількість знімків. Рекомендується перейти до SAN Manager і виконати наведені нижче дії.
+1. Видалити знімки
+2. Змінити політику зберігання
+3. Змінити розклад створення знімків
+
+З %HOSTNAME%
+
+
+[iSCSILunScheduleSnapshotFailByOutOfFreeSpace]
+Category: Сховище
+Level: NOTIFICATION_ERROR
+Title: Збій під час створення знімка для LUN (недостатньо вільного місця на томі)
+Desktop: Знімок для LUN (%LUNNAME%) не створено, оскільки на томі недостатньо вільного місця
+Subject: Знімок для LUN (%LUNNAME%) на %HOSTNAME% не створено, оскільки на томі недостатньо вільного місця
+
+Системі не вдається створити знімок для LUN %LUNNAME% на %HOSTNAME%, оскільки на томі недостатньо вільного місця. Звільнити місце можна за допомогою наведених нижче дій.
+1. Видалити знімки на томі (<a href="https://www.synology.com/knowledgebase/DSM/tutorial/Storage/How_can_I_free_up_snapshot_space_consumption" target="_blank">Докладніше</a>)
+2. Видалити файли на томі 
+3. Розширити ємність тому (<a href="https://www.synology.com/knowledgebase/_OSNAME_/help/_OSNAME_/StorageManager/volume_expand_volume" target="_blank">Докладніше</a>)
+
+З %HOSTNAME%
+

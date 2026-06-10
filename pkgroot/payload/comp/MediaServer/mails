@@ -1,0 +1,7 @@
+
+[video_conversion_not_recommend]
+Category: Media Server
+Level: NOTIFICATION_INFO
+Desktop: Since using the terminal device can provide better image quality, it is not recommended to enable video coversion. You can go to <a data-syno-app="SYNO.SDS.MediaServer.AppInstance" data-syno-fn="SYNO.SDS.MediaServer.DMACompatibilityPanel">Media Server</a> to disable the settings
+Subject: Since using the terminal device can provide better image quality, it is not recommended to enable video coversion. You can go to Media Server to disable the settings.
+

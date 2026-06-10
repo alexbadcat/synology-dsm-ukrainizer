@@ -1,0 +1,10 @@
+#!/bin/sh
+# Спільні шляхи для скриптів пакета. Self-contained-архітектура: уся привілейо-
+# вана робота йде через root-CGI (target/ui/api.cgi, synoscgi запускає його як
+# root) і systemd-таймер, який CGI ставить сам. Окремого демона/nginx немає.
+PKG="UkrainianL10n"
+TARGET="/var/packages/$PKG/target"
+UI="$TARGET/ui"
+ETC=/usr/local/etc/ua-l10n
+LINK=/usr/syno/synoman/webman/3rdparty/$PKG
+PY=/usr/bin/python3

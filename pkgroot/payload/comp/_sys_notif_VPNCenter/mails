@@ -1,0 +1,6 @@
+
+[openvpn_renew_dh_key_done]
+Category: VPN Server
+Level: NOTIFICATION_INFO
+Desktop: Оновлено ключ DH для OpenVPN. Для посилення безпеки перезапустіть службу OpenVPN
+

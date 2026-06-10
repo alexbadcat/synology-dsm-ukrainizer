@@ -1,0 +1,13 @@
+
+# Copyright (c) 2000-2023 Synology Inc. All rights reserved.
+
+[app]
+description	=	"Технологія Microsoft exFAT (Extended File Allocation Table) — це файлова система, оптимізована для флеш-накопичувачів. Після встановлення exFAT можна отримати доступ до зовнішніх пристроїв зберігання з файловою системою, відформатованою на пристрої NAS як exFAT. Підтримуваний розмір одного файлу в exFAT (на відміну від FAT32) становить понад 4 ГБ, і цю файлову систему можна використовувати в ОС Windows та Mac. Після оголошення Microsoft про інтеграцію exFAT в ядро Linux у 2019 році користувачі Synology можуть безкоштовно встановити exFAT, оновивши DSM до версії 7.0 або новішої."
+displayname	=	"exFAT Access"
+err_device_unmount	=	"Не вдалося вимкнути <b>{0}</b>.<br>Повторіть спробу."
+err_license_badverify	=	"Failed to validate license"
+err_license_connection_timeout	=	"Час очікування підключення до сервера ліцензування Synology минув."
+exfat_unmount_feas_chk_soft_warning	=	"exFAT Access: система виявила підключений зовнішній пристрій exFAT. Перш ніж продовжити, вийміть зовнішній пристрій exFAT для запобігання втраті даних."
+pkg_stop_warning_unmount_share	=	"Спільні теки exFAT будуть тимчасово недоступні, поки пакет не відновить роботу."
+pkg_uninstall_dev_mounted_err	=	"Зовнішні пристрої exFAT все ще підключені. Вийміть пристрої та повторіть спробу."
+

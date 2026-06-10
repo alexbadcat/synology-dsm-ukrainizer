@@ -1,0 +1,115 @@
+.ua-empty{padding:24px;color:#888;font:13px/1.5 Arial,Helvetica,sans-serif;}
+/* engine-not-running gate banner */
+.ua-gate{padding:22px 26px;font:13px/1.55 Arial,Helvetica,sans-serif;color:#3a3f44;max-width:680px;}
+.ua-gate-h{font-size:17px;font-weight:bold;color:#b06a00;margin-bottom:10px;}
+.ua-gate-p{margin:8px 0;color:#555;}
+.ua-gate-s{margin:14px 0 4px;font-weight:bold;color:#2e3338;}
+.ua-gate-ol{margin:4px 0 4px 4px;padding-left:20px;}
+.ua-gate-ol li{margin:5px 0;}
+.ua-gate-cmd{background:#0b0d12;color:#d6dae0;padding:9px 12px;border-radius:5px;margin:6px 0;
+  font:12px/1.4 "DejaVu Sans Mono",Consolas,Menlo,monospace;white-space:pre-wrap;word-break:break-all;
+  user-select:all;}
+.ua-gate-act{margin:16px 0 6px;}
+.ua-activate-btn{font:bold 14px Arial,Helvetica,sans-serif;padding:9px 22px;border:none;border-radius:5px;
+  background:#2e8be6;color:#fff;cursor:pointer;box-shadow:0 1px 2px rgba(0,0,0,.15);}
+.ua-activate-btn:hover{background:#1f7ad2;}
+.ua-activate-btn:active{background:#1a6cbb;}
+.ua-act-status{margin-top:12px;color:#2e8be6;font:13px/1.5 Arial,Helvetica,sans-serif;min-height:18px;}
+.ua-act-err{color:#d23f31;}
+/* мова-інтерфейсу попередження */
+.ua-langwarn{margin:0 0 14px;padding:12px 16px;border:1px solid #ffd591;background:#fff7e6;
+  border-radius:6px;font:13px/1.5 Arial,Helvetica,sans-serif;color:#614700;}
+.ua-lw-h{font-size:14px;font-weight:bold;color:#b06a00;margin-bottom:5px;}
+.ua-lw-p{margin:4px 0;color:#7a5b14;}
+.ua-lw-act{margin-top:10px;}
+.ua-langfix-btn{font:bold 13px Arial,Helvetica,sans-serif;padding:7px 18px;border:none;border-radius:5px;
+  background:#2e8be6;color:#fff;cursor:pointer;box-shadow:0 1px 2px rgba(0,0,0,.15);}
+.ua-langfix-btn:hover{background:#1f7ad2;}
+.ua-langfix-btn:active{background:#1a6cbb;}
+.ua-wrap{padding:16px 20px;font:13px/1.45 Arial,Helvetica,sans-serif;color:#333;}
+.ua-head{margin-bottom:12px;}
+.ua-title{font-size:18px;font-weight:bold;margin-bottom:4px;}
+.ua-sub{color:#777;font-size:12px;margin-bottom:10px;}
+.ua-tools{display:flex;align-items:center;justify-content:space-between;
+  padding:6px 0;border-bottom:1px solid #e5e7eb;}
+.ua-selall{cursor:pointer;user-select:none;}
+.ua-selall input{vertical-align:middle;margin-right:6px;}
+.ua-stat{color:#2e8be6;font-weight:bold;}
+.ua-tbl{width:100%;border-collapse:collapse;margin-top:6px;}
+.ua-tbl th{text-align:left;font-size:11px;color:#999;font-weight:normal;
+  padding:6px 8px;border-bottom:1px solid #eee;}
+.ua-row td{padding:8px;border-bottom:1px solid #f1f2f4;vertical-align:middle;}
+.ua-row:hover{background:#f7fafd;}
+.ua-row-nb{opacity:.7;}
+.ua-c-ck{width:28px;}
+.ua-c-name b{display:block;}
+.ua-id{display:block;color:#aaa;font-size:11px;}
+.ua-c-parts{font-size:12px;color:#666;white-space:nowrap;}
+.ua-part{color:#999;}
+.ua-badge{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;
+  font-weight:bold;line-height:16px;margin-right:8px;}
+.ua-b-ok{background:#e3f6e3;color:#2e7d32;}
+.ua-b-orig{background:#eceff1;color:#7a8288;}
+.ua-b-none{background:#fff3e0;color:#e07b00;}
+.ua-b-miss{background:#f5f5f5;color:#bbb;}
+.ua-c-act{width:90px;text-align:right;}
+.ua-xbtn{font:12px Arial;padding:3px 10px;border:1px solid #cfd4d9;border-radius:4px;
+  background:#fff;cursor:pointer;color:#444;}
+.ua-xbtn:hover{background:#f0f3f6;}
+.ua-tmwrap{margin-left:auto;padding-left:18px;}
+.ua-timer{font-size:11px;font-weight:bold;margin-left:10px;}
+.ua-timer-on{color:#2e7d32;}
+.ua-timer-off{color:#b0b6bc;}
+/* версія перекладу */
+.ua-c-ver{font-size:12px;white-space:nowrap;}
+.ua-ver{display:inline-block;background:#eef2f7;color:#4a5560;border-radius:4px;
+  padding:1px 7px;font-weight:bold;font-size:11px;}
+.ua-ver-dim{color:#c2c8cf;}
+.ua-ver-warn{display:block;margin-top:3px;color:#c47b00;font-size:10px;}
+/* невстановлені компоненти — сірі/неактивні знизу */
+.ua-sep td{padding:10px 8px 6px;border-bottom:1px solid #e5e7eb;
+  color:#9aa0a6;font-size:11px;font-style:italic;background:#fafbfc;}
+.ua-row-off{opacity:.55;background:#fafbfc;}
+.ua-row-off:hover{background:#f3f4f6;}
+.ua-row-off .ua-c-name b{color:#8a9097;font-weight:normal;}
+.ua-row-off .ua-ver{background:#eceef1;color:#9aa0a6;}
+.ua-off-tag{display:inline-block;padding:1px 8px;border-radius:9px;background:#f0f1f3;
+  color:#a8adb3;font-size:11px;font-weight:bold;}
+.ua-ck:disabled{cursor:not-allowed;}
+/* root terminal */
+.ua-term{display:flex;flex-direction:column;height:100%;
+  font:12px/1.4 "DejaVu Sans Mono",Consolas,Menlo,monospace;}
+.ua-term-out{flex:1;overflow:auto;padding:10px 12px;color:#d6dae0;white-space:pre-wrap;
+  word-break:break-word;}
+.ua-term-cmd-echo{color:#7fd1ff;margin-top:6px;}
+.ua-term-res{color:#cfe3cf;}
+.ua-term-err{color:#ff7b72;}
+.ua-term-dim{color:#6b7280;}
+.ua-term-in{display:flex;align-items:center;padding:6px 12px;border-top:1px solid #2a2f3a;
+  background:#0b0d12;}
+.ua-term-ps{color:#62d06a;font-weight:bold;}
+.ua-term-cmd{flex:1;background:transparent;border:none;outline:none;color:#e6e9ee;
+  font:12px "DejaVu Sans Mono",Consolas,Menlo,monospace;}
+/* native-style dialogs (password / log) */
+.ua-dlg .x-window-footer,.ua-dlg .x-panel-footer{padding:10px 14px;}
+.ua-dlg .x-toolbar-cell{padding:0 4px;}
+/* password prompt */
+.ua-pw-msg{font:13px/1.5 Arial,Helvetica,sans-serif;color:#444;margin-bottom:12px;}
+/* live patch log */
+.ua-lg-row{padding:5px 4px 6px;border-bottom:1px solid #1d212b;
+  font:12px/1.35 "DejaVu Sans Mono",Consolas,Menlo,monospace;color:#d6dae0;}
+.ua-lg-ic{display:inline-block;width:16px;font-weight:bold;}
+.ua-lg-ok .ua-lg-ic{color:#62d06a;}
+.ua-lg-dim{opacity:.55;}
+.ua-lg-path{color:#7f8794;font-size:11px;margin:2px 0 0 16px;word-break:break-all;}
+.ua-lg-cur{color:#7fd1ff;padding:4px;font:12px "DejaVu Sans Mono",Consolas,Menlo,monospace;}
+.ua-lg-done{color:#62d06a;font-weight:bold;padding:8px 4px;
+  font:12px/1.4 Arial,Helvetica,sans-serif;}
+.ua-lg-err{color:#ff7b72;padding:6px 4px;
+  font:12px/1.4 "DejaVu Sans Mono",Consolas,Menlo,monospace;}
+/* donate popup */
+.ua-donate .ua-don-msg{font:13px/1.55 Arial,Helvetica,sans-serif;color:#3a3f44;text-align:center;margin-bottom:16px;}
+.ua-donate .ua-don-qr{text-align:center;}
+.ua-donate .ua-don-qr img{width:248px;height:auto;border-radius:14px;box-shadow:0 2px 12px rgba(80,40,140,.25);}
+.ua-donate .ua-don-card{margin-top:16px;text-align:center;font:13px/1.5 Arial,Helvetica,sans-serif;color:#666;}
+.ua-donate .ua-don-card b{display:inline-block;margin-top:4px;font-size:16px;letter-spacing:1.5px;color:#222;user-select:all;}

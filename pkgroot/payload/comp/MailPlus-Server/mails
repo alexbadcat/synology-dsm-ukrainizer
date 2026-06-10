@@ -1,0 +1,221 @@
+
+[BITDEFENDER_LICENSE_HAS_EXTEND_NOTIFICATION]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Зміна ліцензії Bitdefender for MailPlus
+Desktop: Термін дії вашої поточної ліцензії Bitdefender for MailPlus закінчується сьогодні. Її буде замінено ліцензією [%LICENSE_CODE%]
+Subject: Термін дії вашої ліцензії Bitdefender for MailPlus закінчується сьогодні
+
+Термін дії вашої поточної ліцензії Bitdefender for MailPlus закінчується сьогодні. Ліцензія [%LICENSE_CODE%] автоматично продовжить доступ до Bitdefender, термін її дії закінчиться %EXPIRE_DATE%.
+
+З %HOSTNAME%
+
+
+[BITDEFENDER_LICENSE_NOTIFICATION]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Попередження про закінчення терміну дії ліцензії Bitdefender for MailPlus
+Desktop: Термін дії вашої ліцензії Bitdefender for MailPlus закінчиться через %EXPIRE_DAYS% дн
+Subject: Термін дії вашої ліцензії Bitdefender for MailPlus скоро закінчиться
+
+Термін дії вашої ліцензії Bitdefender for MailPlus закінчиться через %EXPIRE_DAYS% дн. Після закінчення терміну дії ліцензії програми для захисту від спаму та вірусів переключаться на Rspamd і ClamAV відповідно. Щоб продовжити використання Bitdefender, перейдіть у Bitdefender for MailPlus для придбання ліцензії.
+
+З %HOSTNAME%
+
+
+[BITDEFENDER_LICENSE_TRIAL_NOTIFICATION]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Попередження про закінчення терміну дії 30-денної пробної версії Bitdefender for MailPlus
+Desktop: Термін дії 30-денної безкоштовної пробної версії Bitdefender for MailPlus закінчиться через %EXPIRE_DAYS% дн. Щоб продовжити використання Bitdefender, перейдіть у Bitdefender for MailPlus для придбання ліцензії
+Subject: Термін дії 30-денної безкоштовної пробної версії Bitdefender for MailPlus скоро закінчиться
+
+Термін дії 30-денної безкоштовної пробної версії Bitdefender for MailPlus закінчиться через %EXPIRE_DAYS% дн. Після закінчення терміну дії пробної версії програми для захисту від спаму та вірусів переключаться на Rspamd і ClamAV відповідно. Щоб продовжити використання Bitdefender, перейдіть у Bitdefender for MailPlus для придбання ліцензії.
+
+З %HOSTNAME%
+
+
+[BITDEFENDER_PENALTY_NOTIFICATION]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Помилка перевірки ліцензії Bitdefender for MailPlus
+Desktop: Не вдається авторизувати Bitdefender for MailPlus. Програми для захисту від спаму та вірусів переключено на Rspamd і ClamAV відповідно
+Subject: Не вдається авторизувати Bitdefender for MailPlus
+
+Не вдається авторизувати Bitdefender for MailPlus. Програми для захисту від спаму та вірусів переключено на Rspamd і ClamAV відповідно. Перейдіть у Bitdefender for MailPlus для придбання ліцензії.
+Зверніть увагу, що поточний план не буде призупинено, незважаючи на переключення на Rspamd і ClamAV.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_ARCHIVE_SHARE_REMOVE]
+Category: Synology MailPlus
+Level: NOTIFICATION_ERROR
+Title: Архів журналів вимкнено
+Desktop: Архів журналів вимкнено, оскільки відсутня спільна тека %SHARED_FOLDER%
+Subject: Архів журналів вимкнено, оскільки відсутня спільна тека %SHARED_FOLDER%
+
+Архів журналів Synology MailPlus Server вимкнено на %HOSTNAME%, оскільки відсутня спільна тека %SHARED_FOLDER% з базою даних журналів.
+Перевірте, чи вимкнена або видалена спільна тека. Потім виберіть <b>MailPlus Server</b> > <b>Перевірка</b> > <b>Керування журналами</b>, щоб знову увімкнути архів журналів.
+Якщо спільну теку видалено, можна вибрати іншу спільну теку як місце призначення архіву.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_CLUSTER_NOT_HEALTHY]
+Category: Synology MailPlus
+Level: NOTIFICATION_ERROR
+Title: Поштова система перебуває в аномальному стані
+Desktop: Поштова система перебуває в аномальному стані
+Subject: Поштова система перебуває в аномальному стані
+
+Наразі поштова система перебуває в аномальному стані. Перевірте та виправте системні помилки. Можна видалити сервер, на якому сталися помилки, з поштової системи.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_DOMAIN_LEAVE]
+Category: Synology MailPlus
+Level: NOTIFICATION_ERROR
+Title: Службу MailPlus Server зупинено
+Desktop: Службу MailPlus Server зупинено через відключення від %DOMAIN%
+Subject: Службу MailPlus Server зупинено через відключення від %DOMAIN%
+
+Службу Synology MailPlus Server зупинено, оскільки підключений сервер каталогів недоступний. Перевірте стан сервера каталогів і переконайтеся, що каталог правильно налаштовано.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_DOMAIN_SHARING_RETRIEVE_FAIL]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Domain Sharing fetch failed
+Desktop: Synology MailPlus Server failed to fetch data for <a data-syno-app="SYNO.SDS.MailPlusServer.Instance" data-syno-fn="SYNO.SDS.MailPlusServer.PanelDomain" data-syno-param='{"domain_id":%DOMAINID%}'>domain sharing</a>
+Subject: Synology MailPlus Server failed to fetch data for domain sharing
+Synology MailPlus Server failed to fetch data from %DOMAINNAME%, from %PEER%. You can review the change in MailPlus Server > Domain > Select Domain Name > Domain Sharing.
+
+From %HOSTNAME%
+
+
+[MAILPLUS_SERVER_LICENSE_NOTIFICATION]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Потрібно продовжити ліцензію
+Desktop: Термін дії ліцензій (%LICENSE_CODE%) закінчиться через %EXPIRE_DAYS% дн
+Subject: Термін дії ліцензій (%LICENSE_CODE%) закінчиться через %EXPIRE_DAYS% дн
+
+Термін дії ліцензій (%LICENSE_CODE%), встановлених на вашому Synology MailPlus Server, закінчиться через %EXPIRE_DAYS% дн. Продовжте ліцензії, щоб використовувати службу без переривань.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_EXPORT_FAIL]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Помилка експорту пошти
+Desktop: Помилка експорту пошти. Для отримання докладних відомостей перейдіть у %APPTARGET%
+Subject: Помилка експорту пошти
+
+Не вдалося експортувати електронні листи користувача %USERNAME%. Виберіть <b>MailPlus Server</b> > <b>Обліковий запис</b> > <b>Користувач</b> > <b>Імпорт/експорт</b>, щоб переглянути докладні відомості.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_EXPORT_SUCCEED]
+Category: Synology MailPlus
+Level: NOTIFICATION_INFO
+Title: Експорт пошти завершено
+Desktop: Експорт пошти завершено. Для отримання докладних відомостей перейдіть у %APPTARGET%
+Subject: Експорт пошти завершено
+
+Електронні листи користувача %USERNAME% експортовано. Виберіть <b>MailPlus Server</b> > <b>Обліковий запис</b> > <b>Користувач</b> > <b>Імпорт/експорт</b>, щоб переглянути докладні відомості.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_IMPORT_FAIL]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Помилка імпорту пошти
+Desktop: Помилка імпорту пошти. Для отримання докладних відомостей перейдіть у %APPTARGET%
+Subject: Помилка імпорту пошти
+
+Не вдалося імпортувати електронні листи користувача %USERNAME%. Виберіть <b>MailPlus Server</b> > <b>Обліковий запис</b> > <b>Користувач</b> > <b>Імпорт/експорт</b>, щоб переглянути докладні відомості.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_IMPORT_SUCCEED]
+Category: Synology MailPlus
+Level: NOTIFICATION_INFO
+Title: Імпорт пошти завершено
+Desktop: Імпорт пошти завершено. Для отримання докладних відомостей перейдіть у %APPTARGET%
+Subject: Імпорт пошти завершено
+
+Електронні листи користувача %USERNAME% імпортовано. Виберіть <b>MailPlus Server</b> > <b>Обліковий запис</b> > <b>Користувач</b> > <b>Імпорт/експорт</b>, щоб переглянути докладні відомості.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_MIGRATION_FAIL]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Помилка міграції пошти
+Desktop: Помилка міграції пошти з %SOURCE_ACCOUNT%
+Subject: Помилка міграції пошти з %SOURCE_ACCOUNT%
+
+Не вдалося виконати міграцію пошти з %SOURCE_ACCOUNT% до %DEST_ACCOUNT%.
+Для отримання додаткової інформації перейдіть у Synology MailPlus Server.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_MIGRATION_SUCCEED]
+Category: Synology MailPlus
+Level: NOTIFICATION_INFO
+Title: Міграцію пошти виконано
+Desktop: Міграцію пошти з %SOURCE_ACCOUNT% виконано
+Subject: Міграцію пошти з %SOURCE_ACCOUNT% виконано
+
+Міграцію пошти з %SOURCE_ACCOUNT% до %DEST_ACCOUNT% виконано.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_MAIL_SYNC_DONE]
+Category: Synology MailPlus
+Level: NOTIFICATION_INFO
+Title: Synology MailPlus Server готовий до міграції пошти
+Desktop: Synology MailPlus Server готовий до міграції пошти
+Subject: Synology MailPlus Server готовий до міграції пошти
+
+Synology MailPlus Server готовий до міграції пошти. Зупиніть роботу вихідного поштового сервера і запустіть Synology MailPlus Server, щоб розпочати міграцію.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_SENDER_FLOW_EXCEED]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Досягнуто обмеження на вихідний трафік
+Desktop: Користувач %SENDER% досяг обмеження на вихідний трафік на день
+Subject: Користувач %SENDER% досяг обмеження на вихідний трафік на день
+
+Користувач %SENDER% досяг обмеження на вихідний трафік на день.
+Щоб змінити налаштування, виберіть <b>MailPlus Server</b> > <b>Домен</b> > <b>Редагувати</b> > <b>Обмеження</b>.
+
+З %HOSTNAME%
+
+
+[MAILPLUS_SERVER_SENDER_QUOTA_EXCEED]
+Category: Synology MailPlus
+Level: NOTIFICATION_WARN
+Title: Досягнуто квоту на відправку
+Desktop: Користувач %SENDER% досяг квоти на відправлення на день
+Subject: Користувач %SENDER% досяг квоти на відправлення на день
+
+Користувач %SENDER% досяг квоти на відправку на день.
+Щоб змінити налаштування, виберіть <b>MailPlus Server</b> > <b>Домен</b> > <b>Редагувати</b> > <b>Обмеження</b>.
+
+З %HOSTNAME%
+

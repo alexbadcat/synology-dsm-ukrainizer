@@ -1,0 +1,12 @@
+
+[ADServerDetectIPChanged]
+Category: Synology Directory Server
+Level: NOTIFICATION_WARN
+Title: Виявлено зміну IP-адреси
+Desktop: Виявлено зміну IP-адреси. Перевірте записи ресурсів у DNS Server та перезапустіть Synology Directory Server
+Subject: Виявлено зміну IP-адреси
+
+Виявлено зміну в IP-адресі. Перейдіть до DNS Server, щоб переконатися, що IP-адреса записів ресурсів A та AAAA в одній зоні вірна, оскільки Synology Directory Server не працюватиме належним чином, якщо IP-адреса вказує на неправильний сервер. Після завершення налаштування перезапустіть Synology Directory Server.
+
+З %HOSTNAME%
+

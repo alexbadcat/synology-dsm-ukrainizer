@@ -1,0 +1,8 @@
+#!/bin/sh
+# postinst біжить від PACKAGE-USER (DSM 7 примусово run-as package на unsigned-пакеті —
+# жоден скрипт root-прав не має). Root-юніт демона копіює systemd-unit resource-воркер
+# (conf/systemd/pkg-UkrainianL10n_api.service → /usr/local/lib/systemd/system/, ВІД ROOT,
+# на час FROM_POSTINST_TO_POSTUNINST), але НЕ enable-ить його. Привілейовану активацію
+# (systemctl enable+start) робить сама апка зі своєї адмін-сесії DSM через Планувальник
+# завдань (root-таск, гейтнутий паролем адміна) — єдиний шлях підняти root-демон без SSH.
+exit 0

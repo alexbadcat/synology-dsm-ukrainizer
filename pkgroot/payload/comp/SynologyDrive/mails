@@ -1,0 +1,78 @@
+
+[Comment]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Коментар, який може вас зацікавити
+Desktop: %SYNO_FILE_NAME% — коментар, який може вас зацікавити.
+Subject: %SYNO_FILE_NAME% — коментар, який може вас зацікавити
+
+%SYNO_HTML%
+
+
+[Create]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Новий елемент створено
+Desktop: %SYNO_FILE_NAME% — новий елемент створено.
+Subject: %SYNO_FILE_NAME% — новий елемент створено
+
+%SYNO_HTML%
+
+
+[FileRequest]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Файли завантажено за посиланням на запит файлу
+Desktop: %SYNO_NAME% завантажив файли до вашої теки за посиланням на запит файлу.
+Subject: %SYNO_NAME% завантажив файли до вашої теки за посиланням на запит файлу
+
+%SYNO_HTML%
+
+
+[Mobile]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Synology Drive
+Desktop: %ENCRYPTED_DATA%.
+Subject: %ENCRYPTED_DATA%
+
+
+[Request]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Запит доступу
+Desktop: %SYNO_FILE_NAME% — запит доступу.
+Subject: %SYNO_FILE_NAME% — запит доступу
+
+%SYNO_HTML%
+
+
+[RequestOfficeTemplate]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Запит доступу
+Desktop: %SYNO_FILE_NAME% — запит доступу до шаблону Synology Office.
+Subject: %SYNO_FILE_NAME% — запит доступу до шаблону Synology Office
+
+%SYNO_HTML%
+
+
+[RequestUnlock]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Запит на розблокування %SYNO_FILE_NAME%
+Desktop: %SYNO_FILE_NAME% — запит на розблокування
+Subject: %SYNO_FILE_NAME% — запит на розблокування
+
+%SYNO_HTML%
+
+
+[Share]
+Category: Synology Drive
+Level: NOTIFICATION_INFO
+Title: Елемент, до якого вам надано спільний доступ
+Desktop: %SYNO_FILE_NAME% — вам надано спільний доступ.
+Subject: %SYNO_FILE_NAME% — вам надано спільний доступ
+
+%SYNO_HTML%
+

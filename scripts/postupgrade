@@ -1,0 +1,3 @@
+#!/bin/sh
+# redeploy everything (idempotent); preserves /usr/local/etc/ua-l10n/state.json
+exec "$(dirname "$0")/postinst"

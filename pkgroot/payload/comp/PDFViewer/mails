@@ -1,0 +1,6 @@
+
+[pdfviewer_share_file_link]
+Category: PDF Viewer
+Level: NOTIFICATION_INFO
+Desktop: Користувач %USER% поділився посиланням на цей спільний файл: %OPEN_TEXT%
+

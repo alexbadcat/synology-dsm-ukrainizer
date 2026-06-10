@@ -1,0 +1,60 @@
+
+[USBCOPYDisconnect]
+Category: USB Copy
+Level: NOTIFICATION_INFO
+Title: Завдання скасовано
+Desktop: Скасовано завдання %COPY% на %HOSTNAME%
+Subject: Скасовано завдання %COPY% на %HOSTNAME%
+
+Завдання %COPY% %TASKNAME% на %HOSTNAME% скасовано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[USBCOPYError]
+Category: USB Copy
+Level: NOTIFICATION_WARN
+Title: Не вдається виконати завдання
+Desktop: Не вдалося виконати завдання %COPY% на %HOSTNAME%
+Subject: Не вдалося виконати завдання %COPY% на %HOSTNAME%
+
+Під час виконання завдання %COPY% %TASKNAME% на %HOSTNAME% виникли невідомі помилки. Код останньої помилки: %ERR% (%ERRREASON%). Повторіть спробу або зверніться до служби технічної підтримки Synology.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[USBCOPYFinished]
+Category: USB Copy
+Level: NOTIFICATION_INFO
+Title: Завдання виконано
+Desktop: Виконано завдання %COPY% на %HOSTNAME%
+Subject: Виконано завдання %COPY% на %HOSTNAME%
+
+Завдання %COPY% %TASKNAME% на %HOSTNAME% виконано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[USBCOPYNospace]
+Category: USB Copy
+Level: NOTIFICATION_ERROR
+Title: Завдання скасовано через нестачу вільного місця
+Desktop: Скасовано завдання %COPY% на %HOSTNAME% через брак вільного місця
+Subject: Скасовано завдання %COPY% на %HOSTNAME% через брак вільного місця
+
+Завдання %COPY% %TASKNAME% на %HOSTNAME% скасовано, оскільки в цільовій теці недостатньо вільного простору.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+

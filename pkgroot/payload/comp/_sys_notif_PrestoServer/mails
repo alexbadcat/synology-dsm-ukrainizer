@@ -1,0 +1,97 @@
+
+[PrestoSiteExpressTaskBegin]
+Category: Presto File Server
+Level: NOTIFICATION_INFO
+Title: Запущено завдання Site Express
+Desktop: %PACKAGENAME% — запущено завдання Site Express %TASKNAME% на %HOSTNAME%
+Subject: %PACKAGENAME% — запущено завдання Site Express %TASKNAME% на %HOSTNAME%
+
+Завдання Site Express %TASKNAME% запущено на %HOSTNAME%. 
+
+З %HOSTNAME%
+
+
+[PrestoSiteExpressTaskCancel]
+Category: Presto File Server
+Level: NOTIFICATION_INFO
+Title: Скасовано завдання Site Express
+Desktop: %PACKAGENAME% — скасовано завдання Site Express %TASKNAME% на %HOSTNAME%
+Subject: %PACKAGENAME% — скасовано завдання Site Express %TASKNAME% на %HOSTNAME%
+
+Завдання Site Express %TASKNAME% скасовано на %HOSTNAME%. 
+
+З %HOSTNAME%
+
+
+[PrestoSiteExpressTaskComplete]
+Category: Presto File Server
+Level: NOTIFICATION_INFO
+Title: Завершено завдання Site Express
+Desktop: %PACKAGENAME% — завершено завдання Site Express %TASKNAME% на %HOSTNAME%
+Subject: %PACKAGENAME% — завершено завдання Site Express %TASKNAME% на %HOSTNAME%
+
+Завдання Site Express %TASKNAME% завершено на %HOSTNAME%. 
+Час початку: %STARTTIME% 
+Час завершення: %ENDTIME% 
+Список серверів: %SERVERS% 
+Кількість успішних серверів: %SUCCESS_COUNT% 
+
+З %HOSTNAME%
+
+
+[PrestoSiteExpressTaskDelete]
+Category: Presto File Server
+Level: NOTIFICATION_INFO
+Title: Видалено завдання Site Express
+Desktop: %PACKAGENAME% — видалено завдання Site Express %TASKNAME% на %HOSTNAME%
+Subject: %PACKAGENAME% — видалено завдання Site Express %TASKNAME% на %HOSTNAME%
+
+Завдання Site Express %TASKNAME% видалено на %HOSTNAME%. 
+
+З %HOSTNAME%
+
+
+[PrestoSiteExpressTaskFail]
+Category: Presto File Server
+Level: NOTIFICATION_ERROR
+Title: Не вдається виконати завдання Site Express
+Desktop: %PACKAGENAME% — не вдається виконати завдання Site Express %TASKNAME% на %HOSTNAME%
+Subject: %PACKAGENAME% — не вдається виконати завдання Site Express %TASKNAME% на %HOSTNAME%
+
+Завдання Site Express %TASKNAME% на %HOSTNAME% не виконано. 
+Час початку: %STARTTIME% 
+Час завершення: %ENDTIME% 
+Список серверів: %SERVERS% 
+Кількість успішних серверів: %SUCCESS_COUNT% 
+
+З %HOSTNAME%
+
+
+[PrestoSiteExpressTaskPartialSuccess]
+Category: Presto File Server
+Level: NOTIFICATION_ERROR
+Title: Завдання Site Express виконано частково
+Desktop: %PACKAGENAME% — завдання Site Express %TASKNAME% на %HOSTNAME% виконано частково
+Subject: %PACKAGENAME% — завдання Site Express %TASKNAME% на %HOSTNAME% виконано частково
+
+Завдання Site Express %TASKNAME% на %HOSTNAME% виконано частково. 
+Час початку: %STARTTIME% 
+Час завершення: %ENDTIME% 
+Список серверів: %SERVERS% 
+Кількість успішних серверів: %SUCCESS_COUNT% 
+
+З %HOSTNAME%
+
+
+[ReportGenerate]
+Category: Presto File Server
+Level: NOTIFICATION_INFO
+Title: Створено звіт
+Desktop: Створено звіт %APP_NAME%
+Subject: Створено звіт %APP_NAME%
+
+Створено звіт про трафік %TASK_NAME%. Щоб переглянути звіт, перейдіть за посиланням нижче:
+%LINK%
+
+З %HOSTNAME%
+

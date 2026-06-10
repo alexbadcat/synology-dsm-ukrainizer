@@ -1,0 +1,51 @@
+
+[ai_required_install_no_gpu]
+Category: AI Search
+Level: NOTIFICATION_INFO
+Desktop: Деякі пакети було успішно встановлено. Однак поточний GPU не підтримує Synology AI Runtime. Встановіть <a href="https://sy.to/gpucompatiblelist" target="_blank">сумісний GPU</a>, і система повторить спробу встановлення після наступного перезавантаження
+
+
+[api_call_failed]
+Category: Synology AI Console
+Level: NOTIFICATION_ERROR
+Title: Помилка виклику API
+Target: desktop
+Desktop: Помилка виклику API до %PROVIDER% о %DATE% %TIME%.
+Subject: Помилка виклику API до %PROVIDER% о %DATE% %TIME%
+
+Виклик API до %PROVIDER% користувачем %USER% завершився невдало о %DATE% %TIME%. Будь ласка, перевірте, чи успішно підключено інтеграцію API.
+
+
+[install_packages_failed]
+Category: AI Search
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося встановити такі пакети: %PACKAGE_LIST%. Перейдіть до <a data-syno-app="SYNO.SDS.App.AI.Instance">Synology AI Console</a> та спробуйте ще раз
+
+
+[install_packages_success]
+Category: AI Search
+Level: NOTIFICATION_INFO
+Desktop: Систему успішно встановила такі пакети: %PACKAGE_LIST%. Перейдіть до <a data-syno-app="SYNO.SDS.App.AI.Instance">Synology AI Console</a>, щоб увімкнути AI Search
+
+
+[promotion_1_0]
+Category: Synology AI Console
+Level: NOTIFICATION_INFO
+Title: Активуйте ШІ для Synology MailPlus
+Target: desktop
+Desktop: Активуйте ШІ для Synology MailPlus
+Subject: Активуйте ШІ для Synology MailPlus
+
+Активуйте AI у Synology MailPlus, щоб підвищити продуктивність електронної пошти. Легко створюйте, уточнюйте, перевіряйте граматику, підсумовуйте листування та генеруйте розумні відповіді для ефективної комунікації. <a data-syno-app="SYNO.SDS.App.AI.Instance">Налаштувати зараз</a>
+
+
+[promotion_1_1]
+Category: Synology AI Console
+Level: NOTIFICATION_INFO
+Title: Інтегруйте ШІ для підвищення продуктивності
+Target: desktop
+Desktop: Інтегруйте ШІ для підвищення продуктивності
+Subject: Інтегруйте ШІ для підвищення продуктивності
+
+Використовуйте AI, щоб розблокувати потужні функції в Synology MailPlus та Synology Office, включаючи інструменти на основі AI для складання, покращення та підсумовування контенту. <a data-syno-app="SYNO.SDS.App.AI.Instance">Налаштувати зараз</a>
+

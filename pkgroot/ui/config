@@ -1,0 +1,19 @@
+{
+    "ua-l10n.js": {
+        "SYNO.SDS.UkrainianL10n.Instance": {
+            "type": "app",
+            "title": "Українізатор DSM",
+            "desc": "Переклад DSM і пакетів українською",
+            "icon": "images/ua-l10n-{0}.png",
+            "allowMultiInstance": false,
+            "allUsers": false,
+            "appWindow": "SYNO.SDS.UkrainianL10n.Main",
+            "depend": ["SYNO.SDS.UkrainianL10n.Main"]
+        },
+        "SYNO.SDS.UkrainianL10n.Main": {
+            "type": "lib",
+            "title": "Українізатор DSM",
+            "icon": "images/ua-l10n-{0}.png"
+        }
+    }
+}

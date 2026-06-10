@@ -1,0 +1,77 @@
+
+[DLComplete]
+Category: Download Station
+Level: NOTIFICATION_INFO
+Desktop: Download Station — завдання завантаження %DLTYPE% завершено
+Subject: Download Station — завдання завантаження %DLTYPE% завершено
+
+Ваше завдання завантаження %DLTYPE% успішно завершено.
+
+Файл:
+%FILENAME%
+
+Розташування:
+%SHARE%
+
+З %HOSTNAME%
+
+
+[DownloadCaptchaNeeded]
+Category: Download Station
+Level: NOTIFICATION_WARN
+Title: Потрібен код CAPTCHA
+Desktop: Для завантаження %DLTYPE% на [%HOSTNAME%] потрібен код CAPTCHA
+Subject: Для завантаження %DLTYPE% на [%HOSTNAME%] потрібен код CAPTCHA
+
+Щоб розпочати завантаження, введіть код CAPTCHA.
+
+Файл:
+%FILENAME%
+
+Час:
+%CREATEDTIME%
+
+З %HOSTNAME%
+
+
+[DownloadCompleted]
+Category: Download Station
+Level: NOTIFICATION_INFO
+Title: Завантаження завершено
+Desktop: Завдання завантаження %DLTYPE% на [%HOSTNAME%] (%FILENAME%) завершено
+Subject: Завдання завантаження %DLTYPE% на [%HOSTNAME%] (%FILENAME%) завершено
+
+Ваше завдання завантаження %DLTYPE% успішно завершено.
+
+Файл:
+%FILENAME%
+
+Час:
+%CREATEDTIME%
+
+Розташування:
+%SHARE%
+
+З %HOSTNAME%
+
+
+[DownloadFailed]
+Category: Download Station
+Level: NOTIFICATION_WARN
+Title: Під час завантаження стався збій
+Desktop: Під час виконання завдання завантаження %DLTYPE% на [%HOSTNAME%] (%FILENAME%) стався збій
+Subject: Під час виконання завдання завантаження %DLTYPE% на [%HOSTNAME%] (%FILENAME%) стався збій
+
+Ваше завдання завантаження %DLTYPE% завершилося збоєм.
+
+Файл:
+%FILENAME%
+
+Час:
+%CREATEDTIME%
+
+Помилка:
+%MESSAGE%
+
+З %HOSTNAME%
+

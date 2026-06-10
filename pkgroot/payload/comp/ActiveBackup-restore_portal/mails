@@ -1,0 +1,446 @@
+
+[ACTIVEBACKUPBUSINESSDeviceConnect]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Пристрій підключено
+Desktop: %PACKAGENAME% — пристрій %DEVICENAME% підключено до %HOSTNAME%
+Subject: %PACKAGENAME% — пристрій %DEVICENAME% підключено до %HOSTNAME%
+
+Пристрій %DEVICENAME% підключено.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSDeviceLogout]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Виконано вихід для пристрою
+Desktop: %PACKAGENAME% — пристрій %DEVICENAME% відключено від %HOSTNAME%
+Subject: %PACKAGENAME% — пристрій %DEVICENAME% відключено від %HOSTNAME%
+
+Пристрій %DEVICENAME% відключено від %HOSTNAME% (виконано вихід).
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSDeviceOffline]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Фізичний сервер у автономному режимі
+Desktop: %PACKAGENAME% — фізичний сервер %DEVICENAME% на %HOSTNAME% перейшов у автономний режим
+Subject: %PACKAGENAME% — фізичний сервер %DEVICENAME% перейшов у автономний режим
+
+Фізичний сервер %DEVICENAME% на %HOSTNAME% перейшов у автономний режим.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSDeviceUnlink]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Пристрій видалено
+Desktop: %PACKAGENAME% — пристрій %DEVICENAME% видалено з %HOSTNAME%
+Subject: %PACKAGENAME% — пристрій %DEVICENAME% видалено з %HOSTNAME%
+
+Пристрій %DEVICENAME% відключено (видалено з %HOSTNAME%).
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSPcCreateTask]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Не вдалося створити завдання агента
+Desktop: %PACKAGENAME% — не вдалося створити завдання
+Subject: %PACKAGENAME% — не вдалося створити завдання
+
+Користувачу %USERNAME% не вдалося створити завдання резервного копіювання відповідно до шаблону. Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b> для отримання додаткової інформації. 
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSPcQueryUpdateServer]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Не вдалося оновити пристрій
+Desktop: %PACKAGENAME% — не вдалося оновити пристрій
+Subject: %PACKAGENAME% — не вдалося оновити пристрій
+
+Не вдалося оновити пристрій, оскільки йому не вдається підключитися до Центру завантажень Synology для отримання останньої версії. Якщо %DISKSTATION% не має підключення до Інтернету, <a href="https://kb.synology.com/DSM/help/ActiveBackup/activebackup_business_pc_device" target="_blank">можна оновити пристрій у автономному режимі</a>.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSReportGenerate]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Desktop: Створено звіт %APP_NAME%
+Subject: Створено звіт %APP_NAME%
+
+Створено звіт %TASK_NAME%. Щоб переглянути звіт, перейдіть за посиланням нижче:
+%LINK%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVerificationCancel]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Перевірку резервного копіювання скасовано
+Desktop: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% скасовано
+Subject: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% скасовано
+
+Перевірку резервного копіювання для завдання %TASKNAME% скасовано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVerificationError]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Перевірку резервного копіювання не виконано
+Desktop: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% не виконано
+Subject: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% не виконано
+
+Виникла помилка перевірки резервного копіювання для завдання %TASKNAME%.
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості, і повторіть спробу.
+Якщо проблему не вдається вирішити, зверніться до служби технічної підтримки Synology.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVerificationPartialSuccess]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Перевірку резервного копіювання виконано частково
+Desktop: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% виконано частково
+Subject: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% виконано частково
+
+Перевірку резервного копіювання для завдання %TASKNAME% виконано частково.
+Список пристроїв (успішна перевірка): %SUCCESS_DEVICES%
+Список пристроїв (невдала перевірка): %FAILED_DEVICES%
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVerificationSuccess]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Перевірку резервного копіювання виконано
+Desktop: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% виконано
+Subject: %PACKAGENAME% — перевірку резервного копіювання для завдання %TASKNAME% на %HOSTNAME% виконано
+
+Перевірку резервного копіювання для завдання %TASKNAME% виконано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+Відео в реальному часі для перевірки резервного копіювання буде збережено в цільовій спільній теці. Ви можете завантажити або переглянути відео за допомогою File Station або натиснути значок відео у списку версій завдання резервного копіювання.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVmBackupPartialSuccess]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання резервного копіювання віртуальної машини виконано частково
+Desktop: %PACKAGENAME% — завдання резервного копіювання віртуальної машини %TASKNAME% на %HOSTNAME% виконано частково
+Subject: %PACKAGENAME% — завдання резервного копіювання віртуальної машини %TASKNAME% на %HOSTNAME% виконано частково
+
+Завдання резервного копіювання віртуальної машини %TASKNAME% виконано частково.
+Список пристроїв (успішне резервне копіювання): %SUCCESS_DEVICES%
+Список пристроїв (невдале резервне копіювання): %FAILED_DEVICES%
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Обсяг переданих даних: %TRANSFERED_SIZE%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVmMigrateCancel]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання перенесення віртуальної машини скасовано
+Desktop: %PACKAGENAME% — завдання перенесення віртуальної машини %TASKNAME% на %HOSTNAME% скасовано
+Subject: %PACKAGENAME% — завдання перенесення віртуальної машини %TASKNAME% на %HOSTNAME% скасовано
+
+Завдання перенесення віртуальної машини %TASKNAME% скасовано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVmMigrateError]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Завдання міграції віртуальної машини не виконано
+Desktop: %PACKAGENAME% — завдання міграції віртуальної машини %TASKNAME% на %HOSTNAME% не виконано
+Subject: %PACKAGENAME% — завдання міграції віртуальної машини %TASKNAME% на %HOSTNAME% не виконано
+
+Виникла помилка завдання міграції віртуальної машини %TASKNAME%.
+
+%ERROR_REASON%
+
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості, і повторіть спробу.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+%WARNING_MESSAGE%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVmMigrateFinish]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Завдання міграції віртуальної машини виконано
+Desktop: %PACKAGENAME% — завдання міграції віртуальної машини %TASKNAME% на %HOSTNAME% виконано
+Subject: %PACKAGENAME% — завдання міграції віртуальної машини %TASKNAME% на %HOSTNAME% виконано
+
+Завдання міграції віртуальної машини %TASKNAME% виконано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBUSINESSVmMigratePartialSuccess]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання перенесення віртуальної машини виконано частково
+Desktop: %PACKAGENAME% — завдання перенесення віртуальної машини на %HOSTNAME% виконано частково
+Subject: %PACKAGENAME% — завдання перенесення віртуальної машини на %HOSTNAME% виконано частково
+
+Завдання перенесення віртуальної машини на %HOSTNAME% виконано частково.
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBackupCancel]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання резервного копіювання скасовано
+Desktop: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% скасовано
+Subject: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% скасовано
+
+Завдання резервного копіювання %TASKNAME% скасовано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBackupError]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Завдання резервного копіювання не виконано
+Desktop: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% не виконано
+Subject: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% не виконано
+
+Виникла помилка завдання резервного копіювання %TASKNAME%.
+%ERROR_REASON%
+
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b> > <b>Інформація</b>, щоб отримати додаткові відомості, і повторіть спробу.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+Список пристроїв: %DEVICES%
+
+%WARNING_MESSAGE%
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBackupFinish]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Завдання резервного копіювання виконано
+Desktop: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано
+Subject: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано
+
+Завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBackupIgnored]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Завдання резервного копіювання проігноровано
+Desktop: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% у %HOSTNAME% проігноровано
+Subject: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% у %HOSTNAME% проігноровано
+
+Завдання резервного копіювання %TASKNAME% проігноровано, оскільки завдання %TASKNAME% продовжує виконувати резервне копіювання або іншу операцію.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPBackupWarning]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання резервного копіювання виконано частково
+Desktop: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано частково
+Subject: %PACKAGENAME% — завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано частково
+
+Завдання резервного копіювання %TASKNAME% виконано частково.
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPContainerManagerAbnomal]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Не вдалося підключитися до сайту ActiveProtect
+Desktop: %PACKAGENAME% - %HOSTNAME% не вдалося підключитися до сайту ActiveProtect
+Subject: %PACKAGENAME% - %HOSTNAME% не вдалося підключитися до сайту ActiveProtect
+
+%HOSTNAME% не вдалося підключитися до сайту ActiveProtect через помилку в Container Manager. Перейдіть до <b>Container Manager</b>, щоб переконатися, що він працює правильно. Якщо проблема зберігається, перевірте контейнери для отримання детальної інформації.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPMissScheduled]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Пропущено виконання запланованого завдання резервного копіювання
+Desktop: %PACKAGENAME% — завдання резервного копіювання на %HOSTNAME% пропустили виконання запланованого резервного копіювання
+Subject: %PACKAGENAME% — завдання резервного копіювання на %HOSTNAME% пропустили виконання запланованого резервного копіювання
+
+Такі завдання на %HOSTNAME% пропустили виконання запланованого резервного копіювання, оскільки джерела резервного копіювання були відключені від Active Backup for Business:
+%MISSCONTENT%
+Перевірте підключення пристрою, щоб переконатися, що резервне копіювання буде виконано згідно з розкладом.
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPRestoreCancel]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання відновлення скасовано
+Desktop: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% скасовано
+Subject: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% скасовано
+
+Завдання відновлення %TASKNAME% скасовано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPRestoreError]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Завдання відновлення не виконано
+Desktop: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% не виконано
+Subject: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% не виконано
+
+Виникла помилка завдання відновлення %TASKNAME%.
+%ERROR_REASON%
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b> > <b>Інформація</b>, щоб отримати додаткові відомості, і повторіть спробу.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+%WARNING_MESSAGE%
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPRestoreError_CMS]
+Category: Active Backup for Business
+Level: NOTIFICATION_ERROR
+Title: Сталася помилка відновлення віртуальної машини
+Desktop: Сталася помилка відновлення віртуальної машини
+Subject: Сталася помилка відновлення віртуальної машини
+
+Стався збій відновлення віртуальної машини.
+
+Нижче наведено відомості про виконання:
+
+Віртуальна машина: %DEVICE%
+Гипервизор: %HYPERVISOR%
+Час початку: %STARTTIME% (GMT%GMT%)
+Час завершення: %ENDTIME% (GMT%GMT%)
+
+Перейдіть на сервер керування <a href="https://%OOBIP%/" target="_blank">%MGMTSERVER%</a> для отримання детальних відомостей.
+
+От %SERVERNAME%
+
+
+[ACTIVEBACKUPRestoreFinish]
+Category: Active Backup for Business
+Level: NOTIFICATION_INFO
+Title: Завдання відновлення виконано
+Desktop: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% виконано
+Subject: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% виконано
+
+Завдання відновлення %TASKNAME% на %HOSTNAME% виконано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+
+
+[ACTIVEBACKUPRestoreWarning]
+Category: Active Backup for Business
+Level: NOTIFICATION_WARN
+Title: Завдання відновлення виконано частково
+Desktop: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% виконано частково
+Subject: %PACKAGENAME% — завдання відновлення %TASKNAME% на %HOSTNAME% виконано частково
+
+Завдання відновлення %TASKNAME% виконано частково.
+Перейдіть до <b>Active Backup for Business</b> > <b>Дії</b>, щоб отримати додаткові відомості.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Список пристроїв: %DEVICES%
+
+З %HOSTNAME%
+

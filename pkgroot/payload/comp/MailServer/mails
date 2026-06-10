@@ -1,0 +1,33 @@
+
+[MAILSERVER_ALIAS_IMPORT_ERR]
+Category: Synology Mail Server
+Level: NOTIFICATION_ERROR
+Desktop: Помилка імпорту псевдоніма Synology Mail Server на %HOSTNAME%
+Subject: Помилка імпорту псевдоніма Synology Mail Server на %HOSTNAME%
+
+Псевдоніми Synology Mail Server імпортовано на %HOSTNAME%. 
+Не вдалося імпортувати наступне:
+
+Імʼя користувача не існує:
+%ACCOUNTERR%
+
+З %HOSTNAME%
+
+
+[MAILSERVER_DOMAIN_LEAVE]
+Category: Synology Mail Server
+Level: NOTIFICATION_ERROR
+Desktop: Роботу Synology Mail Server зупинено, оскільки %HOSTNAME% вийшов з домену %DOMAIN%
+Subject: Роботу Synology Mail Server зупинено, оскільки %HOSTNAME% вийшов з домену %DOMAIN%
+
+
+[MAILSERVER_SENDER_QUOTA_EXCEED]
+Category: Synology Mail Server
+Level: NOTIFICATION_WARN
+Desktop: Користувач %SENDER% досяг щоденної квоти на відправлення
+Subject: Користувач %SENDER% досяг щоденної квоти на відправлення
+
+Користувач %SENDER% досяг щоденної квоти на відправку.
+
+З %HOSTNAME%
+

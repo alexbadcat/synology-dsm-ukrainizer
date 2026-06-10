@@ -1,0 +1,8 @@
+package.tgz
+*.spk
+__pycache__/
+*.pyc
+*.bak
+*.bak-ua
+*.orig
+.DS_Store

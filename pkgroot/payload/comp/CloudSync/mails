@@ -1,0 +1,42 @@
+
+[api_update]
+Category: Cloud Sync
+Level: NOTIFICATION_WARN
+Title: Сторонні оновлення API
+Desktop: Оновлення API %CLOUD_TYPE% для %USERNAME_CLOUD% можуть вплинути на %HOSTNAME%
+Subject: Оновлення API %CLOUD_TYPE% для %USERNAME_CLOUD% можуть вплинути на %HOSTNAME%
+
+%CLOUD_TYPE% оновив API для %USERNAME_CLOUD%, що може вплинути на Synology NAS %HOSTNAME%. Перевірте наступну інформацію та за необхідності внесіть зміни:
+%MIGRATE_IMPACT%
+
+Відомості про підключення:
+Тип хмари: %CLOUD_TYPE%
+Ім'я користувача: %USERNAME_CLOUD%
+Обліковий запис DSM: %USERNAME_DSM%
+
+Від %HOSTNAME%
+
+
+[async_delete_fail]
+Category: Cloud Sync
+Level: NOTIFICATION_ERROR
+Title: Не вдається заархівувати теку групи в просторі робочої групи Dropbox
+Desktop: Не вдається заархівувати теку групи в просторі робочої групи Dropbox
+Subject: Не вдається заархівувати теку групи в просторі робочої групи Dropbox
+
+Ви видалили теку %TEAM_FOLDER_NAME% на Synology NAS %HOSTNAME%, але вона не була заархівована в Dropbox. Для архівування перейдіть до консолі адміністратора в просторі робочої групи Dropbox. Після архівування її можна остаточно видалити в Dropbox.
+
+Відомості про підключення:
+Тип хмари: Простір робочої групи Dropbox
+Ім'я користувача: %USERNAME_CLOUD%
+Обліковий запис DSM: %USERNAME_DSM%
+
+Від %HOSTNAME%
+
+
+[category]
+Category: Cloud Sync
+Level: NOTIFICATION_INFO
+Title: Cloud Sync
+Desktop: Cloud Sync
+

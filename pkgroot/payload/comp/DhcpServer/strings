@@ -1,0 +1,62 @@
+
+# Copyright (c) 2000-2026 Synology Inc. All rights reserved.
+
+[app]
+allocate_display_multiple	=	"Перевірте кількість призначених/доступних IP-адрес для кожної підмережі {0}тут{1}."
+allocate_display_single	=	"Призначені/доступні IP-адреси: {0}/{1}"
+allocated_ip_number	=	"Призначені IP-адреси"
+app_name	=	"Пакет DHCP Server"
+description	=	"Пакет DHCP Server перетворює DiskStation на DHCP-сервер локальної мережі, призначений для присвоєння динамічних IP-адрес та керування DHCP-клієнтами."
+ip_allocated	=	"Кількість IP-адрес, доступних для кожної підмережі"
+total_ip_number	=	"Доступні IP-адреси"
+
+[general]
+add	=	"Додати"
+addr_end	=	"Кінцева IP-адреса"
+addr_start	=	"Початкова IP-адреса"
+apply	=	"Застосувати"
+cancel	=	"Скасувати"
+domain_name	=	"Ім'я домену"
+enable	=	"Увімкнено"
+enable_dhcpd	=	"Увімкнути DHCP Server"
+gateway	=	"Шлюз"
+general	=	"Загальні"
+interface	=	"Інтерфейс"
+leasetime	=	"Час оренди адреси"
+leasetime_desc	=	"1~43200 хв."
+minutes	=	"хв."
+modify	=	"Змінити"
+netmask	=	"Маска підмережі"
+optional	=	"Додатково"
+primary_dns	=	"Основний DNS"
+pxe_need_at_least_one_enable_subnet_tip	=	"Щоб скористатися PXE, перейдіть до розділу "Мережевий інтерфейс" та активуйте хоча б одну підмережу для мережевих інтерфейсів, підключених до DHCP-клієнтів."
+pxe_subnet_tooltip	=	"Щоб змінити підмережу PXE, виберіть Панель керування > FTP > TFTP/PXE."
+remove	=	"Видалити"
+secondary_dns	=	"Додатковий DNS"
+subnet	=	"Список підмереж"
+
+[offerlist]
+add_reservation	=	"Додати до зарезервованих адрес"
+address_reservation	=	"Зарезервовані адреси"
+client_list	=	"Список клієнтів"
+expire_time	=	"Термін дії"
+expired	=	"Дата закінчення"
+hostname	=	"Ім'я хоста"
+ip	=	"IP-адреса"
+mac	=	"MAC-адреса"
+unlimited	=	"Без обмежень"
+
+[reportmsg]
+error_add_reservation	=	"Не вдалося додати адресу."
+error_addr_dns	=	"Недопустима адреса DNS."
+error_addr_gateway	=	"Недопустима адреса шлюзу."
+error_addr_start	=	"Недопустима адреса."
+error_hostname	=	"Недопустиме імʼя хоста."
+error_hotspot_subnet_overlap	=	"Налаштування підмережі ЛОМ конфліктують із налаштуваннями зони доступу."
+error_lease_time	=	"Недопустимий час оренди."
+error_mac	=	"Недопустима MAC-адреса."
+error_rm_pxe_subnet	=	"Щоб видалити підмережу PXE, виберіть Панель керування > FTP > TFTP/PXE."
+error_start_dhcpd	=	"Не вдалося увімкнути пакет DHCP Server."
+set_apply	=	"Налаштування застосовано."
+set_no_change	=	"Налаштування не було змінено."
+

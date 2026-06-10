@@ -1,0 +1,99 @@
+
+[BRMBackupPariallySuccess]
+Category: Агент Active Backup for Business (%OSNAME%)
+Level: NOTIFICATION_WARN
+Title: Завдання резервного копіювання виконано частково
+Desktop: Агент Active Backup for Business (%OSNAME%) — завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано частково
+Subject: Агент Active Backup for Business (%OSNAME%) — завдання резервного копіювання %TASKNAME% на %HOSTNAME% виконано частково
+
+Завдання резервного копіювання %TASKNAME% не було повністю завершено.
+Перейдіть до Active Backup for Business > "Дії" для отримання додаткових відомостей.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+
+З %HOSTNAME%
+
+
+[BRMBackupTaskCancel]
+Category: Агент Active Backup for Business (%OSNAME%)
+Level: NOTIFICATION_WARN
+Title: Завдання резервного копіювання скасовано
+Desktop: Агент Active Backup for Business (%OSNAME%) — завдання резервного копіювання %TASKNAME% на %HOSTNAME% скасовано
+Subject: Агент Active Backup for Business (%OSNAME%) — завдання резервного копіювання %TASKNAME% на %HOSTNAME% скасовано
+
+Завдання резервного копіювання %TASKNAME% скасовано.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+
+З %HOSTNAME%
+
+
+[BRMBackupTaskError]
+Category: Агент Active Backup for Business (%OSNAME%)
+Level: NOTIFICATION_ERROR
+Title: Збій завдання резервного копіювання
+Desktop: Агент Active Backup for Business (%OSNAME%) — збій завдання резервного копіювання %TASKNAME% на %HOSTNAME%
+Subject: Агент Active Backup for Business (%OSNAME%) — збій завдання резервного копіювання %TASKNAME% на %HOSTNAME%
+
+Під час виконання завдання резервного копіювання %TASKNAME% сталася помилка.
+Перейдіть до Active Backup for Business > «Дії» для отримання додаткових відомостей та повторіть спробу.
+Якщо неполадку не вдається усунути, зверніться до служби технічної підтримки Synology.
+
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Переданий розмір: %TRANSFERED_SIZE%
+
+З %HOSTNAME%
+
+
+[BRMQueryUpdateFail]
+Category: Агент Active Backup for Business (%OSNAME%)
+Level: NOTIFICATION_ERROR
+Title: Не вдалося оновити пакет
+Desktop: Агент Active Backup for Business (%OSNAME%) — не вдалося оновити пакет
+Subject: Агент Active Backup for Business (%OSNAME%) — не вдалося оновити пакет
+
+Система не може оновити агент Active Backup for Business (%OSNAME%), оскільки %DISKSTATION% не вдається підключитися до Центру завантажень Synology і отримати останню версію.
+Якщо пристрій %DISKSTATION% не підключено до Інтернету, виконайте такі дії:
+<ol>
+<li>Перейдіть до <a href="https://www.synology.com/support/download" target="_blank">Центру завантажень</a>, щоб завантажити останню версію.</li>
+<li>Вручну встановіть пакет з локального комп'ютера. (<a href="https://kb.synology.com/DSM/tutorial/How_to_install_applications_with_Package_Center#x_anchor_id6" target="_blank">Докладніше</a>)</li>
+</ol>
+
+З %HOSTNAME%
+
+
+[BRM_BackupTimeout]
+Category: Агент Active Backup for Business (%OSNAME%)
+Level: NOTIFICATION_WARN
+Title: Збій завдання резервного копіювання
+Desktop: Збій завдання резервного копіювання
+Subject: Збій завдання резервного копіювання
+
+Резервне копіювання даних і системи на %HOSTNAME% завершилося збоєм, оскільки агенту Active Backup for Business (%OSNAME%) не вдалося підключитися до цільового розташування резервного копіювання. Переконайтесь, що цільове розташування резервного копіювання увімкнено та має підключення до Інтернету.
+
+З %HOSTNAME%
+
+
+[BRM_SystemRecoverySuccess]
+Category: Агент Active Backup for Business (%OSNAME%)
+Level: NOTIFICATION_INFO
+Title: Відновлення системи завершено
+Desktop: Відновлення системи завершено
+Subject: Відновлення системи завершено
+
+Систему успішно відновлено з такого завдання резервного копіювання:
+
+Модель: %MODEL%
+Пристрій: %DEVICE_NAME%
+Назва завдання: %TASK_NAME%
+Точка відновлення: %LAST_BACKUP_TIME%
+
+Дотримуйтесь інструкцій у <a href="https://sy.to/systemrecovery" target="_blank">цій статті</a>, щоб налаштувати параметри %OSNAME% і завершити відновлення системи.
+
+З %HOSTNAME%
+

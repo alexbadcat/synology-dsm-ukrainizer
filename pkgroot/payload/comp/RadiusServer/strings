@@ -1,0 +1,71 @@
+
+# Copyright (c) 2000-2024 Synology Inc. All rights reserved.
+
+[app]
+description	=	"RADIUS (Remote Authentication Dial-In User Service) — це мережевий протокол для централізованої перевірки автентичності, авторизації та збору відомостей про використані мережеві ресурси."
+displayname	=	"RADIUS Server"
+
+[clients]
+client_add	=	"Додати клієнта RADIUS"
+client_edit	=	"Редагувати клієнта RADIUS"
+clients	=	"Клієнти"
+note_add_clients	=	"Натисніть "Додати", щоб додати клієнтів RADIUS"
+secret_key	=	"Секретний ключ"
+shared_secret	=	"Спільний секрет"
+
+[common]
+ipv4	=	"IPv4"
+ipv6	=	"IPv6"
+subnet_range	=	"Діапазон IP-адрес"
+subnet_range_begin	=	"З"
+subnet_range_end	=	"По"
+
+[log]
+download	=	"Завантажити"
+log	=	"Журнал"
+log_account	=	"Користувач"
+log_action	=	"Подія"
+log_level	=	"Рівень"
+log_time	=	"Час"
+
+[privileges]
+block_group	=	"Заблокована група"
+block_group_add	=	"Додати заблоковані групи"
+block_list	=	"Список блокування"
+block_user	=	"Заблокований користувач"
+block_user_add	=	"Додати заблокованих користувачів"
+note_add_block_list	=	"Натисніть "Додати", щоб налаштувати список заблокованих обʼєктів"
+
+[settings]
+bind_choose	=	"Джерело для автентифікації користувача:"
+bind_domain	=	"Користувачі домену"
+bind_ldap	=	"Користувачі LDAP"
+bind_local	=	"Локальні користувачі"
+change_tls_level	=	"Change Profile Level"
+directory_service_note	=	"Перевірити стан підключення до сервера можна в розділі {0}."
+domain_disabled	=	"Вибране джерело облікового запису деактивовано. Виберіть інше джерело або налаштуйте {0}."
+download_root_ca	=	"Завантажити кореневий сертифікат"
+listen_on_addr	=	"Вибрати інтерфейс"
+network_interface	=	"Мережевий інтерфейс"
+port_auth	=	"Порт перевірки автентичності"
+settings	=	"Налаштування"
+settings_common	=	"Користувацькі налаштування"
+tls_high	=	"Сучасна сумісність"
+tls_high_desc	=	"This setting disallows outdated cipher suites to achieve higher security levels but only supports modern mobile devices."
+tls_level	=	"Рівень профілю TLS/SSL"
+tls_low	=	"Сумісність зі старими версіями"
+tls_low_desc	=	"Compatible with most mobile devices, as well as outdated and insecure cipher suites. Select this option only if a high level of device compatibility is necessary."
+tls_mid	=	"Проміжна сумісність"
+tls_mid_desc	=	"Recommended because it is compatible with general-purpose mobile devices but is not compatible with insecure cipher suites."
+
+[warning]
+cert_mismatch	=	"Імпортуйте кореневий каталог на компʼютери та пристрої, якщо ви використовуєте самопідписані сертифікати або сертифікати, підписані Synology."
+cert_notice	=	"Експортуйте сертифікат зі сторінки {0} та імпортуйте кореневий сертифікат на ваші компʼютери та пристрої, якщо ви використовуєте самопідписаний або підписаний Synology сертифікат."
+change_auth_to_local	=	"Значення джерела автентифікації RADIUS буде змінено на "локальні користувачі"."
+client_exist	=	"Цей клієнт вже існує в списку."
+conflict_client_address	=	"Введена IP-адреса/маска підмережі вже є в списку. Введіть іншу адресу."
+conflict_client_name	=	"Введене імʼя клієнта вже є в списку. Введіть інше імʼя."
+field_no_blank	=	"Це поле не може містити пробіли."
+port_conflict	=	"Цей порт вже використовується іншими застосунками. Використайте інший."
+warn_select_one_interface	=	"Виберіть принаймні один інтерфейс."
+

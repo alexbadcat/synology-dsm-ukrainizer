@@ -1,0 +1,22 @@
+#!/bin/sh
+# Root-демон керується systemd. Під час активації апка (зі своєї адмін-сесії, через
+# DSM-Планувальник, root-таск) робить `systemctl enable pkg-UkrainianL10n_api.service`:
+# юніт має [Install] WantedBy=pkgctl-UkrainianL10n.service + PartOf=, тож
+# DSM-генерований pkgctl-<Pkg>.service (від root) сам піднімає/гасить демон разом із
+# пакетом (start/stop/boot). start-stop-status біжить від PACKAGE-USER і root-юнітом
+# керувати не може — тут лишається тільки страхувальний UI-symlink і статус.
+LINK=/usr/syno/synoman/webman/3rdparty/UkrainianL10n
+UI=/var/packages/UkrainianL10n/target/ui
+SVC=pkg-UkrainianL10n_api.service
+SCTL=/usr/syno/bin/synosystemctl
+case "$1" in
+  start)
+    ln -sfn "$UI" "$LINK" 2>/dev/null
+    exit 0;;
+  stop)
+    exit 0;;
+  status)
+    "$SCTL" get-active-status "$SVC" 2>/dev/null | grep -qw active && exit 0
+    [ -e "$UI/ua-l10n.js" ] && exit 0 || exit 1;;
+  *) exit 0;;
+esac

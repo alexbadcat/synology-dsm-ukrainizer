@@ -1,0 +1,187 @@
+
+[chat_comment_create]
+Category: Important
+Title: Додано коментар
+Desktop: На каналі %channel%%user% додано коментар: %message%.
+Subject: На каналі %channel%%user% додано коментар: %message%
+
+
+[chat_comment_create_enc]
+Category: Important
+Title: Додано коментар
+Desktop: На каналі %channel%%user% надіслано зашифрований коментар.
+Subject: На каналі %channel%%user% надіслано зашифрований коментар
+
+
+[chat_encrypt_failback]
+Category: Important
+Title: Повідомлення надіслано
+Desktop: Користувач %channel%%user% надіслав повідомлення.
+Subject: Користувач %channel%%user% надіслав повідомлення
+
+
+[chat_file_create]
+Category: Important
+Title: Додано файл
+Desktop: На каналі %channel%%user% завантажено файл %filename%.
+Subject: На каналі %channel%%user% завантажено файл %filename%
+
+
+[chat_file_create_enc]
+Category: Important
+Title: Додано файл
+Desktop: На каналі %channel%%user% завантажено зашифрований файл.
+Subject: На каналі %channel%%user% завантажено зашифрований файл
+
+
+[chat_file_create_synobot]
+Category: Important
+Title: Додано файл
+Desktop: [My Space] На каналі %user% завантажено файл %filename%.
+Subject: [My Space] На каналі %user% завантажено файл %filename%
+
+
+[chat_file_desc_create]
+Category: Important
+Title: Створено опис файлу
+Desktop: На каналі %channel%%user% завантажено файл %filename%: %message%.
+Subject: На каналі %channel%%user% завантажено файл %filename%: %message%
+
+
+[chat_file_desc_create_enc]
+Category: Important
+Title: Створено опис файлу
+Desktop: На каналі %channel%%user% завантажено зашифрований файл з повідомленням.
+Subject: На каналі %channel%%user% завантажено зашифрований файл з повідомленням
+
+
+[chat_file_desc_create_synobot]
+Category: Important
+Title: Створено опис файлу
+Desktop: [My Space] На каналі %user% завантажено файл %filename%: %message%.
+Subject: [My Space] На каналі %user% завантажено файл %filename%: %message%
+
+
+[chat_file_pin]
+Category: Important
+Title: Прикріплено файл
+Desktop: На каналі %channel%%user% опубліковано файл %filename%.
+Subject: На каналі %channel%%user% опубліковано файл %filename%
+
+
+[chat_file_pin_enc]
+Category: Important
+Title: Прикріплено файл
+Desktop: На каналі %channel%%user% опубліковано зашифрований файл.
+Subject: На каналі %channel%%user% опубліковано зашифрований файл
+
+
+[chat_guest_invite_email]
+Category: Information
+Title: Приєднуйтесь просто зараз і почніть розмову з %INVITOR_NAME%
+Desktop: %INVITOR_NAME% запросив вас приєднатися до каналу в %COMPANY_NAME%.
+Subject: %INVITOR_NAME% запросив вас приєднатися до каналу в %COMPANY_NAME%
+<div style="padding: 28px 20%; background-color: #5FB86D; text-align: center; min-width: 300px; color: #28323C; font-family: Arial; line-height: 28px; font-size: 15px; word-wrap: break-word;">
+  <div style="padding: 24px 34px; background-color: #FFFFFF; border-radius: 3px; text-align: left;">
+    <div style="padding: 8px 0; color: #5FB86D; line-height: 30px; font-size: 26px; font-weight: bold; text-align: center;"> Приєднуйтесь просто зараз і почніть розмову з %INVITOR_NAME% 
+    </div>
+    <div style="margin: 8px 0; height: 1px; background-color: #E6E6E6;"></div>
+    <div style="padding: 8px 0;"> %INVITOR_NAME% запросив вас приєднатися до %CHANNEL_NAME% в %COMPANY_NAME%. Для продовження натисніть кнопку нижче. Якщо ви не очікували цього запрошення, проконсультуйтесь безпосередньо з %INVITOR_NAME%, перш ніж прийняти його. 
+    </div>
+    <div style="text-align: center; padding: 16px 0;"> 
+      <a href="%GUEST_URL%" style="display: inline-block; box-sizing: border-box; font-size: 20px; line-height: 44px; padding: 0 20px; min-width: 108px; font-weight: bold; border-radius: 3px; color: #FFFFFF; background-color: #5FB86D; text-decoration: none;">Приєднуйтесь прямо зараз</a> 
+    </div> 
+    <div style="text-align: center; padding: 8px 0; color: #A0A4A8; line-height: 20px; font-size: 13px;"> Ви можете скопіювати &amp; вставити посилання у свій браузер:<br /> 
+      <a href="%GUEST_URL%" style="text-decoration: none; color: #189AF4;">%GUEST_URL%</a> 
+    </div> 
+    <div style="padding: 8px 0;"> Після реєстрації облікового запису ви можете увійти в систему наступними способами, якщо ваш обліковий запис — <b>vipuser</b>: 
+      <ul> 
+        <li>Використайте посилання вище для входу в систему, введіть <b>vipuser</b> як ваш обліковий запис.</li> 
+        <li>Використайте клієнт для настільних систем або мобільні застосунки для входу в систему, натисніть <b>Увійти як гостьовий користувач</b> і введіть <b>vipuser</b> як обліковий запис.</li> 
+        <li>Використайте портал веб-застосунку Synology Chat для входу в систему, введіть <b><font color="red">guest_vipuser</font></b> як обліковий запис.</li> 
+      </ul> 
+    </div> 
+    <div style="padding: 16px 0 8px 0;"> 
+      З повагою,<br /> 
+    %COMPANY_NAME%
+  </div>
+</div>
+</div>
+
+
+[chat_post_create]
+Category: Important
+Title: Створено повідомлення
+Desktop: %channel%%user%: %message%.
+Subject: %channel%%user%: %message%
+
+
+[chat_post_create_enc]
+Category: Important
+Title: Створено повідомлення
+Desktop: На каналі %channel%%user% надіслано зашифроване повідомлення.
+Subject: На каналі %channel%%user% надіслано зашифроване повідомлення
+
+
+[chat_post_create_synobot]
+Category: Important
+Title: Створено повідомлення
+Desktop: [My Space] %user%: %message%.
+Subject: [My Space] %user%: %message%
+
+
+[chat_post_pin]
+Category: Important
+Title: Прикріплено повідомлення
+Desktop: На каналі %channel%%user% опубліковано повідомлення: %message%.
+Subject: На каналі %channel%%user% опубліковано повідомлення: %message%
+
+
+[chat_post_pin_enc]
+Category: Important
+Title: Прикріплено повідомлення
+Desktop: На каналі %channel%%user% опубліковано зашифроване повідомлення.
+Subject: На каналі %channel%%user% опубліковано зашифроване повідомлення
+
+
+[chat_sticker_comment]
+Category: Important
+Title: Надіслано стікер
+Desktop: На каналі %channel%%user% додано коментар зі стікером.
+Subject: На каналі %channel%%user% додано коментар зі стікером
+
+
+[chat_sticker_create]
+Category: Important
+Title: Додано стикер
+Desktop: Користувач %channel%%user% надіслав стікер.
+Subject: Користувач %channel%%user% надіслав стікер
+
+
+[chat_sticker_create_synobot]
+Category: Important
+Title: Додано стикер
+Desktop: [My Space] Користувач %user% надіслав стікер.
+Subject: [My Space] Користувач %user% надіслав стікер
+
+
+[chat_vote_close]
+Category: Important
+Title: Закрити опитування
+Desktop: Опитування закрито %user% (%channel%): %message%.
+Subject: Опитування закрито %user% (%channel%): %message%
+
+
+[chat_vote_create]
+Category: Important
+Title: Створити опитування
+Desktop: Опитування створено %user% %channel%: %message%.
+Subject: Опитування створено %user% %channel%: %message%
+
+
+[chat_vote_update]
+Category: Important
+Title: Оновити опитування
+Desktop: Опитування оновлено %user% %channel%: %message%.
+Subject: Опитування оновлено %user% %channel%: %message%
+

@@ -1,0 +1,12 @@
+
+[notestation_notify_export_success]
+Category: Note Station
+Level: NOTIFICATION_INFO
+Desktop: Завдання експорту завершено. Для отримання докладної інформації перейдіть за посиланням %STARTTAG%%SHAREPATH%%ENDTAG%
+
+
+[notestation_notify_send_message]
+Category: Note Station
+Level: NOTIFICATION_INFO
+Desktop: Користувач %USER% надав вам доступ до %NOTE%. Дивіться в %STARTTAG%%APPNAME%%ENDTAG%
+

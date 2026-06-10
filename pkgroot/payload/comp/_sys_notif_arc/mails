@@ -1,0 +1,17 @@
+[arc_notify]
+Category: System
+Level: NOTIFICATION_INFO
+Desktop: %NOTIFICATION%
+
+
+[arc_notify_subject]
+Category: System
+Level: NOTIFICATION_INFO
+Desktop: %NOTIFICATION%
+Subject: %NOTIFICATION%
+
+%SUBJECT%
+
+From %HOSTNAME%
+
+

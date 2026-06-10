@@ -1,0 +1,8 @@
+#!/bin/sh
+# Видалення пакета. Застосовані українські файли + .orig/.bak бекапи лишаємо.
+# reapply-таймер самочиститься: його юніт має ConditionPathExists на uacore.py,
+# який зникає разом із пакетом, тож systemd просто перестає його запускати.
+# Якщо раптом маємо root — приберемо таймер одразу (інакше — безпечний no-op).
+T=/var/packages/UkrainianL10n/target
+[ "$(id -u)" = "0" ] && [ -f "$T/bin/uacore.py" ] && /usr/bin/python3 "$T/bin/uacore.py" remove-timer >/dev/null 2>&1
+exit 0

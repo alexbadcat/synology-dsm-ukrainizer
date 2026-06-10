@@ -1,0 +1,603 @@
+
+[BackupStatisticsNotify]
+Category: Hyper Backup
+Level: NOTIFICATION_WARN
+Title: Сповіщення про статистику резервного копіювання
+Desktop: Сповіщення про статистику резервного копіювання на %HOSTNAME%
+Subject: Сповіщення про статистику резервного копіювання на %HOSTNAME%
+
+Системою виявлено аномальні зміни даних у такому завданні резервного копіювання. Для отримання додаткової інформації дивіться статистику нижче.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+
+Поточна статистика резервного копіювання:
+
+Використання тому: %CURRENT_TARGET_SIZE% %TARGET_SIZE_ALERT%
+Збільшення обсягу даних: %CURRENT_GROWTH_SIZE% %TARGET_GROWTH_ALERT%
+Додавання файлів: %CURRENT_NEW_FILE_RATE% %NEW_FILE_ALERT%
+Зміна файлів: %CURRENT_MODIFY_FILE_RATE% %MODIFY_FILE_ALERT%
+Видалення файлів: %CURRENT_DELETE_FILE_RATE% %DELETE_FILE_ALERT%
+
+З %HOSTNAME%
+
+
+[BackupTaskAutoResumeFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Автоматичне відновлення резервного копіювання виконано
+Desktop: %TASK_TYPE% — %TASK_NAME% виконано на %HOSTNAME%
+Subject: %TASK_TYPE% — %TASK_NAME% виконано на %HOSTNAME%
+
+Завдання резервного копіювання %TASK_NAME% виконано, але мережа нестабільна під час резервного копіювання. Інформацію щодо цього резервного копіювання дивіться нижче.
+
+Завдання резервного копіювання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+Повторна спроба відновлення: %AUTO_RESUME_RETRY%
+
+Загальний вихідний розмір:
+- Спільна тека: %SHARE_TARGET_SIZE%
+- Застосунок: %APP_TOTAL_SIZE%
+- Metadata: %EA_TOTAL_SIZE%
+Збільшений цільовий розмір: %TARGET_INCREASE_SIZE%
+Розмір даних нової спільної теки: %SHARE_NEW_SIZE%
+Розмір даних зміненої спільної теки: %SHARE_MOD_SIZE%
+Розмір даних видаленої спільної теки: %SHARE_DEL_SIZE%
+Змінений розмір даних застосунку: %APP_MOD_SIZE%
+
+З %HOSTNAME%
+
+
+[BackupTaskCanceled]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Завдання резервного копіювання даних скасовано
+Desktop: Завдання резервного копіювання даних на %HOSTNAME% скасовано
+Subject: Завдання резервного копіювання даних на %HOSTNAME% скасовано
+
+Завдання резервного копіювання даних на %HOSTNAME% скасовано.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[BackupTaskFailed]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка завдання резервного копіювання даних
+Desktop: Збій завдання резервного копіювання даних на %HOSTNAME%
+Subject: Збій завдання резервного копіювання даних на %HOSTNAME%
+
+Помилка завдання резервного копіювання даних на %HOSTNAME%.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[BackupTaskFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Резервне копіювання виконано
+Desktop: %TASK_TYPE% — %TASK_NAME% успішно виконано на %HOSTNAME%
+Subject: %TASK_TYPE% — %TASK_NAME% успішно виконано на %HOSTNAME%
+
+Завдання резервного копіювання %TASK_NAME% завершено.
+
+Завдання резервного копіювання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Загальний вихідний розмір:
+- Спільна тека: %SHARE_TARGET_SIZE%
+- Застосунок: %APP_TOTAL_SIZE%
+- Metadata: %EA_TOTAL_SIZE%
+Збільшений цільовий розмір: %TARGET_INCREASE_SIZE%
+Розмір даних нової спільної теки: %SHARE_NEW_SIZE%
+Розмір даних зміненої спільної теки: %SHARE_MOD_SIZE%
+Розмір даних видаленої спільної теки: %SHARE_DEL_SIZE%
+Змінений розмір даних застосунку: %APP_MOD_SIZE%
+
+З %HOSTNAME%
+
+
+[BackupTaskFinishedSingleVersion]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Резервне копіювання завершено (завдання резервного копіювання з однією версією)
+Desktop: %TASK_TYPE% — %TASK_NAME% успішно виконано на %HOSTNAME%
+Subject: %TASK_TYPE% — %TASK_NAME% успішно виконано на %HOSTNAME%
+
+Завдання резервного копіювання %TASK_NAME% завершено.
+
+Завдання резервного копіювання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+Докладні відомості про те, як налаштувати резервне копіювання даних з %DISKSTATION% і створити комплексну систему захисту даних, представлені у статті: https://sy.to/nasbackup.
+
+
+[BackupTaskPartial]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Завдання резервного копіювання даних виконано частково
+Desktop: Завдання резервного копіювання даних на %HOSTNAME% виконано частково
+Subject: Завдання резервного копіювання даних на %HOSTNAME% виконано частково
+
+Завдання резервного копіювання даних на %HOSTNAME% виконано з незначними винятками.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[BackupTaskSuspended]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Завдання резервного копіювання даних призупинено
+Desktop: Завдання резервного копіювання даних на %HOSTNAME% призупинено
+Subject: Завдання резервного копіювання даних на %HOSTNAME% призупинено
+
+Завдання резервного копіювання даних на %HOSTNAME% призупинено.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Перевірте, що мережеве підключення стабільне, а в місці призначення резервного копіювання достатньо місця. <a target="_blank" rel="noreferrer noopener" href="https://kb.synology.com/DSM/tutorial/Frequently_asked_questions_about_Hyper_Backup">Докладніше</a>
+
+З %HOSTNAME%
+
+
+[EntireBackupTaskAutoResumeFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Резервне копіювання всієї системи було автоматично відновлено і завершено
+Desktop: %TASK_TYPE% — %TASK_NAME% на %HOSTNAME% завершено
+Subject: %TASK_TYPE% — %TASK_NAME% на %HOSTNAME% завершено
+
+Завдання резервного копіювання всієї системи %TASK_NAME% завершено, але під час резервного копіювання мережа працювала нестабільно. Докладну інформацію щодо цього резервного копіювання дивіться нижче.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+Кількість спроб відновлення: %AUTO_RESUME_RETRY%
+
+Загальний вихідний розмір: %APP_TOTAL_SIZE%
+Збільшений цільовий розмір: %TARGET_INCREASE_SIZE%
+
+Від %HOSTNAME%
+
+
+[EntireBackupTaskFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Резервне копіювання всієї системи завершено
+Desktop: %TASK_TYPE% — %TASK_NAME% на %HOSTNAME% завершено
+Subject: %TASK_TYPE% — %TASK_NAME% на %HOSTNAME% завершено
+
+Завдання резервного копіювання всієї системи %TASK_NAME% завершено.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Загальний вихідний розмір: %APP_TOTAL_SIZE%
+Збільшений цільовий розмір: %TARGET_INCREASE_SIZE%
+
+Від %HOSTNAME%
+
+
+[HBED_SystemRecoverySuccess]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Відновлення системи завершено
+Desktop: Відновлення системи завершено
+Subject: Відновлення системи завершено
+
+Систему відновлено з такого завдання резервного копіювання:
+
+Назва моделі: %MODEL%
+Назва пристрою: %DEVICE_NAME%
+Назва завдання: %TASK_NAME%
+Версія відновлення: %LAST_BACKUP_TIME%
+
+Дотримуйтесь інструкцій у <a href="https://sy.to/systemrecovery" target="_blank">цій статті</a>, щоб налаштувати параметри %OSNAME% і завершити відновлення системи.
+
+З %HOSTNAME%
+
+
+[IntegrityCheckCanceled]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Перевірку цілісності скасовано
+Desktop: Перевірку цілісності для %TASK_NAME% на %HOSTNAME% скасовано
+Subject: Перевірку цілісності для %TASK_NAME% на %HOSTNAME% скасовано
+
+Перевірку цілісності для %TASK_NAME% на %HOSTNAME% було скасовано.
+
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+
+[IntegrityCheckFailed]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка перевірки цілісності
+Desktop: Перевірка цілісності для %TASK_NAME% на %HOSTNAME% завершилася невдало
+Subject: Перевірка цілісності для %TASK_NAME% на %HOSTNAME% завершилася невдало
+
+Перевірка цілісності для %TASK_NAME% на %HOSTNAME% завершилася невдачею. Зверніться до <a target="_blank" rel="noreferrer noopener" href="https://www.synology.com/company/contact_us">служби технічної підтримки Synology</a> за допомогою.
+
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+
+[IntegrityCheckFinishedTargetFailed]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Перевірку цілісності завершено з виявленням помилок
+Desktop: Перевірку цілісності для %TASK_NAME% на %HOSTNAME% завершено з виявленням помилок
+Subject: Перевірку цілісності для %TASK_NAME% на %HOSTNAME% завершено з виявленням помилок
+
+Перевірку цілісності для %TASK_NAME% на %HOSTNAME% завершено з виявленням помилок. Зверніться до <a target="_blank" rel="noreferrer noopener" href="https://www.synology.com/company/contact_us">служби технічної підтримки Synology</a> за допомогою.
+
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+
+[IntegrityCheckFinishedTargetPass]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Перевірку цілісності завершено
+Desktop: Перевірку цілісності для %TASK_NAME% на %HOSTNAME% завершено
+Subject: Перевірку цілісності для %TASK_NAME% на %HOSTNAME% завершено
+
+Перевірку цілісності для %TASK_NAME% на %HOSTNAME% завершено.
+
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+
+[LocalLUNBkpError]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка завдання резервного копіювання локального LUN
+Desktop: Збій завдання резервного копіювання локального LUN на %HOSTNAME%
+Subject: Збій завдання резервного копіювання локального LUN на %HOSTNAME%
+
+Помилка під час резервного копіювання LUN на %HOSTNAME% у локальну спільну теку.
+
+Ім'я LUN: %LUN%
+Назва завдання: %BKP_TASK%
+Місце призначення резервного копіювання: %BKP_DST% %PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[LocalLUNBkpFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Локальне резервне копіювання LUN завершено
+Desktop: Завершено — резервне копіювання LUN на %HOSTNAME%
+Subject: Завершено — резервне копіювання LUN на %HOSTNAME%
+
+Резервне копіювання LUN на %HOSTNAME% у локальну спільну теку завершено.
+
+Ім'я LUN: %LUN%
+Завдання резервного копіювання: %BKP_TASK%
+Місце призначення резервного копіювання: %BKP_DST%  %PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+З %HOSTNAME%
+
+
+[LocalLUNRecoverError]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка завдання відновлення локального LUN
+Desktop: Збій завдання відновлення локального LUN на %HOSTNAME%
+Subject: Збій завдання відновлення локального LUN на %HOSTNAME%
+
+Помилка під час відновлення LUN на %HOSTNAME% з локальної спільної теки.
+
+Ім'я LUN: %LUN%
+Джерело відновлення: %BKP_SRC% %SRC_PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[LocalLUNRecoverFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Локальне відновлення LUN завершено
+Desktop: Завершено — відновлення LUN на %HOSTNAME%
+Subject: Завершено — відновлення LUN на %HOSTNAME%
+
+Відновлення LUN на %HOSTNAME% з локальної спільної теки завершено.
+
+Ім'я LUN: %LUN%
+Джерело відновлення: %BKP_SRC%  %SRC_PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+З %HOSTNAME%
+
+
+[MultiVerLunBackupTaskFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Резервне копіювання LUN/простору імен завершено
+Desktop: %TASK_TYPE% — %TASK_NAME% завершено на %HOSTNAME%
+Subject: %TASK_TYPE% — %TASK_NAME% завершено на %HOSTNAME%
+
+Завдання резервного копіювання LUN/простору імен %TASK_NAME% завершено.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Загальний вихідний розмір: %APP_TOTAL_SIZE%
+Збільшений цільовий розмір: %TARGET_INCREASE_SIZE%
+
+З %HOSTNAME%
+
+
+[MultiVerLunTaskAutoResumeFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Резервне копіювання LUN/простору імен автоматично відновлено і завершено
+Desktop: %TASK_TYPE% — %TASK_NAME% завершено на %HOSTNAME%
+Subject: %TASK_TYPE% — %TASK_NAME% завершено на %HOSTNAME%
+
+Завдання резервного копіювання LUN/простору імен %TASK_NAME% завершено, однак під час резервного копіювання мережа була нестабільна. Нижче наведено докладності цього резервного копіювання.
+
+Назва завдання: %TASK_NAME%
+Призначення резервного копіювання: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+Кількість спроб відновлення: %AUTO_RESUME_RETRY%
+
+Загальний вихідний розмір: %APP_TOTAL_SIZE%
+Збільшений цільовий розмір: %TARGET_INCREASE_SIZE%
+
+З %HOSTNAME%
+
+
+[NetLUNBkpError]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка завдання резервного копіювання мережевого LUN
+Desktop: Збій завдання резервного копіювання мережевого LUN на %HOSTNAME%
+Subject: Збій завдання резервного копіювання мережевого LUN на %HOSTNAME%
+
+Помилка під час резервного копіювання мережевого LUN на %HOSTNAME% у віддалену спільну теку.
+
+Ім'я LUN: %LUN%
+Назва завдання: %BKP_TASK%
+Місце призначення резервного копіювання: %BKP_DST% %PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[NetLUNBkpOK]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Мережеве резервне копіювання LUN завершено
+Desktop: Завершено — резервне копіювання LUN на %HOSTNAME%
+Subject: Завершено — резервне копіювання LUN на %HOSTNAME%
+
+Резервне копіювання LUN на %HOSTNAME% у віддалену спільну теку завершено.
+
+Ім'я LUN: %LUN%
+Завдання резервного копіювання: %BKP_TASK%
+Місце призначення резервного копіювання: %BKP_DST%  %PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+З %HOSTNAME%
+
+
+[NetLUNRecoverError]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка завдання відновлення мережевого LUN
+Desktop: Збій завдання відновлення мережевого LUN на %HOSTNAME%
+Subject: Збій завдання відновлення мережевого LUN на %HOSTNAME%
+
+Помилка під час відновлення LUN на %HOSTNAME% з віддаленої спільної теки.
+
+Ім'я LUN: %LUN%
+Джерело відновлення: %BKP_SRC% %SRC_PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[NetLUNRecoverFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Мережеве відновлення LUN завершено
+Desktop: Завершено — відновлення LUN на %HOSTNAME%
+Subject: Завершено — відновлення LUN на %HOSTNAME%
+
+Відновлення LUN на %HOSTNAME% з віддаленої спільної теки завершено.
+
+Ім'я LUN: %LUN%
+Джерело відновлення: %BKP_SRC%  %SRC_PATH%
+Час початку: %TIME%
+Тривалість: %DUR%
+
+З %HOSTNAME%
+
+
+[RestoreTaskCanceled]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Відновлення скасовано
+Desktop: Завдання %TASK_TYPE% скасовано на %HOSTNAME%
+Subject: Завдання %TASK_TYPE% скасовано на %HOSTNAME%
+
+Відновлення даних на %HOSTNAME% скасовано.
+
+Джерело відновлення: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+
+[RestoreTaskFailed]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Помилка завдання відновлення
+Desktop: Збій завдання відновлення %TASK_TYPE% з %HOSTNAME%
+Subject: Збій завдання відновлення %TASK_TYPE% з %HOSTNAME%
+
+Помилка під час відновлення даних резервного копіювання з %HOSTNAME%.
+
+Назва завдання: %TASK_NAME%
+Джерело відновлення: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[RestoreTaskFinished]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Відновлення виконано
+Desktop: Завдання %TASK_TYPE% виконано на %HOSTNAME%
+Subject: Завдання %TASK_TYPE% виконано на %HOSTNAME%
+
+Завдання відновлення %TASK_NAME% завершено.
+
+Джерело відновлення: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+З %HOSTNAME%
+
+
+[RestoreTaskPartial]
+Category: Hyper Backup
+Level: NOTIFICATION_ERROR
+Title: Завдання відновлення виконано частково
+Desktop: Завдання відновлення на %HOSTNAME% виконано частково
+Subject: Завдання відновлення на %HOSTNAME% виконано частково
+
+Завдання відновлення на %HOSTNAME% виконано з незначними винятками.
+
+Назва завдання: %TASK_NAME%
+Джерело відновлення: %DESTINATION_IP% %DESTINATION_PATH%
+Час початку: %START_TIME%
+Тривалість: %DURATION%
+
+Для отримання додаткової інформації перейдіть до <strong>Hyper Backup</strong> > <strong>Журнал</strong>.
+
+З %HOSTNAME%
+
+
+[S3SigV2IsDeprecated]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Title: Hyper Backup припинить підтримку резервування у сховище, сумісне з S3, із використанням Signature v2
+Desktop: Hyper Backup припинить підтримку резервування у сховище, сумісне з S3, із використанням Signature v2
+Subject: Hyper Backup припинить підтримку резервування у сховище, сумісне з S3, із використанням Signature v2
+
+У майбутній версії Hyper Backup припинить підтримку S3-сумісних сховищ з використанням Signature v2. Щоб ваші резервні копії продовжили виконуватися після оновлення, переконайтеся, що:
+
+1. Ваше місце призначення резервного копіювання підтримує Signature v4.
+2. У налаштуваннях завдання резервного копіювання вибрано Signature v4 замість Signature v2.
+
+Докладніше див. у <a target="_blank" rel="noreferrer noopener" href="https://sy.to/w5kr5">цій статті</a>.
+
+
+[notify_broken_task]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Desktop: Дані резервної копії завдання %TARGET_ID%, що зберігаються в місці призначення резервного копіювання %SHARE_NAME% (%REPO_PATH%), пошкоджено. Зверніться до служби технічної підтримки Synology
+
+
+[notify_copy_canceled]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Desktop: Скасовано копіювання/відновлення файлу/теки (%RESTORE_DATA%)
+
+
+[notify_copy_failed]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Desktop: Не вдалося скопіювати/відновити файл/теку (%RESTORE_DATA%)
+
+
+[notify_copy_partial]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Desktop: Вдалося частково скопіювати або відновити файл/теку (%RESTORE_DATA%)
+
+
+[notify_copy_success]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Desktop: Вдалося скопіювати/відновити файл/теку (%RESTORE_DATA%)
+
+
+[notify_version_empty]
+Category: Hyper Backup
+Level: NOTIFICATION_INFO
+Desktop: Кілька версій резервних копій, збережених у межах завдання резервного копіювання (ID: %TARGET_ID%) в місці призначення %SHARE_NAME% (%REPO_PATH%), не були завершені. Додаткові відомості дивіться в журналах резервного копіювання
+

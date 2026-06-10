@@ -1,0 +1,191 @@
+
+[c2share_c2_space_full]
+Category: Hybrid Share
+Level: NOTIFICATION_ERROR
+Title: Теку Hybrid Share заповнено
+Desktop: Тека Hybrid Share у «[%HYBRID_SHARE_NAME%]» заповнена
+Subject: Теку Hybrid Share заповнено
+
+Тека Hybrid Share у «[%HYBRID_SHARE_NAME%]» заповнена. Внаслідок цього Synology NAS більше не може завантажувати локальні зміни до теки Hybrid Share. Щоб звільнити простір, видаліть непотрібні дані з підключеної теки «[%HYBRID_SHARE_NAME%]» та дочекайтеся синхронізації змін з відповідною текою Hybrid Share у C2 Storage.
+
+З %HOSTNAME%
+
+
+[c2share_c2_space_low]
+Category: Hybrid Share
+Level: NOTIFICATION_WARN
+Title: У теці Hybrid Share мало вільного простору
+Desktop: У теці Hybrid Share у «[%HYBRID_SHARE_NAME%]» мало вільного простору
+Subject: У теці Hybrid Share мало вільного простору
+
+У теці Hybrid Share у «[%HYBRID_SHARE_NAME%]» мало вільного простору. Щоб звільнити простір, видаліть непотрібні дані з підключеної теки «[%HYBRID_SHARE_NAME%]» та дочекайтеся синхронізації змін з відповідною текою Hybrid Share у C2 Storage.
+
+Квота теки: %SPACE_QUOTA_SIZE_GB% ГБ
+Доступний простір: %SPACE_QUOTA_FREE_SIZE_GB% ГБ
+
+З %HOSTNAME%
+
+
+[c2share_connect_c2]
+Category: Hybrid Share
+Level: NOTIFICATION_INFO
+Title: З'єднання з C2 Storage відновлено
+Desktop: З'єднання між підключеною текою [%HYBRID_SHARE_NAME%] і C2 Storage відновлено
+Subject: З'єднання з C2 Storage відновлено
+
+З'єднання між підключеною текою [%HYBRID_SHARE_NAME%] на %HOSTNAME% і C2 Storage відновлено.
+
+З %HOSTNAME%
+
+
+[c2share_disconnect_c2]
+Category: Hybrid Share
+Level: NOTIFICATION_ERROR
+Title: Сталося відключення від мережі
+Desktop: Підключена тека [%HYBRID_SHARE_NAME%] не змогла встановити з'єднання з C2 Storage. Перевірте мережеві налаштування
+Subject: Не вдалося встановити з'єднання з C2 Storage
+
+Підключена тека [%HYBRID_SHARE_NAME%] не змогла встановити з'єднання з C2 Storage. Перевірте мережеві налаштування.
+
+З %HOSTNAME%
+
+
+[c2share_exit_beta_plan]
+Category: Hybrid Share
+Level: NOTIFICATION_WARN
+Title: Нагадування про перехід на офіційну версію Hybrid Share
+Desktop: Програму бета-тестування Hybrid Share завершено. Якщо ви хочете продовжити використання Hybrid Share, натисніть %PRE_LINK%Перенести зараз%POST_LINK% для переміщення даних до офіційної версії
+Subject: Нагадування про перехід на офіційну версію Hybrid Share
+
+Програму бета-тестування Hybrid Share завершено. Обов'язково перенесіть дані до офіційної версії до 28 жовтня 2021 року. Після цієї дати всі дані в C2 Storage буде остаточно видалено.
+
+З %HOSTNAME%
+
+
+[c2share_pin_failed_by_volume_full]
+Category: Hybrid Share
+Level: NOTIFICATION_WARN
+Title: Не вдалося закріпити в локальному кеші
+Desktop: Системі не вдалося закріпити вибраний файл або файли в локальному кеші підключеної теки [%HS Folder Name%]. Ця проблема може бути спричинена недостатньою ємністю тому
+Subject: Не вдалося закріпити в локальному кеші
+
+Системі не вдалося закріпити вибраний файл або файли в локальному кеші підключеної теки [%HS Folder Name%]. Ця проблема може бути спричинена недостатньою ємністю тому..
+
+Збільште ємність тому або відкріпіть деякі файли від локального кешу, щоб звільнити простір тому. Після цього можете знову спробувати закріпити потрібні файли.
+
+З %HOSTNAME%
+
+
+[c2share_restore_success]
+Category: Hybrid Share
+Level: NOTIFICATION_INFO
+Title: Успішне відновлення теки
+Desktop: Система відновила теку Hybrid Share [%HYBRID_SHARE_NAME%] до попередньої версії
+Subject: Тека Hybrid Share відновлена до попередньої версії
+
+Система відновила теку Hybrid Share [%HYHYBRID_SHARE_NAME%] до попередньої версії.
+
+З %HOSTNAME%
+
+
+[c2share_transform_cancel_fail]
+Category: Hybrid Share
+Level: NOTIFICATION_WARN
+Title: Збій скасування перетворення
+Desktop: Системі не вдалося скасувати перетворення спільної теки [%HYBRID_SHARE_NAME%], оскільки всі файли, що містяться в ній, завантажено до C2 Storage
+Subject: Збій скасування перетворення
+
+Системі не вдалося скасувати перетворення спільної теки [%HYBRID_SHARE_NAME%], оскільки всі файли, що містяться в ній, завантажено до C2 Storage.
+
+З %HOSTNAME%
+
+
+[c2share_transform_cancel_success]
+Category: Hybrid Share
+Level: NOTIFICATION_INFO
+Title: Перетворення скасовано
+Desktop: Система скасувала перетворення спільної теки [%HYBRID_SHARE_NAME%] на теку Hybrid Share
+Subject: Перетворення спільної теки скасовано
+
+Система скасувала перетворення спільної теки [%HYBRID_SHARE_NAME%]. Ця спільна тека не буде перетворена на теку Hybrid Share; однак деякі файли, що містяться в ній, було завантажено до вибраної теки Hybrid Share у C2 Storage під час перетворення. Ви можете перейти на %PRE_LINK%вебпортал%POST_LINK% і видалити відповідну теку Hybrid Share, щоб вона не споживала ресурси C2 Storage.
+
+З %HOSTNAME%
+
+
+[c2share_transform_invalid_files]
+Category: Hybrid Share
+Level: NOTIFICATION_ERROR
+Title: Збій перетворення
+Desktop: Системі не вдалося перетворити спільну теку [%HYBRID_SHARE_NAME%] на теку Hybrid Share
+Subject: Не вдалося перетворити спільну теку
+
+Системі не вдалося перетворити спільну теку [%HYBRID_SHARE_NAME%] на теку Hybrid Share. Це може бути спричинено тим, що один або кілька файлів перевищили обмеження розміру або шляху до файлу, або цей тип файлу не підтримується. Перемістіть ці файли в інше розташування перед повторною спробою перетворення цієї спільної теки. 
+
+Експорт звіту: %PRE_TRANSFORM_INFO_HTML_LINK%HTML%POST_TRANSFORM_INFO_HTML_LINK% або %PRE_TRANSFORM_INFO_CSV_LINK%CSV%POST_TRANSFORM_INFO_CSV_LINK%
+
+З %HOSTNAME%
+
+
+[c2share_transform_over_size]
+Category: Hybrid Share
+Level: NOTIFICATION_ERROR
+Title: Не вдається перетворити спільну теку (перевищено розмір теки)
+Desktop: Системі не вдалося перетворити спільну теку [%HYBRID_SHARE_NAME%] на теку Hybrid Share. 
+Subject: Не вдається перетворити спільну теку на теку Hybrid Share
+
+Системі не вдалося перетворити спільну теку [%HYBRID_SHARE_NAME%] на теку Hybrid Share. Це пов'язано з тим, що розмір спільної теки перевищив квоту вибраної теки Hybrid Share у C2 Storage (%SPACE_QUOTA_SIZE_GB% ГБ). Докладніше дивіться в інструкціях та обмеженнях щодо <a href="https://kb.synology.com/DSM/tutorial/How_to_set_up_hybrid_share#x_anchor_id5" target="_blank">перетворення спільної теки на теку Hybrid Share</a>. 
+
+З %HOSTNAME%
+
+
+[c2share_transform_success]
+Category: Hybrid Share
+Level: NOTIFICATION_INFO
+Title: Перетворення виконано
+Desktop: Система перетворила спільну теку [%HYBRID_SHARE_NAME%] на теку Hybrid Share
+Subject: Перетворено на теку Hybrid Share
+
+Система перетворила спільну теку [%HYBRID_SHARE_NAME%] на теку Hybrid Share.
+
+З %HOSTNAME%
+
+
+[c2share_unauth_c2]
+Category: Hybrid Share
+Level: NOTIFICATION_ERROR
+Title: Відмова в авторизації C2 Storage
+Desktop: C2 Storage відхилила запит на авторизацію від підключеної теки [%HYBRID_SHARE_NAME%]. Перейдіть на вебпортал Hybrid Share і перевірте стан відповідної теки Hybrid Share у C2 Storage
+Subject: C2 Storage відхилила запит на авторизацію від підключеної теки
+
+C2 Storage відхилила запит на авторизацію від підключеної теки [%HYBRID_SHARE_NAME%]. Перейдіть на вебпортал і перевірте стан відповідної теки Hybrid Share у C2 Storage.
+
+З %HOSTNAME%
+
+
+[c2share_volume_full]
+Category: Hybrid Share
+Level: NOTIFICATION_ERROR
+Title: Надзвичайно низька ємність тому
+Desktop: Надзвичайно низька ємність тому %VOLUME_ID%, на якому підключена тека Hybrid Share [%HYBRID_SHARE_NAME%]
+Subject: Надзвичайно низька ємність тому %VOLUME_ID%
+
+Надзвичайно низька ємність тому, на якому підключена тека Hybrid Share [%HYBRID_SHARE_NAME%] (загальна ємність: %VOLUME_SIZE_GB% ГБ). Для сповільнення вхідних операцій запису до підключеної теки було реалізовано регулювання кешу.
+
+Збільшіть ємність тому або видаліть деякі файли, щоб звільнити простір тому. Якщо файли завантажуються до C2 Storage, ємність тому, що використовується для завантаження, буде звільнена після завершення процесу. Крім того, перевірте, що мережа працює належним чином.
+
+З %HOSTNAME%
+
+
+[c2share_volume_low_space]
+Category: Hybrid Share
+Level: NOTIFICATION_WARN
+Title: Мала ємність тому
+Desktop: Низька ємність тому %VOLUME_ID%, на якому підключена тека Hybrid Share [%HYBRID_SHARE_NAME%]
+Subject: Низька ємність тому %VOLUME_ID%
+
+Низька ємність тому, на якому підключена тека Hybrid Share [%HYBRID_SHARE_NAME%] (загальна ємність: %VOLUME_SIZE_GB% ГБ). Для сповільнення вхідних операцій запису до підключеної теки було реалізовано регулювання кешу.
+
+Збільшіть ємність тому або видаліть деякі файли, щоб звільнити простір тому. Якщо файли завантажуються до C2 Storage, ємність тому, що використовується для завантаження, буде звільнена після завершення процесу. Крім того, перевірте, що мережа працює належним чином.
+
+З %HOSTNAME%
+

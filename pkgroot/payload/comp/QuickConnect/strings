@@ -1,0 +1,16 @@
+
+# Copyright (c) 2000-2025 Synology Inc. All rights reserved.
+
+[app]
+description	=	"Служба QuickConnect дозволяє клієнтським застосункам підключатися до Synology NAS через Інтернет без налаштування правил переспрямування портів. Вона також може працювати з пакетами, розробленими Synology, такими як File Station, Surveillance Station, Synology Drive, Synology Photos та мобільними застосунками."
+displayname	=	"QuickConnect"
+
+[relayservice]
+app_portal_note	=	"{0}Примітка.{1} Щоб отримати доступ до порталів застосунків _OSNAME_ через QuickConnect, перейдіть у розділ {2}Застосунки{3}."
+application_service	=	"Застосунки/Служби"
+name_app_portal	=	"Посилання для обміну Gofile.me/Web-застосунки ({0}Список підтримки{1})"
+name_drive	=	"Synology Drive Client"
+name_file_sharing	=	"Посилання для обміну Gofile.me"
+name_mobile	=	"Мобільні застосунки/Утиліти для ПК ({0}Список підтримки{1})"
+quickconnect_err_network_without_failover_cn	=	"Не вдається виконати цю операцію. Можливо, підключення до мережі нестабільне або система зайнята. Повторіть спробу пізніше."
+

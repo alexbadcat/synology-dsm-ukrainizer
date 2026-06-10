@@ -1,0 +1,34 @@
+
+[abnormal_login_desc]
+Category: Authenticator
+Level: NOTIFICATION_ERROR
+Desktop: Незвичайна спроба входу в %HOSTNAME%.
+Subject: Незвичайна спроба входу в %HOSTNAME%
+
+
+[amfa_emergency_mail]
+Category: Authenticator
+Level: NOTIFICATION_ERROR
+Desktop: Резервний перевірочний код для %USER_NAME% для входу в %HOSTNAME%.
+Subject: Резервний перевірочний код для %USER_NAME% для входу в %HOSTNAME%
+
+Одноразовий резервний перевірочний код, наведений нижче, можна використати для входу в %HOSTNAME% та скидання двофакторної автентифікації. Введіть цей 6-значний код на сторінці входу в систему, коли зʼявиться відповідний запит.
+
+Резервний перевірочний код: %EMG_CODE%
+
+З %HOSTNAME%
+
+
+[approve_sign_in_amfa_desc]
+Category: Authenticator
+Level: NOTIFICATION_ERROR
+Desktop: Новий запит на перевірку для [%USERNAME%] на [%HOSTNAME%].
+Subject: Новий запит на перевірку для [%USERNAME%] на [%HOSTNAME%]
+
+
+[approve_sign_in_desc]
+Category: Authenticator
+Level: NOTIFICATION_ERROR
+Desktop: Новий запит на вхід для %HOSTNAME%.
+Subject: Новий запит на вхід для %HOSTNAME%
+

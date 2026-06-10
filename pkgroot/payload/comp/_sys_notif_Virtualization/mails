@@ -1,0 +1,400 @@
+
+[VIRT_host_minor]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Хост відключено від кластера
+Desktop: %HOST_NAME% відключено від кластера
+Subject: %HOST_NAME% відключено від кластера
+
+%HOST_NAME% відключено від кластера. Віртуальні машини, запущені на хості або що використовують його систему сховища, буде відключено.
+Перевірте параметри мережі на хості. 
+
+З %HOSTNAME%
+
+
+[VIRT_pro_enter_invalid]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Недійсна ліцензія VMM Pro
+Desktop: Недійсна ліцензія VMM Pro
+Subject: Недійсна ліцензія VMM Pro
+
+Ліцензія VMM Pro %LICENSE_CODE% є недійсною. Ця помилка може виникати, якщо виконано вихід з облікового запису Synology на %HOSTNAME% або якщо ліцензія не авторизована. Додаткові відомості наведено на сторінці «Ліцензія» у Virtual Machine Manager.
+
+З %HOSTNAME%
+
+
+[VIRT_pro_license_expired_or_invalid]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Недійсна ліцензія VMM Pro або ліцензія VMM Pro із завершеним терміном дії
+Desktop: Недійсна ліцензія VMM Pro або ліцензія VMM Pro із завершеним терміном дії
+Subject: Недійсна ліцензія VMM Pro або ліцензія VMM Pro із завершеним терміном дії
+
+Ліцензія VMM Pro %LICENSE_CODE% недійсна або термін її дії минув, перевірте стан ліцензії в кластері.
+
+З %HOSTNAME%
+
+
+[VIRT_pro_license_to_be_expired_or_invalid]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Title: Термін дії ліцензії VMM Pro незабаром закінчиться або ліцензія незабаром стане недійсною
+Desktop: Термін дії ліцензії VMM Pro незабаром закінчиться або ліцензія незабаром стане недійсною
+Subject: Термін дії ліцензії VMM Pro незабаром закінчиться або ліцензія незабаром стане недійсною
+
+Термін дії ліцензії VMM Pro %LICENSE_CODE% закінчується або ліцензія стане недійсною через %DAYS% дн. Перевірте стан ліцензії в кластері.
+
+З %HOSTNAME%
+
+
+[VIRT_replica_dst_site_miss]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Відсутній хост цільового розташування реплікації
+Desktop: Відсутнє цільове розташування реплікації %MISS_HOST_NAME% для віртуальної машини %VM_NAME%
+Subject: Відсутнє цільове розташування реплікації %MISS_HOST_NAME% для віртуальної машини %VM_NAME%
+
+Відсутнє цільове розташування реплікації %MISS_HOST_NAME% для віртуальної машини %VM_NAME%. Перевірте хост і переконайтеся, що реплікація працює нормально.
+
+З %HOSTNAME%
+
+
+[VIRT_replica_failover_done]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_INFO
+Desktop: Віртуальну машину %VM_NAME% аварійно перемкнуто на цільове розташування реплікації %DST_REPO_NAME%
+Subject: Віртуальну машину %VM_NAME% аварійно перемкнуто на цільове розташування реплікації %DST_REPO_NAME%
+
+
+[VIRT_replica_failover_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Desktop: Системі не вдалося аварійно перемкнути віртуальну машину %VM_NAME% на місце призначення реплікації %DST_REPO_NAME%
+Subject: Системі не вдалося аварійно перемкнути віртуальну машину %VM_NAME% на місце призначення реплікації %DST_REPO_NAME%
+
+
+[VIRT_replica_reprotect_done]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_INFO
+Desktop: Система успішно відновила захист віртуальної машини %VM_NAME% за допомогою нового джерела %HOST_NAME%
+Subject: Система успішно відновила захист віртуальної машини %VM_NAME% за допомогою нового джерела %HOST_NAME%
+
+
+[VIRT_replica_reprotect_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося відновити захист віртуальної машини %VM_NAME% за допомогою нового вихідного хоста %HOST_NAME%
+Subject: Не вдалося відновити захист віртуальної машини %VM_NAME% за допомогою нового вихідного хоста %HOST_NAME%
+
+
+[VIRT_replica_src_site_miss]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Відсутній вихідний хост реплікації
+Desktop: Джерело реплікації %MISS_HOST_NAME% віртуальної машини %VM_NAME% відсутнє
+Subject: Джерело реплікації %MISS_HOST_NAME% віртуальної машини %VM_NAME% відсутнє
+
+Джерело реплікації %MISS_HOST_NAME% віртуальної машини %VM_NAME% відсутнє. Перевірте хост і переконайтеся, що реплікація працює нормально.
+
+З %HOSTNAME%
+
+
+[VIRT_replica_switchover_done]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_INFO
+Desktop: Віртуальну машину %VM_NAME% успішно перемкнуто на %REPO_NAME%
+Subject: Віртуальну машину %VM_NAME% успішно перемкнуто на %REPO_NAME%
+
+
+[VIRT_replica_switchover_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося виконати перемикання віртуальної машини %VM_NAME% на нове джерело реплікації %REPO_NAME%
+Subject: Не вдалося виконати перемикання віртуальної машини %VM_NAME% на нове джерело реплікації %REPO_NAME%
+
+
+[VIRT_replica_sync_delayed]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Title: Реплікацію даних віртуальної машини відкладено
+Desktop: Реплікацію даних віртуальної машини (%VM_NAME%) відкладено
+Subject: Реплікацію даних віртуальної машини (%VM_NAME%) відкладено
+
+Виникла затримка синхронізації для реплікації даних віртуальної машини %VM_NAME%. Перейдіть до Virtual Machine Manager, щоб перевірити підключення або налаштувати частоту створення знімків у розкладі.
+
+З %HOSTNAME%
+
+
+[VIRT_replica_sync_done]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_INFO
+Desktop: Дані віртуальної машини %VM_NAME% успішно реплікуються у цільове розташування %DST_REPO_NAME%
+Subject: Дані віртуальної машини %VM_NAME% успішно реплікуються у цільове розташування %DST_REPO_NAME%
+
+
+[VIRT_replica_sync_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Не вдалося реплікувати дані віртуальної машини
+Desktop: Не вдалося реплікувати дані віртуальної машини %VM_NAME% у цільове розташування %DST_REPO_NAME%
+Subject: Не вдалося реплікувати дані віртуальної машини %VM_NAME% у цільове розташування %DST_REPO_NAME%
+
+Системі не вдалося реплікувати дані віртуальної машини %VM_NAME% до цільового розташування %DST_REPO_NAME%. Додаткові відомості дивіться в розділі Virtual Machine Manager > «Журнал».
+
+З %HOSTNAME%
+
+
+[VIRT_replica_transfer_done]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_INFO
+Desktop: Віртуальна машина %VM_NAME% успішно перенесла знімки у цільове розташування реплікації %DST_REPO_NAME%
+Subject: Віртуальна машина %VM_NAME% успішно перенесла знімки у цільове розташування реплікації %DST_REPO_NAME%
+
+
+[VIRT_replica_transfer_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося перенести знімки віртуальної машини %VM_NAME% у цільове розташування реплікації %DST_REPO_NAME%
+Subject: Не вдалося перенести знімки віртуальної машини %VM_NAME% у цільове розташування реплікації %DST_REPO_NAME%
+
+
+[VIRT_repo_crash]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Пошкоджений ресурс сховища
+Desktop: Ресурс сховища %REPONAME% у кластері пошкоджено
+Subject: Ресурс сховища %REPONAME% у кластері пошкоджено
+
+Ресурс сховища %REPONAME% у кластері пошкоджено. З цієї причини система завершить роботу віртуальних машин, що використовують цю систему сховища.  
+Для отримання додаткової інформації або допомоги зверніться до служби технічної підтримки Synology.
+
+З %HOSTNAME%
+
+
+[VIRT_repo_degrade]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Зменшений ресурс сховища
+Desktop: Ресурс сховища %REPONAME% у кластері зменшився
+Subject: Ресурс сховища %REPONAME% у кластері зменшився
+
+Ресурс сховища %REPONAME% у кластері зменшився.
+Щоб не втратити дані, перейдіть до «Диспетчера сховища» для відновлення тому.
+
+З %HOSTNAME%
+
+
+[VIRT_repo_full]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Ресурс сховища вичерпано
+Desktop: Ресурс сховища %REPONAME% у кластері вичерпано
+Subject: Ресурс сховища %REPONAME% у кластері вичерпано
+
+Ресурс сховища %REPONAME% у кластері вичерпано. Система завершить роботу віртуальних машин, що використовують це сховище.
+
+Розширте ємність тому та перезапустіть віртуальні машини.
+
+З %HOSTNAME%
+
+
+[VIRT_repo_low_space]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Title: Недостатньо ресурсу сховища
+Desktop: Ресурсу сховища %REPONAME% у кластері недостатньо
+Subject: Ресурсу сховища %REPONAME% у кластері недостатньо
+
+У ресурсі сховища %REPONAME% у кластері недостатньо місця на диску.
+Для забезпечення нормальної роботи віртуальних машин розширте ємність тому.
+
+З %HOSTNAME%
+
+
+[VIRT_repo_low_space_lower]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Title: У ресурсі сховища закінчується вільне місце
+Desktop: У ресурсі сховища %REPONAME% у кластері закінчується вільне місце
+Subject: У ресурсі сховища %REPONAME% у кластері закінчується вільне місце
+
+У ресурсі сховища %REPONAME% у кластері закінчується вільне місце. Для забезпечення нормальної роботи віртуальних машин розширте ємність тому.
+
+Доступний простір: %FREE_SPACE_PERCENT%%
+
+З %HOSTNAME%
+
+
+[VIRT_repo_missing]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Ресурс сховища відсутній
+Desktop: Ресурс сховища %REPONAME% у кластері відсутній
+Subject: Ресурс сховища %REPONAME% у кластері відсутній
+
+Ресурс сховища %REPONAME% у кластері відсутній.
+
+Можливі причини:
+1. Кластер не може підключитися до хоста %HOST_NAME%, на якому знаходиться ресурс сховища. Перевірте параметри мережі хоста.
+2. Хост %HOST_NAME%, на якому знаходиться ресурс сховища, вимкнений. Увімкніть хост.
+
+З %HOSTNAME%
+
+
+[VIRT_repo_unavail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Ресурс сховища недоступний
+Desktop: Ресурс сховища %REPONAME% у кластері наразі недоступний
+Subject: Ресурс сховища %REPONAME% у кластері наразі недоступний
+
+Ресурс сховища %REPONAME% у кластері наразі недоступний. Система завершить роботу віртуальних машин, віртуальні диски яких знаходяться у сховищі.
+Докладніше див. у розділі Virtual Machine Manager.
+
+З %HOSTNAME%
+
+
+[VIRT_set_guest_ip_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Desktop: Не вдалося ініціалізувати мережу IPv4
+
+
+[VIRT_set_guest_ipv6_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Desktop: Не вдалося ініціалізувати мережу IPv6
+
+
+[VIRT_testmail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_INFO
+Desktop: Тестове повідомлення від Virtual Machine Manager
+Subject: Тестове повідомлення від Virtual Machine Manager
+
+Ви успішно налаштували службу сповіщень електронної пошти для кластера.
+
+З %HOSTNAME%
+
+
+[VIRT_vdsm_enter_grace]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Помилка ліцензії Virtual %OSNAME%
+Desktop: Сталася помилка ліцензії Virtual %OSNAME%
+Subject: Сталася помилка ліцензії Virtual %OSNAME%
+
+Сталася помилка ліцензії Virtual %OSNAME% [%VM_NAME%]. Докладніше — на панелі "Ліцензія" [%VM_NAME%] у Virtual Machine Manager.
+
+З %HOSTNAME%
+
+
+[VIRT_vdsm_enter_invalid]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Недійсна ліцензія Virtual %OSNAME%
+Desktop: Ліцензія Virtual %OSNAME% недійсна
+Subject: Ліцензія Virtual %OSNAME% недійсна
+
+Ліцензія Virtual %OSNAME% [%VM_NAME%] недійсна. Докладніше — на панелі "Ліцензія" [%VM_NAME%] у Virtual Machine Manager.
+
+З %HOSTNAME%
+
+
+[VIRT_vdsm_license_expired]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Термін дії ліцензії Virtual %OSNAME% минув
+Desktop: Термін оновлення ліцензії Virtual %OSNAME% вичерпано
+Subject: Термін оновлення ліцензії Virtual %OSNAME% вичерпано
+
+Період оновлення ліцензії Virtual %OSNAME% %LICENSE_CODE% минув. Докладніше — на панелі "Ліцензія" у Virtual Machine Manager.
+
+З %HOSTNAME%
+
+
+[VIRT_vdsm_license_to_be_expired]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Title: Термін дії ліцензії Virtual %OSNAME% незабаром минає
+Desktop: Термін оновлення ліцензії Virtual %OSNAME% скоро закінчиться
+Subject: Термін оновлення ліцензії Virtual %OSNAME% скоро закінчиться
+
+Період оновлення ліцензії Virtual %OSNAME% %LICENSE_CODE% завершиться GMT+0 %CAN_UPDATE_TIME%.
+
+З %HOSTNAME%
+
+
+[VIRT_vm_abnormal_term]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Некоректне завершення роботи віртуальної машини
+Desktop: Роботу віртуальної машини %VM_NAME% було завершено некоректно
+Subject: Роботу віртуальної машини %VM_NAME% було завершено некоректно
+
+Роботу віртуальної машини %VM_NAME%, запущеної на хості %HOST_NAME%, завершено некоректно. Докладніше — у розділі Virtual Machine Manager.
+
+З %HOSTNAME%
+
+
+[VIRT_vm_autoboot_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Не вдалося автоматично увімкнути віртуальну машину
+Desktop: Не вдалося автоматично запустити віртуальну машину %VM_NAME% під час увімкнення хоста
+Subject: Не вдалося автоматично запустити віртуальну машину %VM_NAME% під час увімкнення хоста
+
+Не вдалося автоматично запустити віртуальну машину %VM_NAME% під час увімкнення хоста %HOST_NAME%. Перевірте середовище на хості %HOST_NAME%.
+
+З %HOSTNAME%
+
+
+[VIRT_vm_autorestore_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Не вдалося автоматично відновити роботу віртуальної машини
+Desktop: Не вдалося автоматично відновити роботу віртуальної машини %VM_NAME% під час увімкнення хоста
+Subject: Не вдалося автоматично відновити роботу віртуальної машини %VM_NAME% під час увімкнення хоста
+
+Системі не вдалося автоматично відновити роботу призупиненої віртуальної машини %VM_NAME% під час увімкнення хоста %HOST_NAME%. Докладніше — у розділі Virtual Machine Manager > "Журнал".
+
+З %HOSTNAME%
+
+
+[VIRT_vm_autosave_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Не вдалося автоматично призупинити роботу віртуальної машини
+Desktop: Під час вимкнення хоста не вдалося автоматично призупинити роботу віртуальної машини %VM_NAME%
+Subject: Під час вимкнення хоста не вдалося автоматично призупинити роботу віртуальної машини %VM_NAME%
+
+Системі не вдалося автоматично призупинити роботу віртуальної машини %VM_NAME% під час вимкнення хоста %HOST_NAME%. Віртуальна машина %VM_NAME% вже вимкнена. Докладніше — у розділі Virtual Machine Manager > "Журнал".
+
+З %HOSTNAME%
+
+
+[VIRT_vm_autoshutdown_fail]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_ERROR
+Title: Не вдалося автоматично завершити роботу віртуальної машини
+Desktop: Не вдалося належним чином автоматично завершити роботу віртуальної машини %VM_NAME% під час вимкнення хоста
+Subject: Не вдалося належним чином автоматично завершити роботу віртуальної машини %VM_NAME% під час вимкнення хоста
+
+Системі не вдалося належним чином автоматично завершити роботу віртуальної машини %VM_NAME% під час вимкнення хоста %HOST_NAME% — виконано примусове вимкнення.
+
+З %HOSTNAME%
+
+
+[VIRT_vm_nic_down]
+Category: Virtual Machine Manager
+Level: NOTIFICATION_WARN
+Title: Віртуальні машини відключені від віртуального комутатора
+Desktop: Віртуальні машини, запущені на хості %HOST_NAME% та що використовують мережу %NG_NAME%, відключено
+Subject: Віртуальні машини, запущені на хості %HOST_NAME% та що використовують мережу %NG_NAME%, відключено
+
+Віртуальні машини, запущені на хості %HOST_NAME% та що використовують мережу %NG_NAME%, відключені.
+Перевірте параметри мережі на хості %HOST_NAME%.
+
+З %HOSTNAME%
+

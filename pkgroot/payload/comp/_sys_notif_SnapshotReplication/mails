@@ -1,0 +1,491 @@
+
+[DRConflictWithHyperBackup]
+Category: Snapshot Replication
+Level: NOTIFICATION_WARN
+Title: Неможливо оновити цільову спільну теку
+Desktop: Не вдається оновити місце призначення реплікації спільної теки %SHARE% через розклад Hyper Backup
+Subject: Не вдається оновити місце призначення реплікації спільної теки %SHARE% через розклад Hyper Backup
+
+Завдання реплікації спільної теки %SHARE% завершило передачу знімків, але системі не вдалося оновити цільову спільну теку, оскільки вона виконує заплановане завдання резервного копіювання Hyper Backup. Змініть один із розкладів для усунення проблеми.
+
+З %HOSTNAME%
+
+
+[DRDesktopReplicationCleanupTestFailoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Очищення тестового аварійного перемикання з %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME% успішно виконано
+
+
+[DRDesktopReplicationCleanupTestFailoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося виконати очищення тестового аварійного перемикання з %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%
+
+
+[DRDesktopReplicationExportCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Експорт %MAINSITE_TARGET_NAME% успішно завершено
+
+
+[DRDesktopReplicationExportFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося експортувати %MAINSITE_TARGET_NAME%
+
+
+[DRDesktopReplicationFailoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Аварійне перемикання з %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME% успішно виконано
+
+
+[DRDesktopReplicationFailoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Системі не вдалося виконати аварійне перемикання з %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%
+
+
+[DRDesktopReplicationImportCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Імпорт %DRSITE_TARGET_NAME% успішно завершено
+
+
+[DRDesktopReplicationImportFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося імпортувати %DRSITE_TARGET_NAME%
+
+
+[DRDesktopReplicationPromoteSetSchedule]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: %TARGET_NAME% успішно перемикається або виконує аварійне перемикання. Налаштуйте параметри знімків %TARGET_NAME% %ACTION_URL_HEAD%тут%ACTION_URL_TAIL%
+
+
+[DRDesktopReplicationReprotectCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Завдання з повторного захисту реплікації (%NEW_MAINSITE_TARGET_NAME%) успішно виконано
+
+
+[DRDesktopReplicationReprotectFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося виконати повторний захист завдання реплікації (%NEW_MAINSITE_TARGET_NAME%)
+
+
+[DRDesktopReplicationSwitchoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Перемикання з %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%) виконано
+
+
+[DRDesktopReplicationSwitchoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Системі не вдалося виконати перемикання з %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%)
+
+
+[DRDesktopReplicationSyncFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Завданню реплікації не вдалося виконати реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+
+[DRDesktopReplicationTestFailoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Desktop: Тестове аварійне перемикання %TEST_TARGET_NAME% виконано
+
+
+[DRDesktopReplicationTestFailoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося запустити тестове аварійне перемикання з %TEST_TARGET_NAME% на %DRSITE_HOSTNAME%
+
+
+[DRDisableSnapshotWormLock]
+Category: Snapshot Replication
+Level: NOTIFICATION_WARN
+Title: Не вдається увімкнути незмінювані знімки
+Desktop: Не вдається увімкнути незмінювані знімки для %TARGET_NAME%. Перейдіть до Snapshot Replication, щоб змінити налаштування
+Subject: Не вдається увімкнути незмінювані знімки для %TARGET_NAME%
+
+Не вдалося увімкнути незмінювані знімки для %TARGET_NAME%, оскільки кількість незмінюваних знімків досягла обмеження системи. Виберіть <b>Snapshot Replication</b> > <b>Знімки</b> > <b>Налаштування</b> > <b>Розклад</b>, щоб зменшити частоту або період захисту.
+
+З %HOSTNAME%
+
+
+[DREncShareReplicationSyncDone]
+Category: Snapshot Replication
+Level: NOTIFICATION_WARN
+Title: Неможливо оновити цільову зашифровану спільну теку
+Desktop: Не вдається оновити місце призначення реплікації зашифрованої спільної теки %SHARE%, оскільки її змонтовано
+Subject: Не вдається оновити місце призначення реплікації зашифрованої спільної теки %SHARE%, оскільки її змонтовано
+
+Завдання реплікації зашифрованої спільної теки %SHARE% завершило передачу знімків, але системі не вдалося оновити цільову зашифровану спільну теку, оскільки вона була змонтована під час передачі. Відʼєднайте теку, щоб вона була оновлена після наступної передачі.
+
+З %HOSTNAME%
+
+
+[DRLunScheduleSnapshotFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося створити знімок для LUN
+Desktop: Не вдалося створити знімок для LUN %LUNNAME%. Для отримання додаткової інформації перейдіть до "Snapshot Replication" > "Журнал"
+Subject: Не вдалося створити знімок для LUN %LUNNAME% на %HOSTNAME%
+
+Системі не вдалося створити знімок для LUN %LUNNAME% на %HOSTNAME%. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRLunScheduleSnapshotFailByMaxSnapshotCount]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Помилка при створенні знімка для LUN (досягнуто максимально допустиму кількість знімків)
+Desktop: Знімок для LUN (%LUNNAME%) не створено, оскільки досягнуто максимально допустиму кількість знімків
+Subject: Знімок для LUN (%LUNNAME%) на %HOSTNAME% не створено, оскільки досягнуто максимально допустиму кількість знімків
+
+Система не може створити знімок для LUN %LUNNAME% на %HOSTNAME%, оскільки досягнуто максимально допустиму кількість знімків. Рекомендується перейти до Snapshot Replication і виконати такі дії.
+1. Видалити знімки
+2. Змінити політику зберігання
+3. Змінити розклад створення знімків
+
+З %HOSTNAME%
+
+
+[DRLunScheduleSnapshotFailByOutOfFreeSpace]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Помилка при створенні знімка для LUN (недостатньо вільного простору на томі)
+Desktop: Знімок для LUN (%LUNNAME%) не створено, оскільки на томі недостатньо вільного простору
+Subject: Знімок для LUN (%LUNNAME%) на %HOSTNAME% не створено, оскільки на томі недостатньо вільного простору
+
+Система не може створити знімок для LUN %LUNNAME% на %HOSTNAME%, оскільки на томі недостатньо вільного простору. Звільнити простір можна за допомогою таких дій.
+1. Видалити знімки на томі (<a href="https://www.synology.com/knowledgebase/DSM/tutorial/Storage/How_can_I_free_up_snapshot_space_consumption" target="_blank">Докладніше</a>)
+2. Видалити файли на томі 
+3. Розширити ємність тому (<a href="https://www.synology.com/knowledgebase/DSM/help/DSM/StorageManager/volume_expand_volume?version=7" target="_blank">Докладніше</a>)
+
+З %HOSTNAME%
+
+
+[DRReplicationCleanupTestFailoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Очищення тестового аварійного перемикання виконано успішно
+Desktop: Очищення тестового аварійного переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME% виконано успішно
+Subject: Очищення тестового аварійного переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME% виконано успішно
+
+Система успішно виконала очищення тестового аварійного перемикання %DRSITE_TARGET_NAME% на цільовий сервер (%DRSITE_HOSTNAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationCleanupTestFailoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося виконати очищення тестового аварійного перемикання
+Desktop: Не вдалося виконати очищення тестового аварійного переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%
+Subject: Не вдалося виконати очищення тестового аварійного переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%
+
+Системі не вдалося виконати очищення тестового аварійного перемикання %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationDisableSnapshotWormLock]
+Category: Snapshot Replication
+Level: NOTIFICATION_WARN
+Title: Не вдається увімкнути незмінювані знімки для завдання реплікації
+Desktop: Не вдається увімкнути незмінювані знімки для завдання реплікації з %MAINSITE_TARGET_NAME% на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+Subject: Не вдається увімкнути незмінювані знімки для завдання реплікації з %MAINSITE_TARGET_NAME% на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+Не вдалося увімкнути незмінювані знімки для завдання реплікації з %MAINSITE_TARGET_NAME% на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%), оскільки кількість незмінюваних знімків на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%) досягла обмеження системи. Виберіть <b>Snapshot Replication</b> > <b>Реплікація</b> > <b>Дія</b> > <b>Редагувати</b> > <b>Розклад</b> на %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%), щоб зменшити частоту або період захисту.
+
+Сервер-джерело: %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%)
+Партнерський сервер: %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+З %HOSTNAME%
+
+
+[DRReplicationExportCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Експорт завдання реплікації виконано успішно
+Desktop: Експорт %MAINSITE_TARGET_NAME% виконано успішно
+Subject: Експорт %MAINSITE_TARGET_NAME% виконано успішно
+
+Система успішно експортувала %MAINSITE_TARGET_NAME%. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationExportFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося експортувати завдання реплікації
+Desktop: Не вдалося експортувати %MAINSITE_TARGET_NAME%
+Subject: Не вдалося експортувати %MAINSITE_TARGET_NAME%
+
+Системі не вдалося експортувати %MAINSITE_TARGET_NAME%. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationFailoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Аварійне перемикання завдання реплікації виконано успішно
+Desktop: Аварійне переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME% виконано успішно
+Subject: Аварійне переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME% виконано успішно
+
+Система успішно виконала аварійне перемикання %DRSITE_TARGET_NAME% на цільовий сервер (%DRSITE_HOSTNAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Версія аварійного переключення: %SNAPSHOT_VERSION%
+
+З %HOSTNAME%
+
+
+[DRReplicationFailoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося виконати аварійне перемикання завдання реплікації
+Desktop: Не вдалося виконати аварійне переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%
+Subject: Не вдалося виконати аварійне переключення %DRSITE_TARGET_NAME% на %DRSITE_HOSTNAME%
+
+Системі не вдалося виконати аварійне перемикання %DRSITE_TARGET_NAME% на цільовий сервер (%DRSITE_HOSTNAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Версія аварійного переключення: %SNAPSHOT_VERSION%
+
+З %HOSTNAME%
+
+
+[DRReplicationImportCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Імпорт завдання реплікації виконано успішно
+Desktop: Імпорт %DRSITE_TARGET_NAME% виконано успішно
+Subject: Імпорт %DRSITE_TARGET_NAME% виконано успішно
+
+Система успішно імпортувала %DRSITE_TARGET_NAME%. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationImportFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося імпортувати завдання реплікації
+Desktop: Не вдалося імпортувати %DRSITE_TARGET_NAME%
+Subject: Не вдалося імпортувати %DRSITE_TARGET_NAME%
+
+Системі не вдалося імпортувати %DRSITE_TARGET_NAME%. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationInitialSyncCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Початкову реплікацію завершено
+Desktop: Завдання реплікації завершило початкову реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+Subject: Завдання реплікації завершило початкову реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+Завдання реплікації завершило початкову реплікацію. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Сервер-джерело: %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%)
+Цільовий сервер: %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+З %HOSTNAME%
+
+
+[DRReplicationInitialSyncFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося виконати початкову реплікацію
+Desktop: Завданню реплікації не вдалося виконати початкову реплікацію в %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+Subject: Завданню реплікації не вдалося виконати початкову реплікацію в %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+Завданню реплікації не вдалося виконати початкову реплікацію до %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationReprotectCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Повторний захист для завдання реплікації виконано успішно
+Desktop: Повторний захист для завдання реплікації (%NEW_MAINSITE_TARGET_NAME%) виконано успішно
+Subject: Повторний захист для завдання реплікації (%NEW_MAINSITE_TARGET_NAME%) виконано успішно
+
+Система успішно виконала повторний захист для завдання реплікації (%NEW_MAINSITE_TARGET_NAME%) на новому вихідному сервері (%NEW_MAINSITE_HOSTNAME%) з реплікованими даними (%NEW_DRSITE_TARGET_NAME% ) на новому цільовому сервері (%NEW_DRSITE_HOSTNAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationReprotectFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося виконати повторний захист для завдання реплікації
+Desktop: Не вдалося виконати повторний захист для завдання реплікації (%NEW_MAINSITE_TARGET_NAME%)
+Subject: Не вдалося виконати повторний захист для завдання реплікації (%NEW_MAINSITE_TARGET_NAME%)
+
+Системі не вдалося виконати повторний захист для завдання реплікації (%NEW_MAINSITE_TARGET_NAME%) на новому вихідному сервері (%NEW_MAINSITE_HOSTNAME%) з реплікованими даними (%NEW_DRSITE_TARGET_NAME%) на новому цільовому сервері (%NEW_DRSITE_HOSTNAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationScheduleSyncCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Заплановану реплікацію завершено
+Desktop: Завдання реплікації завершило заплановану реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+Subject: Завдання реплікації завершило заплановану реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+Завдання реплікації завершило заплановану реплікацію. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Сервер-джерело: %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%)
+Цільовий сервер: %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+З %HOSTNAME%
+
+
+[DRReplicationScheduleSyncFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося виконати заплановану реплікацію
+Desktop: Завданню реплікації не вдалося виконати заплановану реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+Subject: Завданню реплікації не вдалося виконати заплановану реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+Завданню реплікації не вдалося виконати заплановану реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationSwitchoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Завдання реплікації перемкнуто успішно
+Desktop: Переключення %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%) виконано успішно
+Subject: Переключення %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%) виконано успішно
+
+Система успішно перемкнула %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на цільовий пристрій %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Нове джерело: %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%)
+Новий цільовий пристрій: %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%)
+
+З %HOSTNAME%
+
+
+[DRReplicationSwitchoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося перемкнути завдання реплікації
+Desktop: Не вдалося переключити %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%)
+Subject: Не вдалося переключити %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%)
+
+Системі не вдалося перемкнути %NEW_DRSITE_HOSTNAME% (%NEW_DRSITE_TARGET_NAME%) на цільовий пристрій %NEW_MAINSITE_HOSTNAME% (%NEW_MAINSITE_TARGET_NAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationSyncFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося виконати реплікацію
+Desktop: Завданню реплікації не вдалося виконати реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+Subject: Завданню реплікації не вдалося виконати реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+Завданню реплікації не вдалося виконати реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationSyncNotFinishInNotifyTime]
+Category: Snapshot Replication
+Level: NOTIFICATION_WARN
+Title: Завдання реплікації не виконано за вказаний період часу
+Desktop: Завдання реплікації з %MAINSITE_TARGET_NAME% на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%) не виконано за вказаний період часу
+Subject: Завдання реплікації з %MAINSITE_TARGET_NAME% на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%) не виконано за вказаний період часу
+
+Завдання реплікації не завершено за %NOTIFY_TIME% хв. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Сервер-джерело: %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%)
+Цільовий сервер: %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%)
+
+З %HOSTNAME%
+
+
+[DRReplicationSyncStop]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Реплікацію зупинено
+Desktop: Реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%) зупинено
+Subject: Реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%) зупинено
+
+Реплікацію з %MAINSITE_HOSTNAME% (%MAINSITE_TARGET_NAME%) на %DRSITE_HOSTNAME% (%DRSITE_TARGET_NAME%) зупинено. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+
+
+[DRReplicationTestFailoverCompletion]
+Category: Snapshot Replication
+Level: NOTIFICATION_INFO
+Title: Тестове аварійне перемикання завершено
+Desktop: Тестове аварійне переключення %TEST_TARGET_NAME% завершено
+Subject: Тестове аварійне переключення %TEST_TARGET_NAME% завершено
+
+Тестове аварійне перемикання %TEST_TARGET_NAME% завершено. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Тестовий сервер: %DRSITE_HOSTNAME%
+Тестова спільна тека/LUN: %TEST_TARGET_NAME%
+Тестова версія: %SNAPSHOT_VERSION%
+
+З %HOSTNAME%
+
+
+[DRReplicationTestFailoverFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося запустити тестове аварійне перемикання
+Desktop: Не вдалося запустити тестове аварійне переключення %TEST_TARGET_NAME% на %DRSITE_HOSTNAME%
+Subject: Не вдалося запустити тестове аварійне переключення %TEST_TARGET_NAME% на %DRSITE_HOSTNAME%
+
+Системі не вдалося запустити тестове аварійне перемикання на цільовий сервер (%DRSITE_HOSTNAME%). Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+Тестовий сервер: %DRSITE_HOSTNAME%
+Тестова спільна тека/LUN: %TEST_TARGET_NAME%
+Тестова версія: %SNAPSHOT_VERSION%
+
+З %HOSTNAME%
+
+
+[DRShareTakeSnapshotFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Не вдалося створити знімок спільної теки
+Desktop: Не вдалося створити знімок спільної теки %SHARE%. Для отримання додаткової інформації перейдіть до "Snapshot Replication" > "Журнал"
+Subject: Не вдалося створити знімок спільної теки %SHARE% на %HOSTNAME%
+
+Системі не вдалося створити знімок спільної теки на %HOSTNAME%. Докладну інформацію дивіться в журналі пакета Snapshot Replication.
+
+Спільна тека: %SHARE%
+
+З %HOSTNAME%
+
+
+[DRSnapshotScheduleTaskTooDenseFail]
+Category: Snapshot Replication
+Level: NOTIFICATION_ERROR
+Title: Попереднє заплановане завдання знімків ще виконується
+Desktop: Попереднє заплановане завдання знімків ще виконується на %MAINSITE_TARGET_NAME%
+Subject: Попереднє заплановане завдання знімків ще виконується на %MAINSITE_TARGET_NAME%
+
+Системі не вдалося виконати заплановане завдання знімків на %MAINSITE_TARGET_NAME%, оскільки ще виконується попереднє завдання. Докладну інформацію дивіться на сторінці "Журнал" пакета Snapshot Replication.
+
+З %HOSTNAME%
+

@@ -1,0 +1,99 @@
+
+[APACHE_ALIAS_CONFLICT]
+Category: Web Station
+Level: NOTIFICATION_WARN
+Desktop: Надлишковий псевдонім у конфігурації Apache 2.4 конфліктує з пакетом %PACKAGE%
+Subject: Надлишковий псевдонім у конфігурації Apache 2.4 конфліктує з пакетом %PACKAGE%
+
+Надлишковий псевдонім "%ALIAS%" у конфігурації Apache 2.4 конфліктує з пакетом %PACKAGE%. Якщо проблему не вдається усунути, зверніться до <a class="link-font" target="_blank" href="https://www.synology.com/company/contact_us">служби технічної підтримки Synology</a>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_RESTORE_DATA_FAIL]
+Category: Web Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-fn="web_service">Веб-служба</a>"
+Subject: Не вдається відновити веб-службу — %PROJECT_NAME%
+
+Не вдається відновити веб-службу — %PROJECT_NAME%. Переконайтеся, що на %DISKSTATION% достатньо вільного місця і все працює нормально. Для отримання додаткової інформації перейдіть у розділ <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_RESTORE_FAIL]
+Category: Web Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-fn="web_service">Веб-служба</a>"
+Subject: Не вдається відновити веб-службу — %PROJECT_NAME%
+
+Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть у розділ <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_RESTORE_PAUSE_ERROR]
+Category: Web Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-fn="web_service">Веб-служба</a>"
+Subject: Не вдається відновити веб-службу — %PROJECT_NAME%
+
+Не вдається відновити веб-службу — %PROJECT_NAME%, оскільки службу неможливо призупинити. Для отримання додаткової інформації перейдіть у розділ <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_RESTORE_SUCCESS]
+Category: Web Station
+Level: NOTIFICATION_INFO
+Desktop: Веб-службу відновлено — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть у розділ "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-page="web_service">Веб-служба</a>"
+Subject: Веб-службу відновлено — %PROJECT_NAME%
+
+Веб-службу відновлено — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть у розділ <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_UPGRADE_BACKUP_FAIL_ERROR]
+Category: Web Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-fn="web_service">Веб-служба</a>"
+Subject: Не вдається оновити веб-службу — %PROJECT_NAME%
+
+Не вдалося оновити веб-службу — %PROJECT_NAME%, оскільки система не може виконати резервне копіювання поточної версії. Для отримання додаткової інформації перейдіть до розділу <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_UPGRADE_FAIL]
+Category: Web Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-fn="web_service">Веб-служба</a>"
+Subject: Не вдається оновити веб-службу — %PROJECT_NAME%
+
+Не вдалося оновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_UPGRADE_PAUSE_ERROR]
+Category: Web Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається відновити веб-службу — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-fn="web_service">Веб-служба</a>"
+Subject: Не вдається оновити веб-службу — %PROJECT_NAME%
+
+Не вдалося оновити веб-службу — %PROJECT_NAME%, оскільки службу неможливо призупинити. Для отримання додаткової інформації перейдіть до розділу <b>Web Station</b> > <b>Веб-служба</b>.
+
+З %HOSTNAME%
+
+
+[WEBSTATION_DOCKER_SERVICE_UPGRADE_SUCCESS]
+Category: Web Station
+Level: NOTIFICATION_INFO
+Desktop: Веб-службу оновлено — %PROJECT_NAME%. Для отримання додаткової інформації перейдіть до розділу "Web Station > <a data-syno-app="SYNO.SDS.WebStation.Application" data-syno-page="web_service">Веб-служба</a>"
+Subject: Веб-службу оновлено — %PROJECT_NAME%
+
+Веб-службу оновлено — %PROJECT_NAME%. Щоб відновити або видалити попередню версію, перейдіть до розділу <b>Веб-служба</b> > <b>Редагувати</b> > <b>Загальні налаштування</b>.
+
+З %HOSTNAME%
+

@@ -1,0 +1,36 @@
+
+[notify_broken_task_hbv]
+Category: Hyper Backup Vault
+Level: NOTIFICATION_INFO
+Desktop: Дані резервної копії завдання %TARGET_ID%, що зберігаються в місці призначення резервного копіювання %SHARE_NAME% (%REPO_PATH%), пошкоджено. Зверніться до служби технічної підтримки Synology
+
+
+[notify_copy_canceled_hbv]
+Category: Hyper Backup Vault
+Level: NOTIFICATION_INFO
+Desktop: Скасовано копіювання/відновлення файлу/теки (%RESTORE_DATA%)
+
+
+[notify_copy_failed_hbv]
+Category: Hyper Backup Vault
+Level: NOTIFICATION_INFO
+Desktop: Не вдалося скопіювати/відновити файл/теку (%RESTORE_DATA%)
+
+
+[notify_copy_partial_hbv]
+Category: Hyper Backup Vault
+Level: NOTIFICATION_INFO
+Desktop: Вдалося частково скопіювати або відновити файл/теку (%RESTORE_DATA%)
+
+
+[notify_copy_success_hbv]
+Category: Hyper Backup Vault
+Level: NOTIFICATION_INFO
+Desktop: Вдалося скопіювати/відновити файл/теку (%RESTORE_DATA%)
+
+
+[notify_version_empty_hbv]
+Category: Hyper Backup Vault
+Level: NOTIFICATION_INFO
+Desktop: Кілька версій резервних копій, збережених у межах завдання резервного копіювання (ID: %TARGET_ID%) в місці призначення %SHARE_NAME% (%REPO_PATH%), не були завершені. Додаткові відомості дивіться в журналах резервного копіювання
+

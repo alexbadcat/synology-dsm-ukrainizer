@@ -1,0 +1,15 @@
+[Unit]
+Description=Ukrainizer DSM — root API daemon (privileged locale writes + admin-pw check)
+After=network.target pkgctl-UkrainianL10n.service
+PartOf=pkgctl-UkrainianL10n.service
+
+[Service]
+Type=simple
+ExecStartPre=-/bin/sh /var/packages/UkrainianL10n/target/bin/ua-l10n-nginx.sh ensure
+ExecStart=/usr/bin/python3 /var/packages/UkrainianL10n/target/bin/ua-l10n-api.py
+ExecStopPost=-/bin/sh /var/packages/UkrainianL10n/target/bin/ua-l10n-nginx.sh remove
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=pkgctl-UkrainianL10n.service

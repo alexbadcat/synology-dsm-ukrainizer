@@ -1,0 +1,148 @@
+
+[ActiveBackupGSuite_backup_cancel]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_INFO
+Title: Завдання резервного копіювання скасовано
+Desktop: %PACKAGENAME% — завдання резервного копіювання на [%HOSTNAME%] скасовано
+Subject: %PACKAGENAME% — завдання резервного копіювання на [%HOSTNAME%] скасовано
+
+Завдання резервного копіювання [%TASKNAME%] скасовано.
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_backup_error]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_ERROR
+Title: Не вдається виконати завдання резервного копіювання
+Desktop: %PACKAGENAME% — збій виконання завдання резервного копіювання [%TASKNAME%] на [%HOSTNAME%]
+Subject: %PACKAGENAME% — збій виконання завдання резервного копіювання [%TASKNAME%] на [%HOSTNAME%]
+
+Під час виконання завдання резервного копіювання [%TASKNAME%] виникли помилки.
+Стан кожної служби:
+- Помилка «Мого диска»: %DRIVEERRORNUM%
+- Помилка спільних дисків: %TEAMDRIVEERRORNUM%
+- Помилка ел. пошти: %MAILERRORNUM%
+- Помилка контактів: %CONTACTERRORNUM%
+- Calendar — помилка: %CALENDARERRORNUM%
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Увійдіть до консолі адміністрування Active Backup for Google Workspace для отримання додаткових відомостей і повторіть спробу.
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_backup_finish]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_INFO
+Title: Завдання резервного копіювання виконано
+Desktop: %PACKAGENAME% — завдання резервного копіювання [%TASKNAME%] на [%HOSTNAME%] виконано
+Subject: %PACKAGENAME% — завдання резервного копіювання [%TASKNAME%] на [%HOSTNAME%] виконано
+
+Завдання резервного копіювання [%TASKNAME%] виконано.
+Стан кожної служби:
+- Мої файли — успішно: %DRIVESUCCESSNUM%
+- Спільні диски — успішно: %TEAMDRIVESUCCESSNUM%
+- Пошта — успішно: %MAILSUCCESSNUM%
+- Контакти — успішно: %CONTACTSUCCESSNUM%
+- Calendar — успішно: %CALENDARSUCCESSNUM%
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_backup_nospace]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_ERROR
+Title: Недостатньо місця для резервного копіювання
+Desktop: %PACKAGENAME% — завдання резервного копіювання на [%HOSTNAME%] скасовано через недостатньо вільного місця
+Subject: %PACKAGENAME% — завдання резервного копіювання на [%HOSTNAME%] скасовано через недостатньо вільного місця
+
+Завдання резервного копіювання [%TASKNAME%] скасовано через недостатній вільний простір.
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_backup_warning]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_WARN
+Title: Завдання резервного копіювання виконано з пропущеними елементами
+Desktop: %PACKAGENAME% — завдання резервного копіювання [%TASKNAME%] на [%HOSTNAME%] виконано частково
+Subject: %PACKAGENAME% — завдання резервного копіювання [%TASKNAME%] на [%HOSTNAME%] виконано частково
+
+Завдання резервного копіювання [%TASKNAME%] виконано, але створити резервну копію деяких елементів неможливо.
+Стан кожної служби:
+- Мої файли — успішно: %DRIVESUCCESSNUM%; попередження: %DRIVEWARNINGNUM%; помилка: %DRIVEERRORNUM%
+- Спільні диски — успішно: %TEAMDRIVESUCCESSNUM%; попередження: %TEAMDRIVEWARNINGNUM%; помилка: %TEAMDRIVEERRORNUM%
+- Пошта — успішно: %MAILSUCCESSNUM%; попередження: %MAILWARNINGNUM%; помилка: %MAILERRORNUM%
+- Контакти — успішно: %CONTACTSUCCESSNUM%; попередження: %CONTACTWARNINGNUM%; помилка: %CONTACTERRORNUM%
+- Calendar — успішно: %CALENDARSUCCESSNUM%; попередження: %CALENDARWARNINGNUM%; помилка: %CALENDARERRORNUM%
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Увійдіть до консолі адміністрування Active Backup for Google Workspace для отримання додаткових відомостей і повторіть спробу.
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_restore_cancel]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_INFO
+Title: Завдання відновлення скасовано
+Desktop: %PACKAGENAME% — завдання відновлення на [%HOSTNAME%] скасовано
+Subject: %PACKAGENAME% — завдання відновлення на [%HOSTNAME%] скасовано
+
+Завдання відновлення [%TASKNAME%] скасовано.
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_restore_error]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_ERROR
+Title: Не вдається відновити резервні дані
+Desktop: %PACKAGENAME% — резервні дані на [%HOSTNAME%] не вдалося відновити
+Subject: %PACKAGENAME% — резервні дані на [%HOSTNAME%] не вдалося відновити
+
+Дані служби [%SERVICENAME%] облікового запису [%SRCUSERNAME%] частково відновлено в обліковий запис [%DESTUSERNAME%] у результаті події запуску «[%TRIGGER%]» (успішно: %SUCCESSNUM%; попередження: %WARNINGNUM%; помилка: %ERRORNUM%).
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Увійдіть до консолі адміністрування Active Backup for Google Workspace для отримання додаткових відомостей і повторіть спробу.
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_restore_finish]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_INFO
+Title: Резервні дані відновлено
+Desktop: %PACKAGENAME% — резервні дані на [%HOSTNAME%] відновлено
+Subject: %PACKAGENAME% — резервні дані на [%HOSTNAME%] відновлено
+
+Дані служби [%SERVICENAME%] облікового запису [%SRCUSERNAME%] відновлено в обліковий запис [%DESTUSERNAME%] у результаті події запуску «[%TRIGGER%]» (успішно: %SUCCESSNUM%).
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+
+З %HOSTNAME%
+
+
+[ActiveBackupGSuite_restore_warning]
+Category: Active Backup for Google Workspace
+Level: NOTIFICATION_WARN
+Title: Резервні дані частково відновлено
+Desktop: %PACKAGENAME% — резервні дані на [%HOSTNAME%] частково відновлено
+Subject: %PACKAGENAME% — резервні дані на [%HOSTNAME%] частково відновлено
+
+Дані служби [%SERVICENAME%] облікового запису [%SRCUSERNAME%] частково відновлено в обліковий запис [%DESTUSERNAME%] у результаті події запуску «[%TRIGGER%]» (успішно: %SUCCESSNUM%; попередження: %WARNINGNUM%).
+Час початку: %STARTTIME%
+Час завершення: %ENDTIME%
+Увійдіть до консолі адміністрування Active Backup for Google Workspace для отримання додаткових відомостей і повторіть спробу.
+
+З %HOSTNAME%
+

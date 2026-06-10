@@ -1,0 +1,14 @@
+
+[synoame_notify_install_new_version]
+Category: Codec Pack
+Level: NOTIFICATION_INFO
+Desktop: New AME pack has been downloaded. Please open AME to install
+Subject: New AME pack has been downloaded. Please open AME to install.
+
+
+[synoame_notify_new_version]
+Category: Codec Pack
+Level: NOTIFICATION_INFO
+Desktop: New AME pack is ready. Please open AME to download
+Subject: New AME pack is ready. Please open AME to download.
+

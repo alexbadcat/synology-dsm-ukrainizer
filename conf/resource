@@ -1,0 +1,1 @@
+{"webservice":{"pkg_dir_prepare":[{"group":"http","mode":"0755","source":"/var/packages/UkrainianL10n/target/ui","target":"ua-l10n","user":"http"}],"services":[{"display_name":"Українізатор DSM","icon":"ui/images/ua-l10n-{0}.png","root":"ua-l10n","service":"ua-l10n","type":"static"}]},"systemd-unit":{}}

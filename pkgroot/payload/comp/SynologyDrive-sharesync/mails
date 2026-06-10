@@ -1,0 +1,252 @@
+
+[AuthError]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Помилка перевірки автентичності
+Desktop: Помилка автентифікації Synology Drive ShareSync на %HOSTNAME%.
+Subject: Помилка автентифікації Synology Drive ShareSync на %HOSTNAME%
+
+Автентифікацію Synology Drive ShareSync на %HOSTNAME% не виконано. Увійдіть у Synology NAS для отримання додаткової інформації або зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[ClientNeedToUpdate]
+Category: None,Synology Drive ShareSync
+Level: NOTIFICATION_INFO
+Title: Потрібне оновлення пакета Synology Drive Server
+Desktop: Версія Synology Drive ShareSync на %HOSTNAME% застаріла.
+Subject: Версія Synology Drive ShareSync на %HOSTNAME% застаріла
+
+Версія Synology Drive ShareSync на %HOSTNAME% застаріла. Увійдіть у Synology NAS, щоб оновити пакет Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[DSChange]
+Category: None,Synology Drive ShareSync
+Level: NOTIFICATION_INFO
+Title: Зміна підключеного сервера
+Desktop: Synology Drive ShareSync на %HOSTNAME% підключено до іншого сервера.
+Subject: Synology Drive ShareSync на %HOSTNAME% підключено до іншого сервера
+
+Synology Drive ShareSync на %HOSTNAME% підключено до іншого сервера. Для отримання додаткової інформації увійдіть у Synology NAS.
+
+От Synology — %HOSTNAME%
+
+
+[DiskFull]
+Category: Synology Drive ShareSync
+Level: NOTIFICATION_WARN
+Title: Віддалене сховище сервера Synology Drive майже заповнене
+Desktop: На віддаленому сховищі сервера Synology Drive залишилося менше %CAPACITY% вільного простору.
+Subject: На віддаленому сховищі сервера Synology Drive залишилося менше %CAPACITY% вільного простору
+
+На віддаленому сховищі сервера Synology Drive залишилося менше %CAPACITY% вільного простору. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[IPNotAllowed]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Помилка підключення до віддаленого сервера
+Desktop: Synology Drive ShareSync на %HOSTNAME% не вдалося підключитися до сервера.
+Subject: Synology Drive ShareSync на %HOSTNAME% не вдалося підключитися до сервера
+
+Synology Drive ShareSync на %HOSTNAME% не вдалося підключитися до сервера. Зверніться до адміністратора Synology Drive Server, щоб переконатися, що вашу IP-адресу включено до списку дозволених.
+
+От Synology — %HOSTNAME%
+
+
+[LocalDiskFull]
+Category: Synology Drive ShareSync
+Level: NOTIFICATION_WARN
+Title: Локальний диск заповнений
+Desktop: Локальний диск на %HOSTNAME% заповнено.
+Subject: Локальний диск на %HOSTNAME% заповнений
+
+Локальний диск на %HOSTNAME% заповнено. Увійдіть у Synology NAS, щоб усунути цю проблему.
+
+От Synology — %HOSTNAME%
+
+
+[LocalShareNotMounted]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Локальну спільну теку вимкнено
+Desktop: Локальну спільну теку на %HOSTNAME% відключено.
+Subject: Локальну спільну теку на %HOSTNAME% вимкнено
+
+Локальну спільну теку на %HOSTNAME% відключено. Увійдіть у Synology NAS, щоб усунути цю проблему.
+
+От Synology — %HOSTNAME%
+
+
+[QuotaFull]
+Category: Synology Drive ShareSync
+Level: NOTIFICATION_WARN
+Title: Досягнуто ліміт квоти користувача
+Desktop: Досягнуто ліміт квоти користувача на %HOSTNAME%.
+Subject: Досягнуто ліміт квоти користувача на %HOSTNAME%
+
+Досягнуто ліміт квоти користувача на %HOSTNAME%. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[RemoteShareNotMounted]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Спільну теку вимкнено
+Desktop: Спільну теку на віддаленому сервері відключено.
+Subject: Спільну теку на віддаленому сервері вимкнено
+
+Спільну теку на віддаленому сервері вимкнено. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[RemoteShareQuotaFull]
+Category: Synology Drive ShareSync
+Level: NOTIFICATION_WARN
+Title: Досягнуто обмеження квоти спільної теки
+Desktop: Досягнуто ліміт квоти спільної теки Synology Drive ShareSync на %HOSTNAME%.
+Subject: Досягнуто ліміт квоти спільної теки Synology Drive ShareSync на %HOSTNAME%
+
+Досягнуто ліміт квоти синхронізації спільної теки Synology Drive ShareSync на %HOSTNAME%. Увійдіть у Synology NAS, щоб усунути цю проблему.
+
+От Synology — %HOSTNAME%
+
+
+[SSLChange]
+Category: Synology Drive ShareSync
+Level: NOTIFICATION_WARN
+Title: Сертифікат SSL віддаленого сервера змінено
+Desktop: Сертифікат SSL віддаленого сервера було змінено.
+Subject: Сертифікат SSL віддаленого сервера змінено
+
+Сертифікат SSL віддаленого сервера змінено. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[SSLVerifyFail]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Помилка перевірки сертифіката SSL
+Desktop: Synology Drive ShareSync не вдалося перевірити сертифікат SSL на %HOSTNAME%.
+Subject: Synology Drive ShareSync не вдалося перевірити сертифікат SSL на %HOSTNAME%
+
+Synology Drive ShareSync не вдалося перевірити сертифікат SSL на %HOSTNAME%. Увійдіть у Synology NAS, щоб усунути цю проблему.
+
+От Synology — %HOSTNAME%
+
+
+[ServerNeedToUpdate]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Потрібне оновлення віддаленого пакета Synology Drive Server
+Desktop: Synology Drive ShareSync на %HOSTNAME% підключено до застарілої версії Synology Drive Server.
+Subject: Synology Drive ShareSync на %HOSTNAME% підключено до застарілої версії Synology Drive Server
+
+Synology Drive ShareSync на %HOSTNAME% підключено до застарілої версії Synology Drive Server. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[ShareFailEnable]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Доступ до віддаленої спільної теки заборонено
+Desktop: Synology Drive ShareSync на %HOSTNAME% не вдалося отримати доступ до віддаленої спільної теки.
+Subject: Synology Drive ShareSync на %HOSTNAME% не вдалося отримати доступ до віддаленої спільної теки
+
+Synology Drive ShareSync на %HOSTNAME% не вдалося отримати доступ до віддаленої спільної теки. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[ShareNoWritePerm]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR 
+Title: Відмовлено у наданні прав на запис у спільну теку
+Desktop: Synology Drive ShareSync на %HOSTNAME% не має прав на запис до віддаленої спільної теки.
+Subject: Synology Drive ShareSync на %HOSTNAME% не має прав на запис у віддалену спільну теку
+
+Synology Drive ShareSync на %HOSTNAME% не має прав на запис у віддалену спільну теку. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[ShareNonExist]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Спільну теку вимкнено або вона не існує
+Desktop: Віддалену спільну теку Synology Drive Server відключено або вона не існує.
+Subject: Віддалену спільну теку Synology Drive Server вимкнено або вона не існує
+
+Віддалену спільну теку Synology Drive Server вимкнено або вона не існує. Зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[SyncDirectionMismatch]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Невідповідність напрямку синхронізації
+Desktop: Напрямок синхронізації Synology Drive ShareSync на %HOSTNAME% не відповідає віддаленому серверу.
+Subject: Напрямок синхронізації Synology Drive ShareSync на %HOSTNAME% не відповідає віддаленому серверу
+
+Напрямок синхронізації Synology Drive ShareSync на %HOSTNAME% не відповідає віддаленому серверу. Віддалена спільна тека доступна лише для читання. Увійдіть у Synology NAS і змініть напрямок синхронізації на "Лише завантаження" у Synology Drive ShareSync.
+
+От Synology — %HOSTNAME%
+
+
+[UnknownError]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Невідома помилка
+Desktop: Під час роботи Synology Drive ShareSync на %HOSTNAME% виникла невідома помилка.
+Subject: Під час роботи Synology Drive ShareSync на %HOSTNAME% виникла невідома помилка
+
+Під час роботи Synology Drive ShareSync на %HOSTNAME% виникла невідома помилка. Увійдіть у Synology NAS, щоб усунути цю проблему, або зверніться до служби підтримки Synology для отримання додаткової інформації.
+
+От Synology — %HOSTNAME%
+
+
+[UserDSMDisable]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Термін дії облікового запису закінчився
+Desktop: Термін дії облікового запису на %HOSTNAME% минув.
+Subject: Термін дії облікового запису на %HOSTNAME% закінчився
+
+Термін дії облікового запису, підключеного до Synology Drive Server, на %HOSTNAME% минув. Увійдіть у Synology NAS для отримання додаткової інформації або зверніться до адміністратора Synology Drive Server.
+
+От Synology — %HOSTNAME%
+
+
+[UserInfoUnavail]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR
+Title: Неможливо отримати інформацію про користувача
+Desktop: Неможливо отримати інформацію про обліковий запис користувача на %HOSTNAME%.
+Subject: Неможливо отримати інформацію про обліковий запис користувача на %HOSTNAME%
+
+Неможливо отримати інформацію про обліковий запис користувача, підключений до Synology Drive Server, на %HOSTNAME%. Увійдіть у Synology NAS для отримання додаткової інформації або зверніться до адміністратора Synology Drive Server. 
+
+От Synology — %HOSTNAME%
+
+
+[UserNoAppPriv]
+Category: Synology Drive ShareSync,Important
+Level: NOTIFICATION_ERROR 
+Title: Обліковий запис користувача не має прав доступу до застосунку
+Desktop: Обліковий запис на %HOSTNAME% не має прав доступу до застосунку для підключення до Synology Drive Server.
+Subject: Обліковий запис на %HOSTNAME% не має прав доступу до застосунку для підключення до Synology Drive Server
+
+Обліковий запис на %HOSTNAME% не має прав доступу до застосунку для підключення до Synology Drive Server. Увійдіть у Synology NAS для отримання додаткової інформації або зверніться до адміністратора Synology Drive Server. 
+
+От Synology — %HOSTNAME%
+

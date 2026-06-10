@@ -1,0 +1,2195 @@
+
+[SS6_AddCamera]
+Desktop: Камеру %CAMERA% додано на %SS_HOSTNAME%.
+Subject: Камеру %CAMERA% додано на %SS_HOSTNAME%
+Шановний користувачу!
+
+Камеру %CAMERA% на %SS_HOSTNAME% успішно додано. Ви можете почати використовувати цю камеру, увійшовши до Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_CameraAudioDetected]
+Desktop: %SS_PKG_NAME% виявив звук.
+Subject: %SS_PKG_NAME% виявив звук
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив звук із таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_CameraConnectionLost]
+Desktop: %SS_PKG_NAME% втратив підключення до камер.
+Subject: %SS_PKG_NAME% втратив підключення до камер
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_CameraConnectionResumed]
+Desktop: Підключення до камер на %SS_PKG_NAME% відновлено.
+Subject: Підключення до камер на %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_CameraDualRecordingFailed]
+Desktop: %SS_PKG_NAME% не вдається записати/зберегти файли подвійного запису.
+Subject: %SS_PKG_NAME% не вдається записати/зберегти файли подвійного запису
+Шановний користувачу!
+
+%SS_PKG_NAME% не вдається записати/зберегти файли подвійного запису таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_CameraRecordingFailed]
+Desktop: Не вдалося записати/зберегти відеозаписи на %SS_PKG_NAME%.
+Subject: Не вдалося записати/зберегти відеозаписи на %SS_PKG_NAME%
+Шановний користувачу!
+
+Такі камери на %SS_PKG_NAME% не можуть записати/зберегти відеозаписи: %CAMERA%.
+
+%SS_PKG_NAME%
+З повагою,
+
+
+[SS6_CameraTamperingDetected]
+Desktop: %SS_PKG_NAME% виявив несанкціонований доступ.
+Subject: %SS_PKG_NAME% виявив несанкціонований доступ
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив несанкціонований доступ на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ControllerAlarmLogged]
+Desktop: Контролери дверей на %SS_PKG_NAME% зафіксували сигнали тривоги.
+Subject: Контролери дверей на %SS_PKG_NAME% зафіксували сигнали тривоги
+Шановний користувачу!
+
+Такі контролери дверей на %SS_PKG_NAME% зафіксували сигнали тривоги: %CONTROLLER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ControllerCasingOpen]
+Desktop: %SS_PKG_NAME% виявив випадки відкриття контролерів дверей.
+Subject: %SS_PKG_NAME% виявив випадки відкриття контролерів дверей
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив випадки відкриття таких контролерів дверей: %CONTROLLER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DeleteCamera]
+Desktop: Камеру %CAMERA% на %SS_HOSTNAME% видалено.
+Subject: Камеру %CAMERA% на %SS_HOSTNAME% видалено
+Шановний користувачу!
+
+Камеру %CAMERA% на %SS_HOSTNAME% видалено зі списку камер у Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DeviceAdded]
+Desktop: Пристрої %DEVICE_TYPE% додано до %SS_PKG_NAME%.
+Subject: Пристрої %DEVICE_TYPE% додано до %SS_PKG_NAME%
+Шановний користувачу!
+
+До %SS_PKG_NAME% додано такі пристрої %DEVICE_TYPE%: %DEVICE_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DeviceDeleted]
+Desktop: Пристрої %DEVICE_TYPE% видалено з %SS_PKG_NAME%.
+Subject: Пристрої %DEVICE_TYPE% видалено з %SS_PKG_NAME%
+Шановний користувачу!
+
+З %SS_PKG_NAME% видалено такі пристрої %DEVICE_TYPE%: %DEVICE_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DoorAccessDenied]
+Desktop: Доступ до дверей на %SS_PKG_NAME% відхилено.
+Subject: Доступ до дверей на %SS_PKG_NAME% відхилено
+Шановний користувачу!
+
+Доступ до таких дверей на %SS_PKG_NAME% відхилено: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DoorAccessGranted]
+Desktop: Доступ до дверей на %SS_PKG_NAME% надано.
+Subject: Доступ до дверей на %SS_PKG_NAME% надано
+Шановний користувачу!
+
+Доступ до таких дверей на %SS_PKG_NAME% надано: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DoorAlarmDetected]
+Desktop: Спрацювали сигнали тривоги для дверей на %SS_PKG_NAME%.
+Subject: Спрацювали сигнали тривоги для дверей на %SS_PKG_NAME%
+Шановний користувачу!
+
+Спрацювали сигнали тривоги для таких дверей на %SS_PKG_NAME%: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DoorConnLost]
+Desktop: Двері на %SS_PKG_NAME% відключено.
+Subject: Двері на %SS_PKG_NAME% відключено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DoorConnResumed]
+Desktop: Підключення дверей на %SS_PKG_NAME% відновлено.
+Subject: Підключення дверей на %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DoorTamperingDetected]
+Desktop: Для дверей на %SS_PKG_NAME% виявлено несанкціонований доступ.
+Subject: Для дверей на %SS_PKG_NAME% виявлено несанкціонований доступ
+Шановний користувачу!
+
+Для таких дверей на %SS_PKG_NAME% виявлено несанкціонований доступ: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_DualRotationLimitReached]
+Desktop: %SS_PKG_NAME% розпочав ротацію записів подвійного запису.
+Subject: %SS_PKG_NAME% розпочав ротацію записів подвійного запису
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву %SS_PKG_NAME% розпочав ротацію записів подвійного запису таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent01]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent02]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent03]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent04]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent05]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent06]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent07]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent08]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent09]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_ExternalEvent10]
+Desktop: %SS_PKG_NAME% виявив зовнішні події.
+Subject: %SS_PKG_NAME% виявив зовнішні події
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_RecStorageInstalled]
+Desktop: Простір для зберігання записів на %SS_PKG_NAME% налаштовано.
+Subject: Простір для зберігання записів на %SS_PKG_NAME% налаштовано
+Шановний користувачу!
+
+Простір для зберігання записів на %SS_HOSTNAME% встановлено, і відповідні служби знову надаються.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_RecStorageRemoved]
+Desktop: Простір для зберігання записів на %SS_PKG_NAME% видалено.
+Subject: Простір для зберігання записів на %SS_PKG_NAME% видалено
+Шановний користувачу!
+
+Простір для зберігання записів на %SS_HOSTNAME% видалено, і відповідні служби зупинено. Вживіть заходів для усунення цієї проблеми.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_RotationLimitReached]
+Desktop: %SS_PKG_NAME% розпочав перезапис архіву.
+Subject: %SS_PKG_NAME% розпочав перезапис архіву
+Шановний користувачу!
+
+Відповідно до налаштувань перезапису архіву %SS_PKG_NAME% розпочав перезапис архіву для таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsAdded]
+Desktop: Сервер запису %SLAVEDS% додано на %SS_HOSTNAME%.
+Subject: Сервер запису %SLAVEDS% додано на %SS_HOSTNAME%
+Шановний користувачу!
+
+Сервер запису %SLAVEDS% на %SS_HOSTNAME% успішно додано. Ви можете почати використовувати цей сервер запису, увійшовши до Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsAdded_v2]
+Desktop: Сервер запису %RECORDING_SERVER_NAME% додано на %SS_HOSTNAME%.
+Subject: Сервер запису %RECORDING_SERVER_NAME% додано на %SS_HOSTNAME%
+Шановний користувачу!
+
+Сервер запису %RECORDING_SERVER_NAME% на %SS_HOSTNAME% успішно додано. Ви можете розпочати використання цього сервера запису, увійшовши до Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsConnectionLost]
+Desktop: %SS_PKG_NAME% втратив підключення до серверів запису.
+Subject: %SS_PKG_NAME% втратив підключення до серверів запису
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких серверів запису: %SLAVEDS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsConnectionLost_v2]
+Desktop: %SS_PKG_NAME% втратив підключення до серверів запису.
+Subject: %SS_PKG_NAME% втратив підключення до серверів запису
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких серверів запису: %RECORDING_SERVER_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsConnectionResumed]
+Desktop: Підключення до серверів запису на %SS_PKG_NAME% відновлено.
+Subject: Підключення до серверів запису на %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких серверів запису: %SLAVEDS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsConnectionResumed_v2]
+Desktop: Підключення до серверів запису на %SS_PKG_NAME% відновлено.
+Subject: Підключення до серверів запису на %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких серверів запису: %RECORDING_SERVER_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsDeleted]
+Desktop: Сервер запису %SLAVEDS% на %SS_HOSTNAME% видалено.
+Subject: Сервер запису %SLAVEDS% на %SS_HOSTNAME% видалено
+Шановний користувачу!
+
+Сервер запису %SLAVEDS% на %SS_HOSTNAME% видалено зі списку «Сервер» у Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SlaveDsDeleted_v2]
+Desktop: Сервер запису %RECORDING_SERVER_NAME% на %SS_HOSTNAME% видалено.
+Subject: Сервер запису %RECORDING_SERVER_NAME% на %SS_HOSTNAME% видалено
+Шановний користувачу!
+
+Сервер запису %RECORDING_SERVER_NAME% на %SS_HOSTNAME% видалено зі списку «Сервер» у Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_SnapshotArchiveLimitReached]
+Desktop: %SS_PKG_NAME% розпочав перезапис архіву знімків.
+Subject: %SS_PKG_NAME% розпочав перезапис архіву знімків
+Шановний користувачу!
+
+Відповідно до налаштувань перезапису архіву знімків %SS_HOSTNAME% розпочав перезапис архіву знімків.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_TestMail]
+Desktop: Тестове повідомлення з Synology Surveillance Station на %SS_HOSTNAME%.
+Subject: Тестове повідомлення з Synology Surveillance Station на %SS_HOSTNAME%
+Шановний користувачу!
+
+Вітаємо! Ви успішно налаштували службу сповіщень електронною поштою у Surveillance Station на %SS_HOSTNAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_VSAdded]
+Desktop: VisualStation %VS% на %SS_HOSTNAME% додано.
+Subject: VisualStation %VS% на %SS_HOSTNAME% додано
+Шановний користувачу!
+
+VisualStation %VS% на %SS_HOSTNAME% успішно додано. Ви можете розпочати використання VisualStation, увійшовши до Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_VSConnectionLost]
+Desktop: %SS_PKG_NAME% втратив підключення до пристроїв VisualStation.
+Subject: %SS_PKG_NAME% втратив підключення до пристроїв VisualStation
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_VSConnectionResumed]
+Desktop: Підключення до пристроїв VisualStation на %SS_PKG_NAME% відновлено.
+Subject: Підключення до пристроїв VisualStation на %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_VSDeleted]
+Desktop: VisualStation %VS% на %SS_HOSTNAME% видалено.
+Subject: VisualStation %VS% на %SS_HOSTNAME% видалено
+Шановний користувачу!
+
+VisualStation %VS% на %SS_HOSTNAME% видалено з розділу «VisualStation» у Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_VSFanFailed]
+Desktop: Виявлено несправність вентилятора пристроїв VisualStation на %SS_PKG_NAME%.
+Subject: Виявлено несправність вентилятора пристроїв VisualStation на %SS_PKG_NAME%
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив несправність вентилятора таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS6_VSOverheat]
+Desktop: %SS_PKG_NAME% виявив перегрів пристроїв VisualStation.
+Subject: %SS_PKG_NAME% виявив перегрів пристроїв VisualStation
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив перегрів таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS7_IOModuleConnectionLost]
+Desktop: %SS_PKG_NAME% втратив підключення до модулів введення-виведення.
+Subject: %SS_PKG_NAME% втратив підключення до модулів введення-виведення
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких модулів введення-виведення: %IOMODULE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS7_IOModuleConnectionResumed]
+Desktop: Підключення до модулів введення/виведення на %SS_PKG_NAME% відновлено.
+Subject: Підключення до модулів введення/виведення на %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких модулів введення-виведення: %IOMODULE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS7_IOModuleDITriggered]
+Desktop: %SS_PKG_NAME% виявив вхідний цифровий сигнал.
+Subject: %SS_PKG_NAME% виявив вхідний цифровий сигнал
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхідні цифрові сигнали %IOPORT% на таких модулях введення-виведення: %IOMODULE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ActionRuleTriggered]
+Desktop: Правило дії запущено.
+Subject: Правило дії запущено
+Шановний користувачу!
+
+У %SS_PKG_NAME% запущено такий набір правил дії: %TASK_NAME%
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_AlarmTriggeredOrMotionDetected]
+Desktop: Камера %CAMERA% на %SS_HOSTNAME% виявила рух і розпочала запис за сигналом тривоги.
+Subject: Камера %CAMERA% на %SS_HOSTNAME% виявила рух і розпочала запис за сигналом тривоги
+Шановний користувачу!
+
+Камера %CAMERA% на %SS_HOSTNAME% виявила рух, було активовано сигнали тривоги %ALARM_IDX% о %EVENT_TIME%, і розпочато запис. Ви можете переглянути подію в розділі «Запис» у Surveillance Station.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchTaskTooSlow]
+Desktop: Завдання архівування в %SS_PKG_NAME% виконується надто повільно.
+Subject: Завдання архівування в %SS_PKG_NAME% виконується надто повільно
+Шановний користувачу,
+
+Завдання архівування «%TASK_NAME%» у %SS_PKG_NAME% виконується надто повільно. Перевірте підключення до мережі та правильність налаштувань пропускної здатності.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchTaskTooSlow_Name]
+Desktop: Завдання архівування «%TASK_NAME%» виконується надто повільно.
+Subject: Завдання архівування «%TASK_NAME%» виконується надто повільно
+Шановний користувачу,
+
+Завдання архівування «%TASK_NAME%» у %SS_PKG_NAME% виконується надто повільно. Перевірте підключення до мережі та правильність налаштувань пропускної здатності.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveNoSpace]
+Desktop: Для завдання архівування у «%SS_PKG_NAME%» недостатньо простору в сховищі.
+Subject: Для завдання архівування у «%SS_PKG_NAME%» недостатньо простору в сховищі
+
+Шановний користувачу!
+
+У «%SS_PKG_NAME%» для завдання архівування «%TASK_NAME%» недостатньо простору в сховищі.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveNoSpace_Name]
+Desktop: Недостатньо простору в сховищі для завдання архівування %TASK_NAME%.
+Subject: Недостатньо простору в сховищі для завдання архівування %TASK_NAME%
+Шановний користувачу!
+
+%SS_PKG_NAME% — недостатньо простору в сховищі для завдання архівування %TASK_NAME%
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveRotateFile]
+Desktop: Завдання архівування розпочало ротацію.
+Subject: Завдання архівування розпочало ротацію
+
+Шановний користувачу!
+
+Відповідно до параметрів ротації архіву завдання архівування «%TASK_NAME%» розпочало ротацію файлів записів (%FILES%). Буде видалено найстаріші файли (крім заблокованих).
+
+З повагою,
+%COMPANY_NAME%
+
+
+[SS_ArchiveRotateFile_Name]
+Desktop: Завдання архівування %TASK_NAME% розпочало ротацію.
+Subject: Завдання архівування %TASK_NAME% розпочало ротацію
+Шановний користувачу!
+
+Відповідно до параметрів ротації архіву завдання архівування %TASK_NAME% розпочало ротацію файлів записів %FILES%. Буде видалено найстаріші файли (крім заблокованих).
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveServerDisconn]
+Desktop: Підключення завдання архівування «%SS_PKG_NAME%» до сервера-джерела записів втрачено.
+Subject: Підключення завдання архівування «%SS_PKG_NAME%» до сервера-джерела записів втрачено
+
+Шановний користувачу!
+
+У «%SS_PKG_NAME%» підключення завдання архівування «%TASK_NAME%» до сервера-джерела записів втрачено.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveServerDisconn_Name]
+Desktop: Підключення завдання архівування %TASK_NAME% до сервера-джерела записів втрачено.
+Subject: Підключення завдання архівування %TASK_NAME% до сервера-джерела записів втрачено
+Шановний користувачу!
+
+%SS_PKG_NAME% — підключення завдання архівування %TASK_NAME% до сервера-джерела записів втрачено.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveServerResume]
+Desktop: Підключення завдання архівування до сервера-джерела записів у «%SS_PKG_NAME%» відновлено.
+Subject: Підключення завдання архівування до сервера-джерела записів у «%SS_PKG_NAME%» відновлено
+
+Шановний користувачу!
+
+У «%SS_PKG_NAME%» підключення завдання архівування «%TASK_NAME%» до сервера-джерела записів відновлено.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ArchiveServerResume_Name]
+Desktop: Підключення завдання архівування %TASK_NAME% до серверів-джерел записів відновлено.
+Subject: Підключення завдання архівування %TASK_NAME% до серверів-джерел записів відновлено
+Шановний користувачу!
+
+%SS_PKG_NAME% — підключення завдання архівування %TASK_NAME% до сервера-джерела записів відновлено.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_BookmarkArchiveLimitReached]
+Desktop: %SS_PKG_NAME% розпочав ротацію архіву закладок.
+Subject: %SS_PKG_NAME% розпочав ротацію архіву закладок
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву закладок хост %SS_HOSTNAME% розпочав виконання відповідної дії.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_C2ConnectFailed]
+Desktop: %SS_HOSTNAME% відключено від Synology C2.
+Subject: %SS_HOSTNAME% відключено від Synology C2
+Шановний користувачу!
+
+Сервер %SS_HOSTNAME% втратив підключення до сервера Synology C2. Перевірте підключення до мережі та налаштування.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_C2ConnectResumed]
+Desktop: %SS_HOSTNAME% повторно підключився до Synology C2.
+Subject: %SS_HOSTNAME% повторно підключився до Synology C2
+Шановний користувачу!
+
+Сервер %SS_HOSTNAME% повторно підключився до сервера Synology C2.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_C2RecRotationLimitReached]
+Desktop: Камера %CAMERA% розпочала ротацію архіву C2.
+Subject: Камера %CAMERA% розпочала ротацію архіву C2
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву C2 Surveillance розпочав ротацію архіву для таких камер: %CAMERA%
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraAllowedLicensePlate]
+Desktop: Камера %CAMERA% виявила номерний знак %LICENSE_PLATE%.
+Subject: Камера %CAMERA% виявила номерний знак %LICENSE_PLATE%
+
+Шановний користувачу!
+
+Камера %CAMERA% в %SS_PKG_NAME% виявила дозволений номерний знак: %LICENSE_PLATE%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraAppDetected]
+Desktop: %SS_PKG_NAME% виявив додаткові події з камери.
+Subject: %SS_PKG_NAME% виявив додаткові події з камери
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив додаткові події (%EVENT_NAME%) з таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraAppDetected_Name]
+Desktop: На камері %CAMERA% виявлено додаткову подію %EVENT_NAME%.
+Subject: На камері %CAMERA% виявлено додаткову подію %EVENT_NAME%
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив додаткову подію (%EVENT_NAME%) на такій камері: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraAppVMDDetected]
+Desktop: %SS_PKG_NAME% виявив події ACAP VMD з камери.
+Subject: %SS_PKG_NAME% виявив події ACAP VMD з камери
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив події ACAP VMD (%EVENT_NAME%) з таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraAppVMDDetected_Name]
+Desktop: Камера %CAMERA% виявила подію ACAP VMD.
+Subject: Камера %CAMERA% виявила подію ACAP VMD
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив події ACAP VMD (%EVENT_NAME%) з такої камери: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraAudioDetected_Name]
+Desktop: Камера %CAMERA% виявила звук.
+Subject: Камера %CAMERA% виявила звук
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив звук з такої камери: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraBackToUncrowd]
+Desktop: Рівень заповненості на камері %CAMERA% опустився нижче порогового значення.
+Subject: Рівень заповненості на камері %CAMERA% опустився нижче порогового значення
+Шановний користувачу!
+
+Рівень заповненості на камері %CAMERA% повернувся зі стану переповнення нижче порогового значення.
+
+Від %SS_PKG_NAME%
+
+
+[SS_CameraBlockedLicensePlate]
+Desktop: Камера %CAMERA% виявила заблокований номерний знак %LICENSE_PLATE% Шановний користувачу! Камера %CAMERA% в %SS_PKG_NAME% виявила заблокований номерний знак: %LICENSE_PLATE%. З повагою, %SS_PKG_NAME%.
+Subject: Камера %CAMERA% виявила заблокований номерний знак %LICENSE_PLATE% Шановний користувачу! Камера %CAMERA% в %SS_PKG_NAME% виявила заблокований номерний знак: %LICENSE_PLATE%. З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraConnectionLost_Name]
+Desktop: Підключення до камери %CAMERA% втрачено.
+Subject: Підключення до камери %CAMERA% втрачено 
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraConnectionResumed_Name]
+Desktop: Підключення до камери %CAMERA% відновлено.
+Subject: Підключення до камери %CAMERA% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraCritical]
+Desktop: Стан картки microSD у %CAMERA% змінився на «Критичний».
+Subject: Стан картки microSD у %CAMERA% змінився на «Критичний»
+Шановний користувачу,
+
+Картка microSD у %CAMERA% потребує негайної заміни для запобігання можливій втраті даних. Варіанти заміни див. на сторінці <a href='https://www.synology.com/products/MSD01-256G' target='_blank'>Synology microSD карта</a>.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraEnterDetected]
+Desktop: Камера %CAMERA% виявила вхід.
+Subject: Камера %CAMERA% виявила вхід
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхід з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraExitDetected]
+Desktop: Камера %CAMERA% виявила вихід.
+Subject: Камера %CAMERA% виявила вихід
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вихід з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraFaceDetected]
+Desktop: Камера %CAMERA% виявила обличчя.
+Subject: Камера %CAMERA% виявила обличчя
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив обличчя з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraFaceTemperature]
+Desktop: Камера %CAMERA% виявила температуру обличчя.
+Subject: Камера %CAMERA% виявила температуру обличчя
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив температуру обличчя з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraHighTemperature]
+Desktop: Камера %CAMERA% виявила підвищену температуру.
+Subject: Камера %CAMERA% виявила підвищену температуру
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив підвищену температуру з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraIntrusionDetected]
+Desktop: Камера %CAMERA% виявила вторгнення.
+Subject: Камера %CAMERA% виявила вторгнення
+Шановний користувачу!
+
+Камера %CAMERA% виявила вторгнення.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraLoiteringDetected]
+Desktop: Камера %CAMERA% виявила тинятися без мети.
+Subject: Камера %CAMERA% виявила тинятися без мети
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив тиняння без мети з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraLowFps]
+Desktop: Частота кадрів камери %CAMERA% нижче %FRAME_PERCENTAGE%%.
+Subject: Частота кадрів камери %CAMERA% нижче %FRAME_PERCENTAGE%%
+Шановний користувачу!
+
+За останню хвилину частота кадрів камери %CAMERA% впала нижче %FRAME_PERCENTAGE%% від заданої частоти кадрів. Перевірте стан мережі та сервера.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraLowTemperature]
+Desktop: Камера %CAMERA% виявила знижену температуру.
+Subject: Камера %CAMERA% виявила знижену температуру
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив знижену температуру з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraMissingObject]
+Desktop: Камера %CAMERA% виявила зниклий предмет.
+Subject: Камера %CAMERA% виявила зниклий предмет
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив зниклий предмет з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraMounted]
+Desktop: Картку microSD у %CAMERA% підключено.
+Subject: Картку microSD у %CAMERA% підключено
+Шановний користувачу!
+
+Служби відновлено, оскільки картку microSD у %CAMERA% тепер підключено.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraObjectDetected]
+Desktop: Камера %CAMERA% виявила обʼєкт.
+Subject: Камера %CAMERA% виявила обʼєкт
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив обʼєкт (%ATTRIBUTE%) з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraPeopleVehicleDetected]
+Desktop: Камера %CAMERA% виявила людей або транспортні засоби.
+Subject: Камера %CAMERA% виявила людей або транспортні засоби
+Шановний користувачу!
+
+Камера %CAMERA% виявила людей або транспортні засоби.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraPirDetected]
+Desktop: %SS_PKG_NAME% виявив рух PIR.
+Subject: %SS_PKG_NAME% виявив рух PIR
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив рух PIR на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraPirDetected_Name]
+Desktop: Камера %CAMERA% виявила рух PIR.
+Subject: Камера %CAMERA% виявила рух PIR
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив рух PIR на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraQRCodeDetected]
+Desktop: QR-код виявлено в %SS_PKG_NAME%.
+Subject: QR-код виявлено в %SS_PKG_NAME%
+Шановний користувачу,
+
+%CAMERA% відсканувала QR-код. Вміст QR-коду: %QRCODE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraRunningDetected]
+Desktop: Камера %CAMERA% виявила біг.
+Subject: Камера %CAMERA% виявила біг
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив біг з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraSmokeDetected]
+Desktop: Камера %CAMERA% виявила дим.
+Subject: Камера %CAMERA% виявила дим
+
+Шановний користувачу!
+
+Камера %CAMERA% виявила дим. Будь ласка, перевірте зону моніторингу та за потреби вживіть відповідних заходів.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraTailgatingDetected]
+Desktop: Камера %CAMERA% виявила прохід по пʼятах.
+Subject: Камера %CAMERA% виявила прохід по пʼятах
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив прохід по пʼятах з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraTamperingDetected_Name]
+Desktop: Камера %CAMERA% виявила несанкціонований доступ.
+Subject: Камера %CAMERA% виявила несанкціонований доступ
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив несанкціонований доступ на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraTemperature]
+Desktop: Камера %CAMERA% виявила температуру.
+Subject: Камера %CAMERA% виявила температуру
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив температуру з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraTooManyPeopleInRegion]
+Desktop: Камера %CAMERA% виявила заповненість.
+Subject: Камера %CAMERA% виявила заповненість
+Шановний користувачу!
+
+Камера %CAMERA% виявила, що кількість людей у зоні виявлення досягла максимального ліміту.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameraUnattendedObject]
+Desktop: Камера %CAMERA% виявила залишений предмет.
+Subject: Камера %CAMERA% виявила залишений предмет
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив залишений предмет з камери: %CAMERA%.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraUnknownLicensePlate]
+Desktop: Камера %CAMERA% виявила невідомий номерний знак %LICENSE_PLATE% Шановний користувачу! Камера %CAMERA% в %SS_PKG_NAME% виявила невідомий номерний знак: %LICENSE_PLATE%. З повагою, %SS_PKG_NAME%.
+Subject: Камера %CAMERA% виявила невідомий номерний знак %LICENSE_PLATE% Шановний користувачу! Камера %CAMERA% в %SS_PKG_NAME% виявила невідомий номерний знак: %LICENSE_PLATE%. З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraUnmounted]
+Desktop: Картку microSD у %CAMERA% відключено.
+Subject: Картку microSD у %CAMERA% відключено
+Шановний користувачу!
+
+Служби зупинено, оскільки картку microSD у %CAMERA% наразі відключено.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameraVacancyDetected]
+Desktop: Камера %CAMERA% виявила вільне місце.
+Subject: Камера %CAMERA% виявила вільне місце
+
+Шановний користувачу!
+
+Камера %CAMERA% виявила вільне місце. Будь ласка, перевірте зону моніторингу та за потреби вживіть відповідних заходів.
+
+З повагою, %SS_PKG_NAME%
+
+
+[SS_CameradStoppedAbnormally]
+Desktop: Аномальний запис %CAMERA%.
+Subject: Аномальний запис %CAMERA%
+Шановний користувачу!
+
+На сервері запису %SLAVEDS% о %EVENT_TIME% виявлено відхилення запису з таких камер: %CAMERA%. Перевірте стан камери.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CameradStoppedAbnormally_v2]
+Desktop: Аномальний запис %CAMERA%.
+Subject: Аномальний запис %CAMERA%
+Шановний користувачу!
+
+На сервері запису %RECORDING_SERVER_NAME% о %EVENT_TIME% виявлено відхилення запису з таких камер: %CAMERA%. Перевірте стан камери.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ClientConnectionLost]
+Desktop: Підключення до клієнта %CLIENT_NAME% втрачено.
+Subject: Підключення до клієнта %CLIENT_NAME% втрачено
+Шановний користувачу,
+
+%SS_PKG_NAME% втратив підключення до такого клієнта: %CLIENT_NAME% (%IP_ADDRESS%).
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ClientLogout]
+Desktop: Клієнт %CLIENT_NAME% вийшов із системи.
+Subject: Клієнт %CLIENT_NAME% вийшов із системи
+
+З системи вийшов такий клієнт: %CLIENT_NAME% (%IP_ADDRESS%).
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CompletedArchTask]
+Desktop: %SS_PKG_NAME% завершив завдання архівування.
+Subject: %SS_PKG_NAME% завершив завдання архівування
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виконав таке завдання архівування: %TASK_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_CompletedArchTask_Name]
+Desktop: Завдання архівування %TASK_NAME% заархівувало записи.
+Subject: Завдання архівування %TASK_NAME% заархівувало записи
+Шановний користувачу!
+
+%SS_PKG_NAME% виконав таке завдання архівування: %TASK_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ControllerAlarmLogged_Name]
+Desktop: Контролер дверей %CONTROLLER% зафіксував сигнали тривоги.
+Subject: Контролер дверей %CONTROLLER% зафіксував сигнали тривоги
+Шановний користувачу!
+
+Такі контролери дверей у %SS_PKG_NAME% зафіксували сигнали тривоги: %CONTROLLER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ControllerCasingOpen_Name]
+Desktop: Контролер дверей %CONTROLLER% виявив випадок відкривання контролера дверей.
+Subject: Контролер дверей %CONTROLLER% виявив випадок відкривання контролера дверей
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив випадки відкривання таких контролерів дверей: %CONTROLLER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DITriggered]
+Desktop: %SS_PKG_NAME% виявив вхідний цифровий сигнал.
+Subject: %SS_PKG_NAME% виявив вхідний цифровий сигнал
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхідні цифрові сигнали %IOPORT% на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DITriggered_Name]
+Desktop: Камера %CAMERA% виявила вхідні цифрові сигнали.
+Subject: Камера %CAMERA% виявила вхідні цифрові сигнали
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхідні цифрові сигнали %IOPORT% на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DailyArchivedFile]
+Desktop: Завдання архівування %TASK_NAME% заархівувало записи.
+Subject: Завдання архівування %TASK_NAME% заархівувало записи
+
+Шановний користувачу!
+
+%SS_PKG_NAME% — завдання архівування %TASK_NAME% заархівувало файли записів %FILES%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DailyArchivedFile_Name]
+Desktop: Завдання архівування %TASK_NAME% виконано.
+Subject: Завдання архівування %TASK_NAME% виконано
+Шановний користувачу!
+
+%SS_PKG_NAME% — завдання архівування %TASK_NAME% заархівувало файли записів %FILES%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DeviceAdded_Name]
+Desktop: %DEVICE_TYPE% %DEVICE_NAME% додано.
+Subject: %DEVICE_TYPE% %DEVICE_NAME% додано
+Шановний користувачу!
+
+До %SS_PKG_NAME% додано такі пристрої (%DEVICE_TYPE%): %DEVICE_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DeviceDeleted_Name]
+Desktop: %DEVICE_TYPE% %DEVICE_NAME% видалено.
+Subject: %DEVICE_TYPE% %DEVICE_NAME% видалено
+Шановний користувачу!
+
+З %SS_PKG_NAME% видалено такі пристрої (%DEVICE_TYPE%): %DEVICE_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DoorAccessDenied_Name]
+Desktop: У доступі до дверей %DOOR% відмовлено.
+Subject: У доступі до дверей %DOOR% відмовлено
+Шановний користувачу!
+
+У %SS_PKG_NAME% відмовлено в доступі до таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DoorAccessGranted_Name]
+Desktop: Доступ до дверей %DOOR% дозволено.
+Subject: Доступ до дверей %DOOR% дозволено
+Шановний користувачу!
+
+У %SS_PKG_NAME% дозволено доступ до таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DoorAlarmDetected_Name]
+Desktop: Двері %DOOR% активували сигнали тривоги.
+Subject: Двері %DOOR% активували сигнали тривоги
+Шановний користувачу!
+
+У %SS_PKG_NAME% активовано сигнали тривоги для таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DoorConnLost_Name]
+Desktop: Підключення до дверей %DOOR% втрачено.
+Subject: Підключення до дверей %DOOR% втрачено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DoorConnResumed_Name]
+Desktop: Підключення до дверей %DOOR% відновлено.
+Subject: Підключення до дверей %DOOR% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких дверей: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_DoorTamperingDetected_Name]
+Desktop: Двері %DOOR% виявили несанкціонований доступ.
+Subject: Двері %DOOR% виявили несанкціонований доступ
+Шановний користувачу!
+
+Для таких дверей у %SS_PKG_NAME% виявлено несанкціонований доступ: %DOOR%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ExtDITriggered]
+Desktop: %SS_PKG_NAME% виявив вхідні цифрові сигнали із зовнішнього джерела.
+Subject: %SS_PKG_NAME% виявив вхідні цифрові сигнали із зовнішнього джерела
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхідні цифрові сигнали із зовнішнього джерела %IOPORT% на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ExtDITriggered_Name]
+Desktop: Камера %CAMERA% виявила вхідні цифрові сигнали із зовнішнього джерела.
+Subject: Камера %CAMERA% виявила вхідні цифрові сигнали із зовнішнього джерела
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхідні цифрові сигнали із зовнішнього джерела %IOPORT% на таких камерах: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_ExternalEvent_Name]
+Desktop: Виявлено зовнішню подію %EVENT_NAME%.
+Subject: Виявлено зовнішню подію %EVENT_NAME%
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив такі зовнішні події: %EVENT_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceNoSpace]
+Desktop: Недостатньо місця для розпізнавання облич.
+Subject: Недостатньо місця для розпізнавання облич
+
+Шановний користувачу!
+
+Для розпізнавання облич у %SS_PKG_NAME% недостатньо місця.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceRotateDetectionResultLogs]
+Desktop: Ротацію журналів результатів розпізнавання облич запущено.
+Subject: Ротацію журналів результатів розпізнавання облич запущено
+
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву запущено ротацію журналів результатів розпізнавання облич %FILES%. Журнали результатів буде видалено від найстаріших до найновіших, однак заблоковані файли видалено не буде.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceRuleTriggerAllowedList]
+Desktop: Завдання розпізнавання облич %TASK_NAME% запущено.
+Subject: Завдання розпізнавання облич %TASK_NAME% запущено
+
+Шановний користувачу!
+
+У %SS_PKG_NAME% завданням розпізнавання облич %TASK_NAME% виявлено дозволений профіль користувача: %PROFILE_ID%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceRuleTriggerBlockedList]
+Desktop: Завдання розпізнавання облич %TASK_NAME% запущено.
+Subject: Завдання розпізнавання облич %TASK_NAME% запущено
+
+Шановний користувачу!
+
+У %SS_PKG_NAME% завданням розпізнавання облич %TASK_NAME% виявлено заблокований профіль користувача: %PROFILE_ID%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceRuleTriggerRecognized]
+Desktop: Завдання розпізнавання облич %TASK_NAME% запущено.
+Subject: Завдання розпізнавання облич %TASK_NAME% запущено
+Шановний користувачу!
+
+У %SS_PKG_NAME% завданням розпізнавання облич %TASK_NAME% виявлено зареєстрований профіль користувача %PROFILE_ID%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceRuleTriggerUnidentified]
+Desktop: Завдання розпізнавання облич %TASK_NAME% запущено.
+Subject: Завдання розпізнавання облич %TASK_NAME% запущено
+
+Шановний користувачу!
+
+У %SS_PKG_NAME% завданням розпізнавання облич %TASK_NAME% виявлено невідоме обличчя.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FaceRuleTriggerVIPList]
+Desktop: Завдання розпізнавання облич %TASK_NAME% запущено.
+Subject: Завдання розпізнавання облич %TASK_NAME% запущено
+
+Шановний користувачу!
+
+У %SS_PKG_NAME% завданням розпізнавання облич %TASK_NAME% виявлено профіль користувача VIP: %PROFILE_ID%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverFinished]
+Desktop: Відновлення після збою для %SS_PKG_NAME% завершено.
+Subject: Відновлення після збою для %SS_PKG_NAME% завершено
+Шановний користувачу!
+
+Сервери запису %SLAVEDS% завершили відновлення після збою за допомогою серверів відмовостійкості %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverFinished_Name]
+Desktop: Сервер запису %SLAVEDS% завершив відновлення після збою.
+Subject: Сервер запису %SLAVEDS% завершив відновлення після збою
+Шановний користувачу!
+
+Сервери запису %SLAVEDS% завершили відновлення після збою за допомогою серверів відмовостійкості %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverFinished_Name_v2]
+Desktop: Сервер запису %RECORDING_SERVER_NAME% завершив відновлення після збою.
+Subject: Сервер запису %RECORDING_SERVER_NAME% завершив відновлення після збою
+Шановний користувачу!
+
+Сервери запису %RECORDING_SERVER_NAME% завершили відновлення після збою за допомогою серверів відмовостійкості %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverFinished_v2]
+Desktop: Відновлення після збою для %SS_PKG_NAME% завершено.
+Subject: Відновлення після збою для %SS_PKG_NAME% завершено
+Шановний користувачу!
+
+Сервери запису %RECORDING_SERVER_NAME% завершили відновлення після збою за допомогою серверів відмовостійкості %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStarted]
+Desktop: Відновлення записів для %SS_PKG_NAME% розпочато.
+Subject: Відновлення записів для %SS_PKG_NAME% розпочато
+Шановний користувачу!
+
+Сервери запису %SLAVEDS% розпочали відновлення записів після збою за допомогою серверів відмовостійкості %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStarted_Name]
+Desktop: Сервер запису %SLAVEDS% розпочав відновлення записів.
+Subject: Сервер запису %SLAVEDS% розпочав відновлення записів
+Шановний користувачу!
+
+Сервери запису %SLAVEDS% розпочали відновлення після збою та відновлення записів за допомогою серверів аварійного перемикання %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStarted_Name_v2]
+Desktop: Сервер запису %RECORDING_SERVER_NAME% розпочав відновлення записів.
+Subject: Сервер запису %RECORDING_SERVER_NAME% розпочав відновлення записів
+Шановний користувачу!
+
+Сервери запису %RECORDING_SERVER_NAME% розпочали відновлення після збою та відновлення записів за допомогою серверів аварійного перемикання %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStarted_v2]
+Desktop: Відновлення записів для %SS_PKG_NAME% розпочато.
+Subject: Відновлення записів для %SS_PKG_NAME% розпочато
+Шановний користувачу!
+
+Сервери запису %RECORDING_SERVER_NAME% розпочали відновлення записів після збою за допомогою серверів відмовостійкості %FAILOVER_DS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStopped]
+Desktop: Відновлення записів для %SS_PKG_NAME% зупинено вручну.
+Subject: Відновлення записів для %SS_PKG_NAME% зупинено вручну
+Шановний користувачу!
+
+Відновлення записів серверами запису %SLAVEDS% за допомогою серверів відмовостійкості %FAILOVER_DS% було зупинено вручну.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStopped_Name]
+Desktop: Відновлення записів для сервера запису %SLAVEDS% зупинено вручну.
+Subject: Відновлення записів для сервера запису %SLAVEDS% зупинено вручну
+Шановний користувачу!
+
+Відновлення записів серверами запису %SLAVEDS% за допомогою серверів відмовостійкості %FAILOVER_DS% було зупинено вручну.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStopped_Name_v2]
+Desktop: Відновлення записів для сервера запису %RECORDING_SERVER_NAME% зупинено вручну.
+Subject: Відновлення записів для сервера запису %RECORDING_SERVER_NAME% зупинено вручну
+Шановний користувачу!
+
+Відновлення записів серверами запису %RECORDING_SERVER_NAME% за допомогою серверів відмовостійкості %FAILOVER_DS% було зупинено вручну.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverRecoverStopped_v2]
+Desktop: Відновлення записів для %SS_PKG_NAME% зупинено вручну.
+Subject: Відновлення записів для %SS_PKG_NAME% зупинено вручну
+Шановний користувачу!
+
+Відновлення записів серверами запису %RECORDING_SERVER_NAME% за допомогою серверів відмовостійкості %FAILOVER_DS% було зупинено вручну.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverStarted]
+Desktop: Аварійне перемикання для %SS_PKG_NAME% розпочато.
+Subject: Аварійне перемикання для %SS_PKG_NAME% розпочато
+Шановний користувачу!
+
+Сервери запису %SLAVEDS% розпочали перемикання на сервери відмовостійкості %FAILOVER_DS%. Причина — %FAILOVER_REASON%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverStarted_Name]
+Desktop: Сервер запису %SLAVEDS% розпочав аварійне перемикання.
+Subject: Сервер запису %SLAVEDS% розпочав аварійне перемикання
+Шановний користувачу!
+
+Сервери запису %SLAVEDS% розпочали аварійне перемикання на сервери аварійного перемикання %FAILOVER_DS%. Причина — %FAILOVER_REASON%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverStarted_Name_v2]
+Desktop: Сервер запису %RECORDING_SERVER_NAME% розпочав аварійне перемикання.
+Subject: Сервер запису %RECORDING_SERVER_NAME% розпочав аварійне перемикання
+Шановний користувачу!
+
+Сервери запису %RECORDING_SERVER_NAME% розпочали аварійне перемикання на сервери аварійного перемикання %FAILOVER_DS%. Причина — %FAILOVER_REASON%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_FailoverStarted_v2]
+Desktop: Аварійне перемикання для %SS_PKG_NAME% розпочато.
+Subject: Аварійне перемикання для %SS_PKG_NAME% розпочато
+Шановний користувачу!
+
+Сервери запису %RECORDING_SERVER_NAME% розпочали перемикання на сервери відмовостійкості %FAILOVER_DS%. Причина — %FAILOVER_REASON%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_HomeModeEnterDetailed]
+Desktop: Система переходить у режим Home Mode.
+Subject: Система переходить у режим Home Mode
+
+Шановний користувачу!
+
+Система перебуває в режимі Home Mode, оскільки %HOME_MODE_REASON% активовано користувачем %HOME_MODE_USER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_HomeModeLeaveDetailed]
+Desktop: Система виходить з режиму Home Mode.
+Subject: Система виходить з режиму Home Mode
+
+Шановний користувачу!
+
+Система вийшла з режиму Home Mode, оскільки %HOME_MODE_REASON% активовано користувачем %HOME_MODE_USER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IOModuleConnectionLost_Name]
+Desktop: Зʼєднання з модулем вводу-виводу %IOMODULE% втрачено.
+Subject: Зʼєднання з модулем вводу-виводу %IOMODULE% втрачено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких модулів вводу-виводу: %IOMODULE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IOModuleConnectionResumed_Name]
+Desktop: Підключення до модуля вводу-виводу %IOMODULE% відновлено.
+Subject: Підключення до модуля вводу-виводу %IOMODULE% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких модулів вводу-виводу: %IOMODULE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IOModuleDITriggered_Name]
+Desktop: Модуль вводу-виводу %IOMODULE% виявив вхідні цифрові сигнали від порту вводу-виводу %IOPORT%.
+Subject: Модуль вводу-виводу %IOMODULE% виявив вхідні цифрові сигнали від порту вводу-виводу %IOPORT%
+
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив вхідні цифрові сигнали %IOPORT% від таких модулів вводу-виводу: %IOMODULE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IPSpeakerConnectionLost]
+Desktop: %SS_PKG_NAME% втратив підключення до гучномовців.
+Subject: %SS_PKG_NAME% втратив підключення до гучномовців
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких гучномовців: %IPSPEAKER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IPSpeakerConnectionLost_Name]
+Desktop: Підключення до IP-гучномовця %IPSPEAKER% втрачено.
+Subject: Підключення до IP-гучномовця %IPSPEAKER% втрачено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких гучномовців: %IPSPEAKER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IPSpeakerConnectionResumed]
+Desktop: Підключення до гучномовців у %SS_PKG_NAME% відновлено.
+Subject: Підключення до гучномовців у %SS_PKG_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких гучномовців: %IPSPEAKER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IPSpeakerConnectionResumed_Name]
+Desktop: Підключення до IP-гучномовця %IPSPEAKER% відновлено.
+Subject: Підключення до IP-гучномовця %IPSPEAKER% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких гучномовців: %IPSPEAKER%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomAccessDetected]
+Desktop: Пристрій %SS_PKG_NAME% зафіксував подію "Доступ до дверей".
+Subject: Пристрій %SS_PKG_NAME% зафіксував подію "Доступ до дверей"
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Доступ до дверей".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomAccessDetected_Name]
+Desktop: Переговорний пристрій %CAMERA% зафіксував подію "Доступ до дверей".
+Subject: Переговорний пристрій %CAMERA% зафіксував подію "Доступ до дверей"
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Доступ до дверей".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomDoorbellDetected]
+Desktop: Пристрій %SS_PKG_NAME% зафіксував подію "Дзвінок у двері".
+Subject: Пристрій %SS_PKG_NAME% зафіксував подію "Дзвінок у двері"
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Дзвінок у двері".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomDoorbellDetected_Name]
+Desktop: Переговорний пристрій %CAMERA% зафіксував подію "Дзвінок у двері".
+Subject: Переговорний пристрій %CAMERA% зафіксував подію "Дзвінок у двері". 
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Дзвінок у двері".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomLockDetected]
+Desktop: Пристрій %SS_PKG_NAME% зафіксував подію "Зачинення дверей".
+Subject: Пристрій %SS_PKG_NAME% зафіксував подію "Зачинення дверей"
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Зачинення дверей".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomLockDetected_Name]
+Desktop: Переговорний пристрій %CAMERA% зафіксував подію "Зачинення дверей".
+Subject: Переговорний пристрій %CAMERA% зафіксував подію "Зачинення дверей"
+Шановний користувачу!
+ 
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Зачинення дверей".
+ 
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomRexDetected]
+Desktop: Пристрій %SS_PKG_NAME% зафіксував подію "Кнопка REX".
+Subject: Пристрій %SS_PKG_NAME% зафіксував подію "Кнопка REX"
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Кнопка REX".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomRexDetected_Name]
+Desktop: Переговорний пристрій %CAMERA% зафіксував подію "Кнопка REX".
+Subject: Переговорний пристрій %CAMERA% зафіксував подію "Кнопка REX"
+Шановний користувачу!
+ 
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Кнопка REX".
+ 
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomUnlockDetected]
+Desktop: Пристрій %SS_PKG_NAME% зафіксував подію "Відкриття дверей".
+Subject: Пристрій %SS_PKG_NAME% зафіксував подію "Відкриття дверей"
+Шановний користувачу!
+
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Відкриття дверей".
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_IntercomUnlockDetected_Name]
+Desktop: Переговорний пристрій %CAMERA% зафіксував подію "Відкриття дверей".
+Subject: Переговорний пристрій %CAMERA% зафіксував подію "Відкриття дверей"
+Шановний користувачу!
+ 
+Переговорний пристрій %CAMERA% у %SS_PKG_NAME% зафіксував подію "Відкриття дверей".
+ 
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_MotionDetected]
+Desktop: %SS_PKG_NAME% виявив рух з камер.
+Subject: %SS_PKG_NAME% виявив рух з камер
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив рух з таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_MotionDetected_Name]
+Desktop: Камера %CAMERA% виявила рух.
+Subject: Камера %CAMERA% виявила рух
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив рух з таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_POSNewTransaction]
+Desktop: Пристрій %SS_PKG_NAME% завершив операції.
+Subject: Пристрій %SS_PKG_NAME% завершив операції
+Шановний користувачу!
+
+Пристрій операції %DEVICE% у %SS_PKG_NAME% завершив операцію о %EVENT_TIME%. Ви можете перейти до розділу Transactions у Surveillance Station для перегляду запису.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_POSNewTransaction_Name]
+Desktop: Пристрій операції %DEVICE% завершив операцію.
+Subject: Пристрій операції %DEVICE% завершив операцію
+Шановний користувачу!
+
+Пристрій операції %DEVICE% на %SS_HOSTNAME% завершив операцію о %EVENT_TIME%. Перейдіть до розділу Transactions у Surveillance Station для перегляду запису.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_POSUserDefinedEvent]
+Desktop: Пристрій %SS_PKG_NAME% виявив події, визначені користувачем.
+Subject: Пристрій %SS_PKG_NAME% виявив події, визначені користувачем
+Шановний користувачу!
+
+Пристрій операції %DEVICE% у %SS_PKG_NAME% виявив подію користувача "%EVENT_NAME%" о %EVENT_TIME%. Ви можете перейти до розділу Transactions у Surveillance Station для перегляду запису.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_POSUserDefinedEvent_Name]
+Desktop: Пристрій операції %DEVICE% виявив подію користувача.
+Subject: Пристрій операції %DEVICE% виявив подію користувача
+Шановний користувачу!
+
+Пристрій операції %DEVICE% на %SS_HOSTNAME% виявив подію користувача "%EVENT_NAME%" о %EVENT_TIME%. Ви можете перейти до розділу Transactions у Surveillance Station для перегляду запису.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_RotationLimitReached_Name]
+Desktop: Камера %CAMERA% розпочала перезапис архіву.
+Subject: Камера %CAMERA% розпочала перезапис архіву
+Шановний користувачу!
+
+Відповідно до налаштувань перезапису архіву %SS_PKG_NAME% розпочав перезапис архіву для таких камер: %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_SlaveDsConnectionLost_Name]
+Desktop: Підключення до сервера запису %SLAVEDS% втрачено.
+Subject: Підключення до сервера запису %SLAVEDS% втрачено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких серверів запису: %SLAVEDS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_SlaveDsConnectionLost_Name_v2]
+Desktop: Підключення до сервера запису %RECORDING_SERVER_NAME% втрачено.
+Subject: Підключення до сервера запису %RECORDING_SERVER_NAME% втрачено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких серверів запису: %RECORDING_SERVER_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_SlaveDsConnectionResumed_Name]
+Desktop: Підключення до сервера запису %SLAVEDS% відновлено.
+Subject: Підключення до сервера запису %SLAVEDS% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких серверів запису: %SLAVEDS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_SlaveDsConnectionResumed_Name_v2]
+Desktop: Підключення до сервера запису %RECORDING_SERVER_NAME% відновлено.
+Subject: Підключення до сервера запису %RECORDING_SERVER_NAME% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких серверів запису: %RECORDING_SERVER_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_StopArchivingLimitReached]
+Desktop: %SS_PKG_NAME% призупинив архівування.
+Subject: %SS_PKG_NAME% призупинив архівування
+Шановний користувачу!
+
+Завдання досягло обмеження за часом та обсягом сховища. Відповідно до налаштувань ротації архіву %SS_PKG_NAME% призупинив архівування для таких завдань: %TASK_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_StopArchivingLimitReached_Name]
+Desktop: Завдання архівування %TASK_NAME% зупинило архівування.
+Subject: Завдання архівування %TASK_NAME% зупинило архівування
+Шановний користувачу!
+
+Завдання досягло обмеження за часом та обсягом сховища. Відповідно до налаштувань ротації архіву %SS_PKG_NAME% призупинив архівування для таких завдань: %TASK_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_StopRecLimitReached]
+Desktop: Запис зупинено %SS_PKG_NAME%.
+Subject: Запис зупинено %SS_PKG_NAME%
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву запис для таких камер зупинено %SS_PKG_NAME%. %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_StopRecLimitReached_Name]
+Desktop: Камера %CAMERA% зупинила запис.
+Subject: Камера %CAMERA% зупинила запис
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву запис для таких камер зупинено %SS_PKG_NAME%. %CAMERA%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VSConnectionLost_Name]
+Desktop: Підключення до VisualStation %VS% втрачено.
+Subject: Підключення до VisualStation %VS% втрачено
+Шановний користувачу!
+
+Відповідні служби зупинено, оскільки %SS_PKG_NAME% втратив підключення до таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VSConnectionResumed_Name]
+Desktop: Підключення до VisualStation %VS% відновлено.
+Subject: Підключення до VisualStation %VS% відновлено
+Шановний користувачу!
+
+Відповідні служби відновлено, оскільки %SS_PKG_NAME% відновив підключення до таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VSFanFailed_Name]
+Desktop: Сталася відмова вентилятора VisualStation %VS%.
+Subject: Сталася відмова вентилятора VisualStation %VS%
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив відмову вентилятора для таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VSOverheat_Name]
+Desktop: VisualStation %VS% виявила перегрів.
+Subject: VisualStation %VS% виявила перегрів
+Шановний користувачу!
+
+%SS_PKG_NAME% виявив перегрів таких пристроїв VisualStation: %VS%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsAllowedLicensePlate]
+Desktop: Завдання Deep Video Analytics %TASK_NAME% — виявлено дозволений номерний знак %LICENSE_PLATE%.
+Subject: Завдання Deep Video Analytics %TASK_NAME% — виявлено дозволений номерний знак %LICENSE_PLATE%
+
+Шановний користувачу!
+
+Завдання Deep Video Analytics %SS_PKG_NAME% %TASK_NAME% виявило дозволений номерний знак %LICENSE_PLATE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsBlockedLicensePlate]
+Desktop: Завдання Deep Video Analytics %TASK_NAME% — виявлено заблокований номерний знак %LICENSE_PLATE%.
+Subject: Завдання Deep Video Analytics %TASK_NAME% — виявлено заблокований номерний знак %LICENSE_PLATE%
+
+Шановний користувачу!
+
+Завдання Deep Video Analytics %SS_PKG_NAME% %TASK_NAME% виявило заблокований номерний знак %LICENSE_PLATE%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsCarReachLimit]
+Desktop: Значення заповненості у завданні Deep Video Analytics %TASK_NAME% досягло межі.
+Subject: Значення заповненості у завданні Deep Video Analytics %TASK_NAME% досягло межі
+
+Шановний користувачу!
+
+У завданні Deep Video Analytics %TASK_NAME% на %SS_PKG_NAME% значення заповненості досягло встановленої межі.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsDetected]
+Desktop: %SS_PKG_NAME%: виявлено події Deep Video Analytics на камері.
+Subject: %SS_PKG_NAME%: виявлено події Deep Video Analytics на камері
+
+%SS_PKG_NAME%: виявлено події Deep Video Analytics (%EVENT_NAME%) на таких камерах: %CAMERA%.
+
+Надіслано з %SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsNoSpace]
+Desktop: У Deep Video Analytics закінчилося місце для зберігання даних.
+Subject: У Deep Video Analytics закінчилося місце для зберігання даних
+
+Шановний користувачу!
+
+У %SS_PKG_NAME% в Deep Video Analytics закінчилося місце для зберігання даних.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsPeopleReachLimit]
+Desktop: Значення заповненості у завданні Deep Video Analytics %TASK_NAME% досягло межі.
+Subject: Значення заповненості у завданні Deep Video Analytics %TASK_NAME% досягло межі
+
+Шановний користувачу!
+
+У %SS_PKG_NAME% значення заповненості у завданні Deep Video Analytics %TASK_NAME% досягло встановленої межі.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsRotateDetectionResultLogs]
+Desktop: Запущено ротацію журналів результатів виявлення Deep Video Analytics.
+Subject: Запущено ротацію журналів результатів виявлення Deep Video Analytics
+
+Шановний користувачу!
+
+Відповідно до налаштувань ротації архіву запущено ротацію журналів результатів виявлення Deep Video Analytics %FILES%. Журнали результатів буде видалено починаючи з найстаріших до найновіших, однак заблоковані файли не буде зачеплено.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsRuleTriggered]
+Desktop: Завданням Deep Video Analytics %TASK_NAME% запущено правило аналізу.
+Subject: Завданням Deep Video Analytics %TASK_NAME% запущено правило аналізу
+
+У %SS_PKG_NAME% завданням Deep Video Analytics %TASK_NAME% запущено таке правило: %RULE_NAME%.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsTampering]
+Desktop: Завданням Deep Video Analytics "%TASK_NAME%" виявлено несанкціонований доступ.
+Subject: Завданням Deep Video Analytics "%TASK_NAME%" виявлено несанкціонований доступ
+
+У %SS_PKG_NAME% завданням Deep Video Analytics %TASK_NAME% виявлено несанкціонований доступ.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsTooManyPeopleInRegion]
+Desktop: Завдання Deep Video Analytics %TASK_NAME% — досягнуто максимальну кількість людей в зоні виявлення.
+Subject: Завдання Deep Video Analytics %TASK_NAME% — досягнуто максимальну кількість людей в зоні виявлення
+
+Шановний користувачу!
+
+Завдання Deep Video Analytics %SS_PKG_NAME% %TASK_NAME% виявило, що кількість людей у зоні виявлення досягла максимальної межі.
+
+З повагою,
+%SS_PKG_NAME%
+
+
+[SS_VideoAnalyticsUnknownLicensePlate]
+Desktop: Завдання Deep Video Analytics %TASK_NAME% — виявлено невідомий номерний знак %LICENSE_PLATE%.
+Subject: Завдання Deep Video Analytics %TASK_NAME% — виявлено невідомий номерний знак %LICENSE_PLATE%
+
+Шановний користувачу!
+
+Завдання Deep Video Analytics %SS_PKG_NAME% %TASK_NAME% виявило невідомий номерний знак %LICENSE_PLATE%.
+
+З повагою,
+%SS_PKG_NAME%
+

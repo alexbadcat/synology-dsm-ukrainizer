@@ -1,0 +1,65 @@
+
+[GuestWelcome]
+Category: Система
+Title: Ласкаво просимо, новий користувач!
+Desktop: Вітаємо %USER_NAME% на сервері %HOSTNAME%.
+Subject: Вітаємо %USER_NAME% на сервері %HOSTNAME%
+
+Шановний користувачу!<br>
+<br>
+Ласкаво просимо на сервер %HOSTNAME%!<br>
+Щоб змінити особистий профіль, введіть в адресному рядку браузера %HTTP_URL%.<br>
+(Якщо не вдається підключитися до сервера, зверніться до адміністратора.)<br>
+<br>
+Імʼя користувача: %USER_NAME%<br>
+Пароль: %PASSWD%<br>
+<br>
+З повагою,<br>
+%COMPANY_NAME%
+
+
+[TestMessage]
+Category: Important
+Title: Тестове повідомлення
+Desktop: Тестове повідомлення від %PACKAGEDISPLAYNAME%.
+Subject: Тестове повідомлення від %PACKAGEDISPLAYNAME%
+
+Шановний користувач,
+<br><br>
+Вітаємо! Ви успішно налаштували службу сповіщень електронної пошти на %PACKAGEDISPLAYNAME%.
+<br><br>
+З повагою,
+%COMPANY_NAME%
+
+
+[auto_test_report]
+Category: Important
+Title: Звіт про автотестування
+Desktop: Звіт про автотестування SAS-%version%.
+Subject: Звіт про автотестування SAS-%version%
+
+Шановний розробнику,
+
+Нижче наведено звіт про автотестування служби застосунків Synology %version%:
+
+%report%
+
+З повагою,
+%COMPANY_NAME%
+
+
+[invite_guest]
+Category: Information
+Title: Guest invitation mail
+Desktop: An invitation to visit %PACKAGE%.
+Subject: An invitation to visit %PACKAGE%
+
+Dear User,<br><br>
+
+Welcome to visit my application - %PACKAGE% <br><br>
+
+%GUEST_URL%<br><br>
+
+Best regards, <br><br>
+%COMPANY_NAME%<br>
+

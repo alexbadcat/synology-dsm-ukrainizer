@@ -1,0 +1,23 @@
+
+[EncryptFailedMesg]
+Category: Important
+Title: Нове повідомлення
+Desktop: Ви отримали нове повідомлення.
+Subject: Ви отримали нове повідомлення
+
+
+[NewMail]
+Category: Mail,Important
+Title: New Mail
+Desktop: %BODY%.
+Subject: %BODY%
+
+%BODY%
+
+
+[ReadStatusChange]
+Category: Mail,Important
+Title: Зміна статусу прочитання
+Desktop: Зміна статусу прочитання.
+Subject: Зміна статусу прочитання
+

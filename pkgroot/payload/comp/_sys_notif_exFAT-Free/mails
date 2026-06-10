@@ -1,0 +1,12 @@
+
+[exFATDeviceEjectedImproperly]
+Category: Зовнішній пристрій сховища
+Level: NOTIFICATION_WARN
+Title: Зовнішній пристрій exFAT вийнято неправильно
+Desktop: Пристрій exFAT на %HOSTNAME% було вилучено неправильно
+Subject: Пристрій exFAT на %HOSTNAME% було вилучено неправильно
+
+Зовнішній диск %DEVICE_NAME% на %HOSTNAME% вийнято неправильно. Це може призвести до виникнення помилок файлової системи exFAT у розділі %PARTITION_NAME%. Перш ніж продовжити використання диска, рекомендується підключити диск до ОС Microsoft Windows або Apple Mac OS для відновлення та забезпечення цілісності даних.
+
+З %HOSTNAME%
+

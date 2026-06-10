@@ -1,0 +1,126 @@
+
+[filestation_notify_automount_failed]
+Category: File Station
+Level: NOTIFICATION_WARN
+Desktop: Не вдалося автоматично підключити всі теки
+
+
+[filestation_notify_compress_completed]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Стиснення %FILE% виконано успішно
+
+
+[filestation_notify_compress_failed]
+Category: File Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося виконати стиснення %FILE%. %ERR%
+
+
+[filestation_notify_copy_completed]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Копіювання %FILE% виконано успішно
+
+
+[filestation_notify_copy_completed_skip_all]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Копіювання %FILE% пропущено
+
+
+[filestation_notify_copy_completed_skip_some]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Копіювання %FILE% виконано успішно (деякі елементи пропущено)
+
+
+[filestation_notify_copy_failed]
+Category: File Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося скопіювати %FILE%. %ERR%
+
+
+[filestation_notify_delete_completed]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Видалення %FILE% виконано успішно
+
+
+[filestation_notify_delete_failed]
+Category: File Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося видалити %FILE%. %ERR%
+
+
+[filestation_notify_email_failed]
+Category: Система
+Level: NOTIFICATION_ERROR
+Desktop: Застосунку %APP% не вдалося надіслати лист від %FROM% одержувачу %TO%. Помилка: %ERR%. %MSG%
+
+
+[filestation_notify_email_success]
+Category: Система
+Level: NOTIFICATION_INFO
+Desktop: Застосунок %APP% успішно надіслав лист від %FROM% одержувачу %TO%
+
+
+[filestation_notify_extract_completed]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Розпакування %FILE% виконано успішно
+
+
+[filestation_notify_extract_failed]
+Category: File Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося розпакувати %FILE%. %ERR%
+
+
+[filestation_notify_filerequest]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Користувач %UPLOAD_NAME% завантажив файли до %UPLOAD_DIR% за допомогою цього посилання на запит файлів: %OPEN_PREFIX%%OPEN_TEXT%%OPEN_POSTFIX%
+
+
+[filestation_notify_filesharing]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Користувач %USER% поділився посиланням на цей спільний файл: %OPEN_PREFIX%%OPEN_TEXT%%OPEN_POSTFIX%
+
+
+[filestation_notify_lock_completed]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Locked %FILE% successfully
+
+
+[filestation_notify_lock_failed]
+Category: File Station
+Level: NOTIFICATION_ERROR
+Desktop: Failed to lock %FILE%. %ERR%
+
+
+[filestation_notify_move_completed]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Переміщення %FILE% виконано успішно
+
+
+[filestation_notify_move_completed_skip_all]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Переміщення %FILE% пропущено
+
+
+[filestation_notify_move_completed_skip_some]
+Category: File Station
+Level: NOTIFICATION_INFO
+Desktop: Переміщення %FILE% виконано успішно (деякі елементи пропущено)
+
+
+[filestation_notify_move_failed]
+Category: File Station
+Level: NOTIFICATION_ERROR
+Desktop: Не вдалося перемістити %FILE%. %ERR%
+

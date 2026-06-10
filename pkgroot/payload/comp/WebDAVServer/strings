@@ -1,0 +1,44 @@
+
+# Copyright (c) 2000-2026 Synology Inc. All rights reserved.
+
+[app]
+app_description	=	"WebDAV Server дозволяє користувачам редагувати файли, що зберігаються на віддалених серверах, та керувати ними. Якщо пакет WebDAV Server увімкнено, клієнтські програми з підтримкою WebDAV (наприклад, деякі застосунки Windows, Mac OS Finder або Linux File Browser) можуть отримувати віддалений доступ до Synology NAS так само, як при використанні локальних мережевих дисків."
+app_name	=	"WebDAV Server"
+wizard_do_not_upgrade_desc	=	"Починаючи з версії 2.4.0, WebDAV Server більше не підтримує CalDAV.<br><font class="red-status">Не оновлюйте до версії 2.4.0, якщо ви хочете продовжити використання CalDAV.</font>"
+wizard_upgrade_desc	=	"WebDAV Server 2.4.0 і новіші версії більше не підтримують функцію календаря. Інструкції з перенесення календарів до Synology Calendar можна знайти в <a href="https://www.synology.com/knowledgebase/DSM/tutorial/File_Sharing/How_to_migrate_calendar_from_WebDAV_Server_to_Synology_Calendar" target="_blank">цій статті</a>."
+wizard_upgrade_note	=	"Зверніть увагу, що після оновлення всі файли .ics зберігатимуться у вихідних теках."
+wizard_upgrade_title	=	"Оновлення WebDAV Server"
+
+[dav_common]
+advanced_setting	=	"Додаткові налаштування"
+alt_edit	=	"Редагувати"
+calendar	=	"Календар"
+delete_check_calendar_count	=	"Видалити вибрані календарі ({0})?"
+enable_http	=	"Увімкнути HTTP"
+enable_https	=	"Увімкнути HTTPS"
+err_http_https_same_port	=	"HTTP та HTTPS не можуть використовувати один порт."
+get_cfg_failed	=	"Не вдалося зчитати конфігурацію. Для отримання допомоги зверніться до служби підтримки Synology."
+http_port	=	"Порт HTTP"
+https_port	=	"Порт HTTPS"
+port_conflict	=	"Цей порт вже використовується іншими застосунками. Використайте інший."
+reservedname	=	"Це ім'я зарезервовано лише для системного використання. Будь ласка, введіть інше ім'я."
+set_cfg_failed	=	"Не вдалося записати конфігурацію. Для отримання допомоги зверніться до служби підтримки Synology."
+setting	=	"Налаштування"
+
+[webdav]
+anonymous_desc	=	"Під час сесії WebDAV користувачі можуть отримувати доступ до спільних тек під анонімним іменем користувача. Переконайтеся, що "Анонімному користувачу WebDAV" правильно призначено права доступу на сторінці "Спільна тека"."
+caldav_desc	=	"Увімкніть CalDAV для керування календарями на _DISKSTATION_ за допомогою клієнта CalDAV, наприклад Apple iCal або Mozilla Sunbird."
+caldav_select_conflict	=	"Джерело та шлях призначення календаря не можуть збігатися."
+calendar_eol_desc	=	"Функцію календаря у WebDAV Server замінено на Synology Calendar. Дотримуйтесь <a href="https://www.synology.com/knowledgebase/DSM/tutorial/File_Sharing/How_to_migrate_calendar_from_WebDAV_Server_to_Synology_Calendar" target="_blank">інструкцій</a> з перенесення календарів до Synology Calendar."
+calendar_migrate_desc	=	"Увага! Синхронізацію календарів із клієнтами CalDAV припинено. Дотримуйтесь <a href="https://www.synology.com/knowledgebase/DSM/tutorial/File_Sharing/How_to_migrate_calendar_from_WebDAV_Server_to_Synology_Calendar" target="_blank">інструкцій</a> з перенесення календарів до Synology Calendar."
+enable_anonymous	=	"Увімкнути анонімний обліковий запис WebDAV"
+enable_caldav	=	"Увімкнути CalDAV"
+enable_customized_max_http_connections	=	"Налаштування максимальної кількості паралельних підключень HTTP"
+enable_depth_infinity	=	"Увімкнути DavDepthInfinity"
+enable_log	=	"Увімкнути журнал WebDAV"
+get_synology_calendar_desc	=	"Функцію календаря у WebDAV Server замінено на Synology Calendar. Натисніть, щоб завантажити {0}."
+http_connections	=	"Макс. кількість підключень"
+http_connections_hint	=	"Для великої максимальної кількості паралельних підключень HTTP потрібен більший обсяг системної памʼяті."
+tls_level_confirm_desc	=	"Поточний рівень TLS {0} — {1}. Через цей параметр деякі клієнти WebDAV (наприклад, Windows і macOS Finder) не зможуть встановити з'єднання. Для забезпечення сумісності перейдіть до {2} і змініть налаштування на {3}."
+view_calendar_list	=	"Перегляд списку календаря"
+

@@ -1,0 +1,440 @@
+{
+ "AIConsole": {
+  "live": "/var/packages/AIConsole/target/ui/texts/rus",
+  "ver": "1.2.1-0483"
+ },
+ "AIConsole-lib": {
+  "live": "/var/packages/AIConsole/target/ui/lib-texts/rus",
+  "name": "AI Console (бібліотека)",
+  "ver": "1.2.1-0483"
+ },
+ "ActiveBackup": {
+  "live": "/var/packages/ActiveBackup/target/ui/texts/rus",
+  "ver": "3.1.0-24967"
+ },
+ "ActiveBackup-GSuite": {
+  "live": "/var/packages/ActiveBackup-GSuite/target/app/texts/rus",
+  "ver": "2.3.0-14256"
+ },
+ "ActiveBackup-Office365": {
+  "live": "/var/packages/ActiveBackup-Office365/target/app/texts/rus",
+  "ver": "2.6.3-14235"
+ },
+ "ActiveBackup-restore_portal": {
+  "live": "/var/packages/ActiveBackup/target/restore_portal_ui/texts/rus",
+  "name": "Active Backup (портал відновлення)",
+  "ver": "3.1.0-24967"
+ },
+ "ActiveInsight": {
+  "live": "/var/packages/ActiveInsight/target/ui/texts/rus",
+  "ver": "3.0.5-24122"
+ },
+ "AntiVirus": {
+  "live": "/var/packages/AntiVirus/target/app/texts/rus",
+  "ver": "1.5.7-3241"
+ },
+ "AudioStation": {
+  "live": "/var/packages/AudioStation/target/app/texts/rus",
+  "ver": "7.2.0-5516"
+ },
+ "BackupRestoreManager": {
+  "live": "/var/packages/BackupRestoreManager/target/texts/rus",
+  "ver": "2.5.2-12503"
+ },
+ "BitDefenderForMailPlus": {
+  "live": "/var/packages/BitDefenderForMailPlus/target/ui/texts/rus",
+  "ver": "1.1.0-20108"
+ },
+ "CMS": {
+  "live": "/var/packages/CMS/target/ui/texts/rus",
+  "ver": "3.1.4-1221"
+ },
+ "Calendar": {
+  "live": "/var/packages/Calendar/target/ui/texts/rus",
+  "ver": "3.0.2-21433"
+ },
+ "Chat": {
+  "live": "/var/packages/Chat/target/ui/texts/rus",
+  "ver": "2.4.5-22148"
+ },
+ "CloudSync": {
+  "live": "/var/packages/CloudSync/target/app/texts/rus",
+  "ver": "2.7.2-2714"
+ },
+ "CodecPack": {
+  "live": "/var/packages/CodecPack/target/ui/texts/rus",
+  "ver": "4.0.0-4025"
+ },
+ "Contacts": {
+  "live": "/var/packages/Contacts/target/ui/texts/rus",
+  "ver": "1.0.10-20659"
+ },
+ "DNSServer": {
+  "live": "/var/packages/DNSServer/target/app/texts/rus",
+  "ver": "9.16.34-6205"
+ },
+ "DhcpServer": {
+  "live": "/var/packages/DhcpServer/target/ui/texts/rus",
+  "ver": "1.0.2-0048"
+ },
+ "DirectoryServer": {
+  "live": "/var/packages/DirectoryServer/target/ui/texts/rus",
+  "ver": "2.4.59-2815"
+ },
+ "DirectoryServerForWindowsDomain": {
+  "live": "/var/packages/DirectoryServerForWindowsDomain/target/app/texts/rus",
+  "ver": "4.15.13-0630"
+ },
+ "DownloadStation": {
+  "live": "/var/packages/DownloadStation/target/ui/texts/rus",
+  "ver": "4.1.2-5012"
+ },
+ "FileStation": {
+  "live": "/var/packages/FileStation/target/ui/file_browser/texts/rus",
+  "name": "File Station (оглядач файлів)",
+  "ver": "1.4.2-1575"
+ },
+ "GlacierBackup": {
+  "live": "/var/packages/GlacierBackup/target/ui/texts/rus",
+  "ver": "1.5.2-1323"
+ },
+ "HybridShare": {
+  "live": "/var/packages/HybridShare/target/ui/texts/rus",
+  "ver": "1.5.2-1831"
+ },
+ "HyperBackup": {
+  "live": "/var/packages/HyperBackup/target/ui/texts/rus",
+  "ver": "4.1.2-4045"
+ },
+ "HyperBackupVault": {
+  "live": "/var/packages/HyperBackupVault/target/ui/texts/rus",
+  "ver": "4.1.2-4045"
+ },
+ "LogCenter": {
+  "live": "/var/packages/LogCenter/target/ui/texts/rus",
+  "ver": "1.3.0-1667"
+ },
+ "MailClient": {
+  "live": "/var/packages/MailClient/target/ui/texts/rus",
+  "ver": "4.0.1-22254"
+ },
+ "MailPlus-Server": {
+  "live": "/var/packages/MailPlus-Server/target/ui/texts/rus",
+  "ver": "4.0.1-21663"
+ },
+ "MailServer": {
+  "live": "/var/packages/MailServer/target/app/texts/rus",
+  "ver": "1.7.7-20677"
+ },
+ "MediaServer": {
+  "live": "/var/packages/MediaServer/target/app/texts/rus",
+  "ver": "2.2.1-3406"
+ },
+ "NoteStation": {
+  "live": "/var/packages/NoteStation/target/ui/texts/rus",
+  "ver": "2.6.8-3910"
+ },
+ "OAuthService": {
+  "live": "/var/packages/OAuthService/target/app/texts/rus",
+  "ver": "1.1.5-0111"
+ },
+ "PDFViewer": {
+  "live": "/var/packages/PDFViewer/target/ui/texts/rus",
+  "ver": "1.3.0-1204"
+ },
+ "PrestoServer": {
+  "live": "/var/packages/PrestoServer/target/app/texts/rus",
+  "ver": "2.1.3-1673"
+ },
+ "ProxyServer": {
+  "live": "/var/packages/ProxyServer/target/app/texts/rus",
+  "ver": "5.2.0-1204"
+ },
+ "QuickConnect": {
+  "live": "/var/packages/QuickConnect/target/ui/texts/rus",
+  "ver": "1.0.9-0171"
+ },
+ "RadiusServer": {
+  "live": "/var/packages/RadiusServer/target/app/texts/rus",
+  "ver": "3.0.27-0516"
+ },
+ "SMBService": {
+  "live": "/var/packages/SMBService/target/ui/texts/rus",
+  "ver": "4.15.13-2503"
+ },
+ "SSOServer": {
+  "live": "/var/packages/SSOServer/target/app/texts/rus",
+  "ver": "3.0.6-0485"
+ },
+ "ScsiTarget": {
+  "live": "/var/packages/ScsiTarget/target/ui/texts/rus",
+  "ver": "1.0.12-0338"
+ },
+ "SecureSignIn": {
+  "live": "/var/packages/SecureSignIn/target/ui/texts/rus",
+  "ver": "1.1.6-0391"
+ },
+ "SnapshotReplication": {
+  "live": "/var/packages/SnapshotReplication/target/ui/texts/rus",
+  "ver": "7.4.6-1699"
+ },
+ "Spreadsheet": {
+  "live": "/var/packages/Spreadsheet/target/ui/texts/rus",
+  "ver": "3.7.2-22592"
+ },
+ "StorageAnalyzer": {
+  "live": "/var/packages/StorageAnalyzer/target/ui/texts/rus",
+  "ver": "2.1.0-0620"
+ },
+ "StorageManager": {
+  "live": "/var/packages/StorageManager/target/ui/texts/rus",
+  "ver": "1.0.0-00502"
+ },
+ "SurveillanceStation": {
+  "live": "/var/packages/SurveillanceStation/target/ui/texts/rus",
+  "ver": "9.2.5-11979"
+ },
+ "SurveillanceVideoExtension": {
+  "live": "/var/packages/SurveillanceVideoExtension/target/ui/texts/rus",
+  "ver": "1.0.0-0015"
+ },
+ "SynoFinder": {
+  "live": "/var/packages/SynoFinder/target/ui/texts/rus",
+  "ver": "1.7.1-0800"
+ },
+ "SynologyApplicationService": {
+  "live": "/var/packages/SynologyApplicationService/target/ui/texts/rus",
+  "ver": "1.8.2-20726"
+ },
+ "SynologyDrive": {
+  "live": "/var/packages/SynologyDrive/target/ui/texts/rus",
+  "ver": "4.0.3-27892"
+ },
+ "SynologyDrive-mail_texts": {
+  "live": "/var/packages/SynologyDrive/target/ui/mail_texts/rus",
+  "name": "Synology Drive (листи)",
+  "ver": "4.0.3-27892"
+ },
+ "SynologyDrive-sharesync": {
+  "live": "/var/packages/SynologyDrive/target/sharesync/ui/texts/rus",
+  "name": "Synology Drive (ShareSync)",
+  "ver": "4.0.3-27892"
+ },
+ "SynologyPhotos": {
+  "live": "/var/packages/SynologyPhotos/target/ui/texts/rus",
+  "ver": "1.9.0-10924"
+ },
+ "TextEditor": {
+  "live": "/var/packages/TextEditor/target/ui/texts/rus",
+  "ver": "1.2.5-0254"
+ },
+ "USBCopy": {
+  "live": "/var/packages/USBCopy/target/app/texts/rus",
+  "ver": "2.2.1-1306"
+ },
+ "VPNCenter": {
+  "live": "/var/packages/VPNCenter/target/app/texts/rus",
+  "ver": "1.4.10-2984"
+ },
+ "Virtualization": {
+  "live": "/var/packages/Virtualization/target/ui/texts/rus",
+  "ver": "2.7.0-12229"
+ },
+ "WebDAVServer": {
+  "live": "/var/packages/WebDAVServer/target/ui/texts/rus",
+  "ver": "2.4.8-20135"
+ },
+ "WebStation": {
+  "live": "/var/packages/WebStation/target/ui/texts/rus",
+  "ver": "4.3.0-0528"
+ },
+ "_sys_core": {
+  "live": "/usr/syno/synoman/webman/texts/rus",
+  "name": "DSM (ядро системи)",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_logcenter": {
+  "live": "/usr/syno/synoman/webman/modules/LogCenter/texts/rus",
+  "name": "Центр журналів (система)",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_AIConsole": {
+  "live": "/usr/local/share/notification/AIConsole/rus",
+  "name": "Сповіщення: AIConsole",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_ActiveBackup": {
+  "live": "/usr/local/share/notification/ActiveBackup/rus",
+  "name": "Сповіщення: ActiveBackup",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_ActiveBackup-GSuite": {
+  "live": "/usr/local/share/notification/ActiveBackup-GSuite/rus",
+  "name": "Сповіщення: ActiveBackup-GSuite",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_ActiveBackup-Office365": {
+  "live": "/usr/local/share/notification/ActiveBackup-Office365/rus",
+  "name": "Сповіщення: ActiveBackup-Office365",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_BackupRestoreManager": {
+  "live": "/usr/local/share/notification/BackupRestoreManager/rus",
+  "name": "Сповіщення: BackupRestoreManager",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_CMS": {
+  "live": "/usr/local/share/notification/CMS/rus",
+  "name": "Сповіщення: CMS",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_CloudSync": {
+  "live": "/usr/local/share/notification/CloudSync/rus",
+  "name": "Сповіщення: CloudSync",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_DirectoryServerForWindowsDomain": {
+  "live": "/usr/local/share/notification/DirectoryServerForWindowsDomain/rus",
+  "name": "Сповіщення: DirectoryServerForWindowsDomain",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_DownloadStation": {
+  "live": "/usr/local/share/notification/DownloadStation/rus",
+  "name": "Сповіщення: DownloadStation",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_FileStation": {
+  "live": "/usr/local/share/notification/FileStation/rus",
+  "name": "Сповіщення: FileStation",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_HybridShare": {
+  "live": "/usr/local/share/notification/HybridShare/rus",
+  "name": "Сповіщення: HybridShare",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_HyperBackup": {
+  "live": "/usr/local/share/notification/HyperBackup/rus",
+  "name": "Сповіщення: HyperBackup",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_HyperBackupVault": {
+  "live": "/usr/local/share/notification/HyperBackupVault/rus",
+  "name": "Сповіщення: HyperBackupVault",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_LogCenter": {
+  "live": "/usr/local/share/notification/LogCenter/rus",
+  "name": "Сповіщення: LogCenter",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_MailPlus-Server": {
+  "live": "/usr/local/share/notification/MailPlus-Server/rus",
+  "name": "Сповіщення: MailPlus-Server",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_MailServer": {
+  "live": "/usr/local/share/notification/MailServer/rus",
+  "name": "Сповіщення: MailServer",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_NoteStation": {
+  "live": "/usr/local/share/notification/NoteStation/rus",
+  "name": "Сповіщення: NoteStation",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_PDFViewer": {
+  "live": "/usr/local/share/notification/PDFViewer/rus",
+  "name": "Сповіщення: PDFViewer",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_PrestoServer": {
+  "live": "/usr/local/share/notification/PrestoServer/rus",
+  "name": "Сповіщення: PrestoServer",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_ScsiTarget": {
+  "live": "/usr/local/share/notification/ScsiTarget/rus",
+  "name": "Сповіщення: ScsiTarget",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_SecureSignIn": {
+  "live": "/usr/local/share/notification/SecureSignIn/rus",
+  "name": "Сповіщення: SecureSignIn",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_SnapshotReplication": {
+  "live": "/usr/local/share/notification/SnapshotReplication/rus",
+  "name": "Сповіщення: SnapshotReplication",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_StorageAnalyzer": {
+  "live": "/usr/local/share/notification/StorageAnalyzer/rus",
+  "name": "Сповіщення: StorageAnalyzer",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_SynoFinder": {
+  "live": "/usr/local/share/notification/SynoFinder/rus",
+  "name": "Сповіщення: SynoFinder",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_SynologyDrive": {
+  "live": "/usr/local/share/notification/SynologyDrive/rus",
+  "name": "Сповіщення: SynologyDrive",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_USBCopy": {
+  "live": "/usr/local/share/notification/USBCopy/rus",
+  "name": "Сповіщення: USBCopy",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_VPNCenter": {
+  "live": "/usr/local/share/notification/VPNCenter/rus",
+  "name": "Сповіщення: VPNCenter",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_Virtualization": {
+  "live": "/usr/local/share/notification/Virtualization/rus",
+  "name": "Сповіщення: Virtualization",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_WebStation": {
+  "live": "/usr/local/share/notification/WebStation/rus",
+  "name": "Сповіщення: WebStation",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_arc": {
+  "live": "/usr/local/share/notification/arc/rus",
+  "name": "Сповіщення: arc",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_dsm": {
+  "live": "/usr/local/share/notification/dsm/rus",
+  "name": "Сповіщення DSM",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_notif_exFAT-Free": {
+  "live": "/usr/local/share/notification/exFAT-Free/rus",
+  "name": "Сповіщення: exFAT-Free",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_securityscan": {
+  "live": "/usr/syno/share/securityscan/texts/rus",
+  "name": "Порадник з безпеки",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_securityscan_db": {
+  "live": "/var/db/securityscan-database/texts/rus",
+  "name": "Порадник з безпеки (база)",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "_sys_webman-scripts": {
+  "live": "/usr/syno/synoman/scripts/texts/rus",
+  "name": "DSM (системні скрипти)",
+  "ver": "DSM 7.2.2-72806 Update 8"
+ },
+ "exFAT-Free": {
+  "live": "/var/packages/exFAT-Free/target/ui/texts/rus",
+  "ver": "7.2.0-0354"
+ }
+}

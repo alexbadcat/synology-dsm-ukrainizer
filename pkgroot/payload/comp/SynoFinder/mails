@@ -1,0 +1,30 @@
+
+[index_db_corrupt]
+Category: Synology Universal Search
+Level: NOTIFICATION_ERROR
+Desktop: Пошкоджена індексована база даних. Для повторного індексування натисніть %ANCHOR_TAG%тут%ANCHOR_END_TAG%
+
+
+[index_no_space]
+Category: Synology Universal Search
+Level: NOTIFICATION_ERROR
+Desktop: Недостатньо місця для зберігання. Переконайтеся, що том має достатній обʼєм для зберігання даних, а потім натисніть %ANCHOR_TAG%тут%ANCHOR_END_TAG%, щоб перезапустити індексування
+
+
+[lack_of_memory]
+Category: Synology Universal Search
+Level: NOTIFICATION_ERROR
+Desktop: Не вдається продовжити індексування через нестачу памʼяті. Закрийте інші запущені застосунки, щоб звільнити памʼять, і продовжіть індексування
+
+
+[need_reindex_after_upgrade60]
+Category: Synology Universal Search
+Level: NOTIFICATION_INFO
+Desktop: Натисніть %ANCHOR_TAG%тут%ANCHOR_END_TAG%, щоб переіндексувати проіндексовані теки та продовжити використання функції пошуку для File Station і Synology Universal Search
+
+
+[need_reindex_improved]
+Category: Synology Universal Search
+Level: NOTIFICATION_INFO
+Desktop: _OSNAME_ містить удосконалену функцію індексування. Щоб скористатися оптимізованим інструментом пошуку, натисніть %ANCHOR_TAG%тут%ANCHOR_END_TAG% і переіндексуйте свої теки
+
